@@ -27,6 +27,8 @@ async function get(item) {
     if (body.data.length > 0) {
       item.doi = body.data[0].externalIds.DOI
       item.dblp = body.data[0].externalIds.DBLP
+      item.venue = body.data[0].venue
+      item.abstract = body.data[0].abstract
       item.paperId = body.data[0].paperId
       item.paperTitle = body.data[0].title
       item.paperUrl = body.data[0].url
