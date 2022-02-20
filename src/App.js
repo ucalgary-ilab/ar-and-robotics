@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-
-import { getSpaceUntilMaxLength } from '@testing-library/user-event/dist/utils';
-
 import items from './bib.json'
 
 class App extends Component {
@@ -29,6 +26,34 @@ class App extends Component {
                 Augmented Reality and Robotics
               </h1>
               <p>A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces</p>
+            </div>
+          </div>
+          <div className="ui vertical masthead segment">
+            <div className="ui ">
+              <div className="ui horizontal list middle aligned grid container">
+                { this.state.items.map((item, i) => {
+                  return (
+                    <>
+                      <div className="item" key={ i }>
+                        <h3 className="header">
+                          { item.title }
+                        </h3>
+                      <img class="ui medium image" src="https://ryosuzuki.org/static/images/collective.jpg" />
+                      <div class="content">
+                        <div className="description">
+                          { item.authors.join(', ') }
+                        </div>
+                        <br/>
+                        { item.booktitle }
+                        { item.journal }
+                      </div>
+                    </div>
+                    <div class="ui divider"></div>
+                    </>
+
+                  )
+                })}
+              </div>
             </div>
           </div>
 
