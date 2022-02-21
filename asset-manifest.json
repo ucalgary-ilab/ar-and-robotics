@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ar-and-robotics/static/css/main.fb125330.css",
+    "main.js": "/ar-and-robotics/static/js/main.af483525.js",
+    "index.html": "/ar-and-robotics/index.html",
+    "main.fb125330.css.map": "/ar-and-robotics/static/css/main.fb125330.css.map",
+    "main.af483525.js.map": "/ar-and-robotics/static/js/main.af483525.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb125330.css",
+    "static/js/main.af483525.js"
+  ]
+}
