@@ -1,14 +1,29 @@
 import React, { Component } from 'react'
 import './App.css'
-import items from './references-2.json'
 import _ from 'lodash'
+import items from './references/references-3.json'
+import figures from './references/figures.json'
+
+import Card from './Card.js'
+import Modal from './Modal.js'
 
 class App extends Component {
   constructor(props) {
     super(props)
     window.App = this
+
+    window.figures = figures
+    items = items.map((item) => {
+      item.rank = figures.includes(item.key) ? 1 : 0
+      return item
+    })
+    // items = _.shuffle(items)
+    items = _.sortBy(items, ['rank', 'year'])
+    items = _.reverse(items)
+
     this.state = {
-      items: items
+      items: items,
+      current: {}
     }
   }
 
@@ -21,62 +36,47 @@ class App extends Component {
       <>
         <div>
           <div className="ui vertical masthead center aligned segment">
-            <div className="ui container"></div>
             <div className="ui text container">
               <h1 className="ui center aligned icon header">
                 <i className="settings icon"></i>
                 Augmented Reality and Robotics
               </h1>
-              <p>A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces</p>
+              <p><b>A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces</b></p>
+
+              <a href="ar-and-robotics/chi-2022/chi-2022.pdf" target="_blank">
+                <img id="teaser" src="ar-and-robotics/sketches/teaser.jpg" />
+              </a>
+            </div>
+            <div>
+              <a className="ui tiny images" href="ar-and-robotics/chi-2022/chi-2022.pdf" target="_blank">
+                { [...Array(10).keys()].map(i => {
+                  let s = String(i + 1)
+                  while (s.length < 2) {s = "0" + s;}
+                  return (
+                    <img key={i} src={ `ar-and-robotics/chi-2022/original/paper-${s}.jpg`} />
+                  )
+                })}
+              </a>
+              <p><i>by Ryo Suzuki, Adnan Karim, Tian Xia, Hooman Hedayati, Nicolai Marquardt</i></p>
             </div>
           </div>
-          <div className="ui vertical masthead segment">
+          <div className="ui vertical segment">
             <div id="cards" className="ui five column centered stackable grid">
               { this.state.items.map((item, i) => {
-                let venue = item.venue
-                if (!venue) venue = item.journal
-                if (!venue) venue = item.booktitle
-                let author = item.authors[0]
-                if (author) {
-                  author = _.last(author.split(' '))
-                }
                 return (
-                  <div id="card" className="column" key={ i }>
-                    <div className="ui raised link card">
-                      <div className="content">
-                        <div className="meta">
-                          <div class="left floated">
-                            <span className="date">{ item.year }</span>
-                          </div>
-                          <div class="right floated">
-                            <span className="date">{ `${author} et al.` }</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="image">
-                        <img className="ui small image" src={ item.images[0]} />
-                      </div>
-                      <div className="content">
-                        <div className="description">
-                          { item.title }
-                        </div>
-                        <div className="meta">
-                          { venue }
-                        </div>
-                      </div>
-                      <div className="extra content">
-                        <div class="right floated">
-                          <a className="ui mini button" href={ `https://doi.org/${item.doi}` } target="_blank">DOI</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <Card
+                    item={ item }
+                    key={ i }
+                  />
                 )
               })}
             </div>
           </div>
         </div>
 
+        <Modal
+          item={ this.state.current }
+        />
       </>
     )
   }

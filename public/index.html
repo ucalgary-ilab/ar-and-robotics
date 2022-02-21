@@ -5,6 +5,19 @@
     <link rel="icon" href="#" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
     <title>React App</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script>
+      $(window).ready(function() {
+        $('.paper-card').on('click', function(event) {
+          if (event.target.className === 'author-link') return false
+          setTimeout(function() {
+            $('.modal').modal('show')
+          }, 50)
+        })
+      })
+    </script>
   </head>
   <body>
     <div id="root"></div>

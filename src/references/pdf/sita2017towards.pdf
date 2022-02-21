@@ -1,0 +1,1495 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#8e44ad">
+
+    <!-- Google Scholar start -->
+            <meta name="citation_title" content="Towards multimodal interactions: Robot jogging in mixed reality">
+    
+            <meta name="citation_abstract" lang="en" content="&copy; 2017 Copyright held by the owner/author(s). The recent progress made in the field of Augmented Reality/Mixed Reality (AR/MR) has opened new possibilities and approaches to research areas that can benefit from 3D visualization of digital content in the real world.In fact, human-robot interaction design and the design of user interfaces have very much to gain from MR technologies. Nonetheless, designing the user-robot interaction and processing multimodal feedbacks are very challenging tasks. In this paper we focus in particular on interactions in mixed reality. The main contribution of this paper is the implementation of a control system for an industrial manipulator through the user&#039;s interactions with MR content displayed with the Microsoft HoloLens. The system is based on the communication between Unity3D (used to design the user experience) and ROS, therefore extendible to any ROS-compatible robotic hardware.">
+    
+            <meta name="citation_author" content="Sita, Enrico">
+            <meta name="citation_author" content="Studley, Matthew">
+            <meta name="citation_author" content="Dailami, Farid">
+            <meta name="citation_author" content="Pipe, Anthony G">
+            <meta name="citation_author" content="Thomessen, Trygve">
+    
+            <meta name="citation_publication_date" content="2017/11/08">
+    
+    
+            <meta name="citation_volume" content="Part F131944">
+    
+    
+            <meta name="citation_doi" content="10.1145/3139131.3141200">
+    
+    
+    
+    
+    <meta name="citation_public_url" content="https://uwe-repository.worktribe.com/output/881134" />
+    <meta name="citation_abstract_html_url" content="https://uwe-repository.worktribe.com/output/881134.abstract" />
+
+                                        <meta name="citation_pdf_url" content="https://uwe-repository.worktribe.com/preview/881147/VRST-poster-SITA-final.pdf">
+                        
+            <meta name="citation_article_type" content="Conference Proceeding" />
+    
+    <meta name="robots" content="noarchive">
+<!-- Google Scholar end -->
+    <title>Towards multimodal interactions: Robot jogging in mixed reality</title>
+
+    <link rel="stylesheet" href="/css/surface.min.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/css/irus-widget.css" />
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+
+                <link rel="stylesheet" href="/css/skins/UWE.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+    <script src="/js/sheetjs/assets/js/xlsx.full.min.js"></script>
+    <script src="/js/sheetjs/assets/vendor/spin.js"></script>
+    <script src="/js/sheetjs/assets/js/canvas-datagrid.js"></script>
+    <script src="/js/repository.js"></script>
+</head>
+<body>
+
+<a class="skip-main" href="#main">Skip to main content</a>
+
+<nav class="navbar is-dark" data-turbolinks-permanent>
+    <div class="navbar-brand">
+        <a class="navbar-item" id="logo" data-turbolinks="false" >
+            <img height="15em" style="width:110px;" src="/img/logo_worktribe_black_704.png" alt="Repository" title="1.0.119">
+        </a>
+        <div id="nav-toggle" class="navbar-burger burger" data-target="navMenuExample">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div id="nav-menu" class="navbar-menu">
+                    <div class="navbar-start">
+                <a class="navbar-item " href="https://uwe-repository.worktribe.com">
+                    Home
+                </a>
+
+                                    <a class="navbar-item " href="https://uwe-repository.worktribe.com/outputs">
+                        Research Outputs
+                    </a>
+                
+                                    <a class="navbar-item " href="https://uwe-repository.worktribe.com/people">
+                        People
+                    </a>
+                
+                                    <a class="navbar-item " href="https://uwe-repository.worktribe.com/organisations">
+                        Faculties, Schools &amp; Groups
+                    </a>
+                
+                
+                                                            <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" href="#">
+                                Research Areas
+                            </a>
+                            <div class="navbar-dropdown ">
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27470/accountancy">
+                                        Accountancy
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27465/africa">
+                                        Africa
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/306999/ageing">
+                                        Ageing
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27481/agricultural-law">
+                                        Agricultural Law
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27482/agricultural-management">
+                                        Agricultural Management
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27417/agriculture">
+                                        Agriculture
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22081/agriculture-food">
+                                        Agriculture &amp; Food
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27492/alcoholic-beverages">
+                                        Alcoholic Beverages
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27491/animal-care">
+                                        Animal Care
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27316/any">
+                                        Any
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27450/arts">
+                                        Arts
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22082/arts-humanities">
+                                        Arts &amp; Humanities
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27452/biomedical-sciences">
+                                        Biomedical Sciences
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22083/biomedicalmedical-scienceshealth">
+                                        Biomedical/Medical Sciences/Health
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/305411/biotechnology-informatics">
+                                        Biotechnology &amp; Informatics
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27469/business-administration">
+                                        Business Administration
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/305412/cancer-neurodegeneration">
+                                        Cancer &amp; Neurodegeneration
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/305524/cell-signalling">
+                                        Cell Signalling
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27463/chemical-engineering">
+                                        Chemical Engineering
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27477/chemistry">
+                                        Chemistry
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27467/civil-law">
+                                        Civil Law
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27456/computer-science">
+                                        Computer Science
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27480/computing-social-sciences">
+                                        Computing Social Sciences
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27468/criminal-law">
+                                        Criminal Law
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22084/education">
+                                        Education
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27459/elementary-secondary-education">
+                                        Elementary &amp; Secondary Education
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22085/energy">
+                                        Energy
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22086/engineering">
+                                        Engineering
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27489/fisheries">
+                                        Fisheries
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27418/food">
+                                        Food
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27502/food-analysis">
+                                        Food Analysis
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27503/food-management">
+                                        Food Management
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27419/food-sciences">
+                                        Food Sciences
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27504/food-technology">
+                                        Food Technology
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27462/fossil-fuels">
+                                        Fossil Fuels
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27495/fruits">
+                                        Fruits
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/305410/gene-expression">
+                                        Gene Expression
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22087/geographic-terms">
+                                        Geographic Terms
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27454/health">
+                                        Health
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27460/higher-education">
+                                        Higher Education
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27475/housing">
+                                        Housing
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27451/humanities">
+                                        Humanities
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/305413/infectious-diseases">
+                                        Infectious Diseases
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/1857595/journalism-education">
+                                        Journalism Education
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27486/land-management">
+                                        Land Management
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22089/law">
+                                        Law
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22090/management-commerce">
+                                        Management &amp; Commerce
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22093/mathematics">
+                                        Mathematics
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27464/mechanical-engineering">
+                                        Mechanical Engineering
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27453/medical-science">
+                                        Medical Science
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22091/other-miscellaneous-categories">
+                                        Other Miscellaneous Categories
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27476/peace-studies">
+                                        Peace Studies
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27478/physics">
+                                        Physics
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27461/renewable-energy-sources">
+                                        Renewable Energy Sources
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/22092/science-technology">
+                                        Science &amp; Technology
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27501/seafood">
+                                        Seafood
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/27499/vegetables">
+                                        Vegetables
+                                    </a>
+                                                            </div>
+                        </div>
+                                                                                <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" href="#">
+                                Research Centres/Groups
+                            </a>
+                            <div class="navbar-dropdown ">
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788072/air-quality-management-resource-centre">
+                                        Air Quality Management Resource Centre
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788073/applied-marketing-research-group">
+                                        Applied Marketing Research Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788074/applied-statistics-group">
+                                        Applied Statistics Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788075/big-data-enterprise-and-artificial-intelligence-laboratory">
+                                        Big Data Enterprise and Artificial Intelligence Laboratory
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788076/bristol-bio-energy-centre">
+                                        Bristol Bio-Energy Centre
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788077/bristol-centre-for-economics-and-finance-now-disbanded">
+                                        Bristol Centre for Economics and Finance (now disbanded)
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788078/bristol-centre-for-linguistics">
+                                        Bristol Centre for Linguistics
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788081/bristol-inter-disciplinary-group-for-education-research">
+                                        Bristol Inter-disciplinary Group for Education Research
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788082/bristol-leadership-and-change-centre">
+                                        Bristol Leadership and Change Centre
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788083/bristol-robotics-laboratory">
+                                        Bristol Robotics Laboratory
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788084/centre-for-appearance-research">
+                                        Centre for Appearance Research
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788086/centre-for-architecture-and-built-environment-research">
+                                        Centre for Architecture and Built Environment Research
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788087/centre-for-fine-print-research">
+                                        Centre for Fine Print Research
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788089/centre-for-health-and-clinical-research">
+                                        Centre for Health and Clinical Research
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788090/centre-for-machine-vision">
+                                        Centre for Machine Vision
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788092/centre-for-public-health-and-wellbeing">
+                                        Centre for Public Health and Wellbeing
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788093/centre-for-research-in-biosciences">
+                                        Centre for Research in Biosciences
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788094/centre-for-sustainable-planning-and-environments">
+                                        Centre for Sustainable Planning and Environments
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788095/centre-for-transport-and-society">
+                                        Centre for Transport and Society
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788088/centre-for-water-communities-and-resilience">
+                                        Centre for Water, Communities and Resilience
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788098/commercial-law-research-unit">
+                                        Commercial Law Research Unit
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788099/computer-science-research-centre">
+                                        Computer Science Research Centre
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788100/creative-technologies-laboratory">
+                                        Creative Technologies Laboratory
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/7108988/data-research-access-and-governance-network-dragon">
+                                        Data Research Access and Governance Network (DRAGoN)
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788101/digital-cultures-research-centre">
+                                        Digital Cultures Research Centre
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/6657408/document-and-location-research-group">
+                                        Document and Location Research Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788102/education-innovation-centre">
+                                        Education Innovation Centre
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788103/engineering-modelling-and-simulation-research-group">
+                                        Engineering Modelling and Simulation Research Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/6641841/environmental-law-and-sustainability-research-group">
+                                        Environmental Law and Sustainability Research Group 
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/6641840/global-crime-justice-and-security-research-group">
+                                        Global Crime, Justice and Security Research Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/6819529/global-and-transnational-history-research-group">
+                                        Global and Transnational History Research Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788104/human-resources-work-and-employment">
+                                        Human Resources, Work and Employment
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788105/innovation-operations-management-and-supply">
+                                        Innovation, Operations Management and Supply
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788106/institute-for-sustainability-health-and-environment">
+                                        Institute for Sustainability, Health and Environment
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788107/institute-of-bio-sensing-technology">
+                                        Institute of Bio-Sensing Technology
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/6909622/mathematics-and-statistics-research-group">
+                                        Mathematics and Statistics Research Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/6657405/moving-image-research-group">
+                                        Moving Image Research Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/6733350/na-no-research-centregroup">
+                                        N/A (no research centre/group)
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/6657407/photography-research-group">
+                                        Photography Research Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788108/psychological-sciences-research-group">
+                                        Psychological Sciences Research Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788109/regional-history-centre">
+                                        Regional History Centre
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788110/research-group-in-mathematics-and-its-applications">
+                                        Research Group in Mathematics and its Applications
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788111/robotic-engineering-and-computing-for-healthcare-fet">
+                                        Robotic Engineering and Computing for Healthcare - FET
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/3613603/science-communication-unit">
+                                        Science Communication Unit
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788114/social-justice-research-group-now-disbanded">
+                                        Social Justice Research Group (now disbanded)
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788115/social-science-research-group">
+                                        Social Science Research Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/7108987/sustainable-economies-research-group-serg">
+                                        Sustainable Economies Research Group (SERG)
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788117/the-who-collaborating-centre-for-healthy-urban-environment">
+                                        The WHO Collaborating Centre for Healthy Urban Environment
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/788118/unconventional-computing-group">
+                                        Unconventional Computing Group
+                                    </a>
+                                                                    <a class="navbar-item" href="https://uwe-repository.worktribe.com/tag/1749111/visual-culture-research-group">
+                                        Visual Culture Research Group
+                                    </a>
+                                                            </div>
+                        </div>
+                                                    <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="#">
+                        Browse
+                    </a>
+                    <div class="navbar-dropdown ">
+                        <a class="navbar-item" href="https://uwe-repository.worktribe.com/years">
+                            By Year
+                        </a>
+                        <a class="navbar-item" href="https://uwe-repository.worktribe.com/authors">
+                            By Author
+                        </a>
+                        <a class="navbar-item" href="https://uwe-repository.worktribe.com/types">
+                            By Type
+                        </a>
+                    </div>
+                </div>
+
+                            </div>
+                <div class="navbar-end">
+            <a class="navbar-item" onclick="$('#about').addClass('is-active'); return false;" href="#">
+                About
+            </a>
+
+            <a data-turbolinks="false" class="navbar-item" href="/oaiprovider?verb=Identify">
+                OAI
+            </a>
+        </div>
+    </div>
+</nav>
+
+    <header class="hero is-primary is-bold">
+
+        <div class="hero-body">
+            <div class="container">
+
+                <div id="mc_embed_signup" class="columns is-vcentered">
+
+                                            <div class="column is-one-quarter is-left orglogo">
+                            <a href="">
+                                <img style="max-height: 150px; justify-content: center;" src="/img/logos/UWE_Top_Process.jpg" alt="UWE Logo">
+                            </a>
+                        </div>
+                    
+                    <div class="column">
+
+                                                    <div class="repotitle">
+                                <p class="title">Research <strong>Repository</strong></p>
+                            </div>
+                        
+                        <form action="https://uwe-repository.worktribe.com/search" method="post" class="validate">
+
+                            <div class="field has-addons">
+                                <p class="control">
+                                <span class="select">
+                                  <select name="type" aria-label="Search Type">
+                                        <option value="all">All</option>
+                                        <option value="output">Output</option>
+                                        <option value="person">Person</option>
+                                        <option value="project">Project</option>
+                                    </select>
+                                </span>
+                                </p>
+                                <p class="control is-expanded">
+                                    <input class="input" type="text" name="search" placeholder="What are you looking for today?" aria-label="Search" required>
+                                </p>
+                                <p class="control">
+                                    <button class="button search-button" aria-label="Search">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </p>
+                            </div>
+                            <span id="advanced"><a href="#" onclick="$('#search').addClass('is-active');$('#start').focus();$('html').css('overflow', 'hidden'); return false;"><i class="fa fa-search-plus" aria-hidden="true"></i> Advanced Search</a></span>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+<div id="main">
+    
+<section class="hero is-light">
+    <div class="hero-body">
+
+        <div class="container">
+            <h1 class="title">
+                Towards multimodal interactions: Robot jogging in mixed reality
+            </h1>
+            <h2 class="subtitle authors" style="margin-top: 1em;">
+                Sita, Enrico; Studley, Matthew; Dailami, Farid; Pipe, Anthony G; Thomessen, Trygve
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+
+    <div class="container">
+
+
+        <nav class="breadcrumb level">
+            <ul>
+                <li>
+                    <a href="https://uwe-repository.worktribe.com">Home</a>
+                </li>
+                <li>
+                    <a href="https://uwe-repository.worktribe.com/outputs">Outputs</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="columns">
+            <div class="column is-one-quarter">
+                
+                
+                    <h2 class="subtitle">Authors</h2>
+
+                                                                        <article class="media">
+                                                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <a href="https://uwe-repository.worktribe.com/person/3041758/enrico-sita"><strong> Enrico Sita</strong></a> <small>Enrico2.Sita@live.uwe.ac.uk</small>
+                                            <br>
+                                            
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media-right">
+                                    <a href="https://uwe-repository.worktribe.com/person/3041758/enrico-sita" class="level-right">
+                                        <span class="icon is-small level-right"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                                    </a>
+                                </div>
+                            </article>
+                                                                                                <article class="media">
+                                                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <a href="https://uwe-repository.worktribe.com/person/434567/matthew-studley"><strong> Matthew Studley</strong></a> <small>Matthew2.Studley@uwe.ac.uk</small>
+                                            <br>
+                                            Associate Professor in Technology Ethics
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media-right">
+                                    <a href="https://uwe-repository.worktribe.com/person/434567/matthew-studley" class="level-right">
+                                        <span class="icon is-small level-right"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                                    </a>
+                                </div>
+                            </article>
+                                                                                                <article class="media">
+                                                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <a href="https://uwe-repository.worktribe.com/person/434477/farid-dailami"><strong> Farid Dailami</strong></a> <small>Farid.Dailami@uwe.ac.uk</small>
+                                            <br>
+                                            Associate Professor in Knowledge Exch in Manufact
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media-right">
+                                    <a href="https://uwe-repository.worktribe.com/person/434477/farid-dailami" class="level-right">
+                                        <span class="icon is-small level-right"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                                    </a>
+                                </div>
+                            </article>
+                                                                                                <article class="media">
+                                                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <a href="https://uwe-repository.worktribe.com/person/434474/tony-pipe"><strong> Tony Pipe</strong></a> <small>Anthony.Pipe@uwe.ac.uk</small>
+                                            <br>
+                                            Professor
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media-right">
+                                    <a href="https://uwe-repository.worktribe.com/person/434474/tony-pipe" class="level-right">
+                                        <span class="icon is-small level-right"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                                    </a>
+                                </div>
+                            </article>
+                                                                                                <article class="media">
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <strong>Trygve Thomessen</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                                            
+                    <br /><br />
+
+                
+                
+            </div>
+
+            <div class="column">
+
+                                    <div class="content abstract">
+                        <h3 class="subtitle">Abstract</h3>
+                        <p class="description">© 2017 Copyright held by the owner/author(s). The recent progress made in the field of Augmented Reality/Mixed Reality (AR/MR) has opened new possibilities and approaches to research areas that can benefit from 3D visualization of digital content in the real world.In fact, human-robot interaction design and the design of user interfaces have very much to gain from MR technologies. Nonetheless, designing the user-robot interaction and processing multimodal feedbacks are very challenging tasks. In this paper we focus in particular on interactions in mixed reality. The main contribution of this paper is the implementation of a control system for an industrial manipulator through the user's interactions with MR content displayed with the Microsoft HoloLens. The system is based on the communication between Unity3D (used to design the user experience) and ROS, therefore extendible to any ROS-compatible robotic hardware.</p>
+                    </div>
+                
+                                    <div class="content citation">
+                        <h3 class="subtitle">Citation</h3>
+                        <p class="description">
+                            Sita, E., Studley, M., Dailami, F., Pipe, A. G., & Thomessen, T. (2017). Towards multimodal interactions: Robot jogging in mixed reality. In  Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology - VRST '17, (1-2). <a style="text-decoration: underline;" href="https://doi.org/10.1145/3139131.3141200" target="_blank">https://doi.org/10.1145/3139131.3141200</a>
+                        </p>
+                    </div>
+                
+                <table class="table" style="word-break: break-word; width:100%;">
+    <tbody>
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Conference Name</th>
+                                            <td>Proceedings of the ACM Symposium on Virtual Reality Software and Technology, VRST</td>
+                                    </tr>
+            
+        
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Start Date</th>
+                                            <td>Nov 8, 2017</td>
+                                    </tr>
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">End Date</th>
+                                            <td>Nov 10, 2017</td>
+                                    </tr>
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Acceptance Date</th>
+                                            <td>Sep 14, 2017</td>
+                                    </tr>
+            
+        
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Publication Date</th>
+                                            <td>Nov 8, 2017</td>
+                                    </tr>
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Deposit Date</th>
+                                            <td>Nov 13, 2017</td>
+                                    </tr>
+            
+        
+                                        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Peer Reviewed</th>
+                                            <td>Not Peer Reviewed</td>
+                                    </tr>
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Volume</th>
+                                            <td>Part F131944</td>
+                                    </tr>
+            
+        
+            
+        
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Pages</th>
+                                            <td>1-2</td>
+                                    </tr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Book Title</th>
+                                            <td>Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology - VRST '17</td>
+                                    </tr>
+            
+        
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">ISBN</th>
+                                            <td>9781450355483</td>
+                                    </tr>
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">DOI</th>
+                                            <td><a target="_blank" href="https://doi.org/10.1145/3139131.3141200">https://doi.org/10.1145/3139131.3141200</a></td>
+                                    </tr>
+            
+        
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Keywords</th>
+                                            <td>mixed reality, unity, robotics, industrial robot</td>
+                                    </tr>
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Public URL</th>
+                                            <td><a target="_blank" href="https://uwe-repository.worktribe.com/output/881134">https://uwe-repository.worktribe.com/output/881134</a></td>
+                                    </tr>
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Publisher URL</th>
+                                            <td><a target="_blank" href="http://dx.doi.org/10.1145/3139131.3141200">http://dx.doi.org/10.1145/3139131.3141200</a></td>
+                                    </tr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+                            <tr>
+                    <th class="table-background" width="35%">Additional Information</th>
+                                            <td> Title of Conference or Conference Proceedings : 23rd ACM Symposium on Virtual Reality Software and Technology</td>
+                                    </tr>
+            
+        
+    </tbody>
+</table>
+            </div>
+
+            <div class="column is-one-quarter">
+
+                                
+                    
+                        <h4 class="subtitle">Files</h4>
+
+                                                            
+                                    <div class="file-wrapper">
+                                        <article class="media">
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <p>
+                                                        <strong>VRST-poster-SITA-final.pdf</strong>
+                                                        <small>(471 Kb)</small>
+                                                        <br >
+                                                        <small>PDF</small>
+                                                    </p>
+
+                                                    <nav class="level is-mobile">
+                                                        <div class="level-left">
+                                                            <a data-turbolinks="false" href="https://uwe-repository.worktribe.com/OutputFile/881147" class="level-item">
+                                                                <span style="margin-right: 5px;" class="icon is-small"><i class="fa fa-download"></i></span> Download
+                                                            </a>
+                                                                                                                            <a id="loadpreview881147" href="#" onclick="$('#file-881147').addClass('is-active'); $('html').css('overflow', 'hidden'); return false;" class="level-item">
+                                                                    <span style="margin-right: 5px;" class="icon is-small"><i class="fa fa-eye"></i></span> Preview
+                                                                </a>
+                                                                                                                    </div>
+                                                    </nav>
+
+                                                                                                            <p>
+                                                            <strong>Licence</strong><br />
+                                                            <small><a href="http://www.rioxx.net/licenses/all-rights-reserved">http://www.rioxx.net/licenses/all-rights-reserved</a></small>
+                                                        </p>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                                                                    </div>
+                                            </div>
+
+                                        </article>
+                                    </div>
+
+                                                                            <div class="modal" id="file-881147">
+    <div class="modal-background"></div>
+    <div class="modal-content" style="height:95%; width:95%">
+
+        
+            <iframe id="pdf_frame" src="/js/pdfjs/web/viewer.html?file=https://uwe-repository.worktribe.com/preview/881147/VRST-poster-SITA-final.pdf" width="100%" height="100%"></iframe>
+
+        
+    </div>
+    <button
+            onclick="cancelPreview($('#file-881147'));"
+            class="modal-close is-large"
+            aria-label="close"
+    ></button>
+    <script>
+        function cancelPreview(modal)
+        {
+            modal.removeClass('is-active');
+
+            $('html').css('overflow', 'auto');
+
+            var media = {};
+            media.video = modal.find('video').get(0);
+            media.audio = modal.find('audio').get(0);
+
+            for (var player in media) {
+                if (media[player]) media[player].pause();
+            }
+        }
+    </script>
+</div>                                    
+                                                                <br />
+                                                                        <br />
+                
+                                                    <aside class="menu">
+                        <p class="menu-label">Organisation(s)</p>
+                        <ul class="menu-list">
+                                                            <li>
+                                    <a href="https://uwe-repository.worktribe.com/orgunit/350702/fet-dept-of-engineering-design-mathematics">
+                                        FET Dept of Engineering Design &amp; Mathematics
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </aside>
+
+                    <br /><br />
+                
+                                                    <aside class="menu">
+
+                                                    <p class="menu-label">
+                                Research Centres/Groups
+                            </p>
+
+                            <ul class="menu-list">
+                                                                    <li><a href="https://uwe-repository.worktribe.com/tag/788083/bristol-robotics-laboratory">Bristol Robotics Laboratory</a></li>
+                                                            </ul>
+                                            </aside>
+
+                    <br /><br />
+                
+                
+                                
+                    <h4 class="subtitle">You might also like</h4>
+
+                                            <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <a href="https://uwe-repository.worktribe.com/output/875951/ros-unity3d-based-system-for-monitoring-of-an-industrial-robotic-process">
+                                            <strong>ROS-Unity3D based system for monitoring of an industrial robotic process</strong>
+                                        </a> <small>(2018)</small>
+                                        <br>
+                                        Conference Proceeding
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                                            <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <a href="https://uwe-repository.worktribe.com/output/6544286/usability-study-of-a-robot-companion-for-monitoring-industrial-processes">
+                                            <strong>Usability study of a robot companion for monitoring industrial processes</strong>
+                                        </a> <small>(2020)</small>
+                                        <br>
+                                        Conference Proceeding
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                                            <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <a href="https://uwe-repository.worktribe.com/output/6004547/monitoring-companion-for-industrial-robotic-processes">
+                                            <strong>Monitoring companion for industrial robotic processes</strong>
+                                        </a> <small>(2021)</small>
+                                        <br>
+                                        Thesis
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                                            <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <a href="https://uwe-repository.worktribe.com/output/846647/the-analysis-of-tool-wear-mechanisms-in-the-machining-of-pre-sintered-zirconia-dental-crowns">
+                                            <strong>The analysis of tool wear mechanisms in the machining of pre-sintered zirconia dental crowns</strong>
+                                        </a> <small>(2019)</small>
+                                        <br>
+                                        Journal Article
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                                            <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <a href="https://uwe-repository.worktribe.com/output/846677/towards-collaborative-robotic-polishing-of-mould-and-die-sets">
+                                            <strong>Towards collaborative robotic polishing of mould and die sets</strong>
+                                        </a> <small>(2019)</small>
+                                        <br>
+                                        Journal Article
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    
+                    <br /><br />
+
+                
+                <h4 class="subtitle">Downloadable Citations</h4>
+
+                <nav style="margin-top: 10px;" class="level">
+                                            <div class="level-item has-text-centered">
+                            <div>
+                                <a aria-label="APA6 Citation" data-turbolinks="false" href="https://uwe-repository.worktribe.com/citation/881134?format=html"><i class="fa fa-download fa-3x" aria-hidden="true"></i></a>
+                                <p class="heading">HTML</p>
+                            </div>
+                        </div>
+                                        <div class="level-item has-text-centered">
+                        <div>
+                            <a aria-label="BIB Citation" data-turbolinks="false" href="https://uwe-repository.worktribe.com/citation/881134?format=bib"><i class="fa fa-download fa-3x" aria-hidden="true"></i></a>
+                            <p class="heading">BIB</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <a aria-label="RTF Citation" data-turbolinks="false" href="https://uwe-repository.worktribe.com/citation/881134?format=rtf"><i class="fa fa-download fa-3x" aria-hidden="true"></i></a>
+                            <p class="heading">RTF</p>
+                        </div>
+                    </div>
+                                    </nav>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</div>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            <strong>UWE Bristol Research Repository</strong> Powered by <a href="https://worktribe.com">Worktribe</a> |
+            <a href="https://uwe-repository.worktribe.com/accessibility">Accessibility</a>
+        </p>
+    </div>
+</footer>
+
+<div class="modal" id="about">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">About UWE Bristol Research Repository</p>
+            <button class="delete" aria-label="close" onclick="$('#about').removeClass('is-active');"></button>
+        </header>
+        <section class="modal-card-body">
+
+            <p>Administrator e-mail: <a href="mailto:repository@uwe.ac.uk">repository@uwe.ac.uk</a></p>
+
+            <br />
+
+            <p>This application uses the following open-source libraries:</p>
+
+            <br />
+
+            <h4 class="subtitle">SheetJS Community Edition</h4>
+            <p>Apache License Version 2.0 (<a href="http://www.apache.org/licenses/">http://www.apache.org/licenses/</a>)</p>
+
+            <br />
+
+            <h4 class="subtitle">PDF.js</h4>
+            <p>Apache License Version 2.0 (<a href="http://www.apache.org/licenses/">http://www.apache.org/licenses/</a>)</p>
+
+            <br />
+
+            <h4 class="subtitle">Font Awesome</h4>
+            <p>SIL OFL 1.1 (<a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a>)</p>
+            <p>MIT License (<a href="http://opensource.org/licenses/mit-license.html">http://opensource.org/licenses/mit-license.html</a>)</p>
+            <p>CC BY 3.0 (<a href=" http://creativecommons.org/licenses/by/3.0/"> http://creativecommons.org/licenses/by/3.0/</a>)</p>
+
+            <br /><br />
+
+        </section>
+        <footer class="modal-card-foot">
+            <p>Powered by <a href="http://worktribe.com" target="_blank"><strong>Worktribe</strong></a>  &copy; 2020</p>
+        </footer>
+    </div>
+</div>
+
+<div class="modal" id="search">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">Advanced Search</p>
+            <button class="delete" aria-label="close" onclick="$('#search').removeClass('is-active'); $('html').css('overflow', 'auto');"></button>
+        </header>
+
+        <section class="modal-card-body">
+
+            <article class="message is-info">
+                <div class="message-body">
+                    Just leave the fields blank that you don't want to search
+                </div>
+            </article>
+
+            <form id="advancedform" action="https://uwe-repository.worktribe.com/outputs" method="get" class="validate">
+
+                <input type="hidden" name="advanced" value="1">
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <label class="label">Repository ID</label>
+                    <i title="Repository ID" style="margin-left: 1em;color:#6297c8;cursor: pointer;" class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        <input style="width: 33%;" class="input" type="text" placeholder="Repository ID" name="id" id="start" value="">
+                    </p>
+                </div>
+
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <label class="label">Title</label>
+                    <i title="Search Title" style="margin-left: 1em;color:#6297c8;cursor: pointer;" class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="field has-addons">
+                    <p class="control">
+                        <span class="select">
+                            <select name="Title_operator">
+                                <option  value="all">all of</option>
+                                <option  value="any">any of</option>
+                            </select>
+                        </span>
+                    </p>
+                    <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="Title" name="Title" value="">
+                    </p>
+                </div>
+
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <label class="label">Name</label>
+                    <i title="Search Name of Author" style="margin-left: 1em;color:#6297c8;cursor: pointer;" class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="field">
+                    <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="Name" name="Name" value="">
+                    </p>
+                </div>
+
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <label class="label">Year</label>
+                    <i title="Search Year" style="margin-left: 1em;color:#6297c8;cursor: pointer;" class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        <input style="width: 33%;" class="input" type="text" placeholder="2022" name="ReportingDate" value="">
+                    </p>
+                </div>
+
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <label class="label">Keywords</label>
+                    <i title="Search Keywords" style="margin-left: 1em;color:#6297c8;cursor: pointer;" class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="field has-addons">
+                    <p class="control">
+                        <span class="select">
+                            <select name="Keywords_operator">
+                                <option  value="all">all of</option>
+                                <option  value="any">any of</option>
+                            </select>
+                        </span>
+                    </p>
+                    <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="Keywords" name="Keywords" value="">
+                    </p>
+                </div>
+
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <label class="label">Research Centres/Groups</label>
+                    <i title="Search Research Centres/Groups" style="margin-left: 1em;color:#6297c8;cursor: pointer;" class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="field">
+                    <div class="select is-multiple control">
+                        <select name="Organisation[]" multiple>
+                                                            <option  value="350562">ACE Central</option>
+                                                            <option  value="350563">ACE Dept of Art &amp; Design</option>
+                                                            <option  value="350564">ACE Dept of Arts &amp; Cultural Industries</option>
+                                                            <option  value="6442658">ACE Dept of Creative &amp; Cultural Industries</option>
+                                                            <option  value="350565">ACE Dept of Education and Childhood</option>
+                                                            <option  value="350566">ACE Dept of Film &amp; Journalism</option>
+                                                            <option  value="350567">ACE Technical Resources</option>
+                                                            <option  value="350711">APD Central</option>
+                                                            <option  value="350573">Academic Practice Directorate</option>
+                                                            <option  value="8186589">DDA Data Protection</option>
+                                                            <option  value="8186588">DDA Digital Education</option>
+                                                            <option  value="8186590">DDA Planning &amp; BI</option>
+                                                            <option  value="350712">DIR Central</option>
+                                                            <option  value="8186587">DIR Centre for Music</option>
+                                                            <option  value="350713">DIR Directorate Projects</option>
+                                                            <option  value="350714">DIR Planning &amp; BI</option>
+                                                            <option  value="8186586">Digital Education, Data &amp; Analysis</option>
+                                                            <option  value="350574">Directorate</option>
+                                                            <option  value="350715">FAC Accommodation Services</option>
+                                                            <option  value="350716">FAC Business Support</option>
+                                                            <option  value="350717">FAC Catering &amp; Bar Services</option>
+                                                            <option  value="350718">FAC Central</option>
+                                                            <option  value="350719">FAC Centre for Sport</option>
+                                                            <option  value="350720">FAC Cleaning Services</option>
+                                                            <option  value="350721">FAC Conference/ECC</option>
+                                                            <option  value="350722">FAC Estates Operations</option>
+                                                            <option  value="350723">FAC FT Facilities Technology</option>
+                                                            <option  value="350724">FAC Health &amp; Safety Unit</option>
+                                                            <option  value="4514844">FAC Logistics</option>
+                                                            <option  value="350725">FAC Printing &amp; Stationery</option>
+                                                            <option  value="350726">FAC Security</option>
+                                                            <option  value="350727">FAC Space Management &amp; Design</option>
+                                                            <option  value="350728">FAC Sustainability</option>
+                                                            <option  value="350729">FAC Travel &amp; Access</option>
+                                                            <option  value="350603">FBL Central</option>
+                                                            <option  value="350586">FBL Dept of Accounting Economics &amp; Finance</option>
+                                                            <option  value="350604">FBL Dept of Business &amp; Management</option>
+                                                            <option  value="350605">FBL Dept of Law</option>
+                                                            <option  value="7243543">FCM Central</option>
+                                                            <option  value="7243544">FCM Corporate Communications</option>
+                                                            <option  value="7243545">FCM Creative Strategy</option>
+                                                            <option  value="7243546">FCM Global Centre</option>
+                                                            <option  value="7243547">FCM International Recruitment &amp; Admissions</option>
+                                                            <option  value="7243548">FCM Marketing</option>
+                                                            <option  value="7243549">FCM Student Journey Communications</option>
+                                                            <option  value="7243550">FCM TSU Temps</option>
+                                                            <option  value="7243551">FCM UK Recruitment &amp; Admissions</option>
+                                                            <option  value="350699">FET Central</option>
+                                                            <option  value="350700">FET Dept of Architecture &amp; Built Environ</option>
+                                                            <option  value="350701">FET Dept of Computer Sci &amp; Creative Tech</option>
+                                                            <option  value="350702">FET Dept of Engineering Design &amp; Mathematics</option>
+                                                            <option  value="350703">FET Dept of Geography &amp; Envrnmental Mgmt</option>
+                                                            <option  value="350704">FET Technical Resources</option>
+                                                            <option  value="350730">FIN Central</option>
+                                                            <option  value="350731">FIN Commercial Services</option>
+                                                            <option  value="4514850">FIN Corporate Services</option>
+                                                            <option  value="4514852">FIN Faculty Finance</option>
+                                                            <option  value="350732">FIN Financial Services</option>
+                                                            <option  value="350733">FIN Procurement &amp; Payments</option>
+                                                            <option  value="350734">FIN Systems and Management Accounts</option>
+                                                            <option  value="4514856">FIN Treasury and Operations</option>
+                                                            <option  value="350575">Facilities</option>
+                                                            <option  value="350558">Faculty of Arts Creative Industries &amp; Education</option>
+                                                            <option  value="350559">Faculty of Business &amp; Law</option>
+                                                            <option  value="350560">Faculty of Environment &amp; Technology</option>
+                                                            <option  value="350561">Faculty of Health &amp; Applied Sciences</option>
+                                                            <option  value="350576">Finance</option>
+                                                            <option  value="350582">Future Students</option>
+                                                            <option  value="7243536">Future Students, Comms and Marketing</option>
+                                                            <option  value="1122689">HAR Dept of Animal and Agriculture Science</option>
+                                                            <option  value="1122696">HAR Dept of Equine Science</option>
+                                                            <option  value="1122701">HAR Dept of Sport Science</option>
+                                                            <option  value="350705">HAS Central</option>
+                                                            <option  value="350706">HAS Dept of Allied Health Professions</option>
+                                                            <option  value="350707">HAS Dept of Applied Sciences</option>
+                                                            <option  value="350709">HAS Dept of Nursing &amp; Midwifery</option>
+                                                            <option  value="350708">HAS Dept of Social Sciences</option>
+                                                            <option  value="7582426">HAS School of Health and Social Wellbeing</option>
+                                                            <option  value="350710">HAS Technical Resources</option>
+                                                            <option  value="350740">HRS Advice Hub</option>
+                                                            <option  value="350741">HRS Business Partners</option>
+                                                            <option  value="350742">HRS Central</option>
+                                                            <option  value="4514864">HRS Consultancy</option>
+                                                            <option  value="350743">HRS Employee Relations &amp; Reward</option>
+                                                            <option  value="350744">HRS Equality &amp; Diversity</option>
+                                                            <option  value="350745">HRS HR Online Project</option>
+                                                            <option  value="350746">HRS Learning &amp; Development</option>
+                                                            <option  value="350747">HRS Organisation &amp; Learning Development</option>
+                                                            <option  value="350748">HRS Payroll &amp; Pensions</option>
+                                                            <option  value="350749">HRS Resourcing</option>
+                                                            <option  value="350750">HRS Systems &amp; Information</option>
+                                                            <option  value="1122688">Hartpury (Associate Faculty)</option>
+                                                            <option  value="350577">Human Resources</option>
+                                                            <option  value="350578">IT Services</option>
+                                                            <option  value="350751">ITS Applications Development &amp; Testing</option>
+                                                            <option  value="350752">ITS Central</option>
+                                                            <option  value="350753">ITS Compliance &amp; Security Team</option>
+                                                            <option  value="350754">ITS Enterprise Architecture &amp; Strategy</option>
+                                                            <option  value="350755">ITS IT Operations</option>
+                                                            <option  value="350756">ITS Strategic Business Engagement</option>
+                                                            <option  value="350772">LCI Careers and Enterprise</option>
+                                                            <option  value="350774">LCI Equality Diversity and Inclusivity</option>
+                                                            <option  value="350773">LCI Library Services</option>
+                                                            <option  value="350584">Library Careers and Inclusivity</option>
+                                                            <option  value="350757">RBI Central</option>
+                                                            <option  value="350758">RBI Research &amp; Business Enterprise Service</option>
+                                                            <option  value="350759">RBI Research &amp; Development</option>
+                                                            <option  value="350579">Research  Business &amp; Innovation</option>
+                                                            <option  value="350765">SAS Administration &amp; Advice</option>
+                                                            <option  value="350766">SAS Casuals</option>
+                                                            <option  value="350767">SAS Central</option>
+                                                            <option  value="350768">SAS Policy Development &amp; Student Experience</option>
+                                                            <option  value="350769">SAS Student Data &amp; Systems</option>
+                                                            <option  value="350770">SAS Student Journey Programme</option>
+                                                            <option  value="350771">SAS Student Support &amp; Wellbeing</option>
+                                                            <option  value="350760">SCM Central</option>
+                                                            <option  value="350761">SCM Corporate Communications</option>
+                                                            <option  value="350762">SCM Creative Strategy</option>
+                                                            <option  value="350763">SCM Strategic Marketing</option>
+                                                            <option  value="7481719">SDS Central</option>
+                                                            <option  value="7481723">SDS TSU Temps</option>
+                                                            <option  value="350735">SFS Admissions</option>
+                                                            <option  value="350736">SFS Central</option>
+                                                            <option  value="350737">SFS Global Centre</option>
+                                                            <option  value="350738">SFS International</option>
+                                                            <option  value="350739">SFS Recruitment &amp; Outreach</option>
+                                                            <option  value="350764">SPO Central</option>
+                                                            <option  value="350581">Strategic Communications and Marketing</option>
+                                                            <option  value="350583">Strategic Programmes Office</option>
+                                                            <option  value="7481619">Student Data &amp; Systems</option>
+                                                            <option  value="350580">Student and Academic Services</option>
+                                                            <option  value="350307">University of the West of England</option>
+                                                            <option  value="8535490">Z-ACE Dept of Art &amp; Design</option>
+                                                            <option  value="8535644">Z-ACE Dept of Creative &amp; Cultural Industries</option>
+                                                            <option  value="8535656">Z-ACE Dept of Education and Childhood</option>
+                                                            <option  value="8535463">Z-ACE_CMT Restructure</option>
+                                                            <option  value="8539313">Z-APD Central</option>
+                                                            <option  value="8539312">Z-Academic Practice Directorate</option>
+                                                            <option  value="8539305">Z-FBL Dept of Accounting Economics &amp; Finance</option>
+                                                            <option  value="8539306">Z-FBL Dept of Business &amp; Management</option>
+                                                            <option  value="8539307">Z-FBL Dept of Law</option>
+                                                            <option  value="8539299">Z-FBL_CMT Restructure</option>
+                                                            <option  value="8539308">Z-FET Dept of Architecture &amp; Built Environ</option>
+                                                            <option  value="8539309">Z-FET Dept of Computer Sci &amp; Creative Tech</option>
+                                                            <option  value="8539310">Z-FET Dept of Engineering Design &amp; Mathematics</option>
+                                                            <option  value="8539311">Z-FET Dept of Geography &amp; Envrnmental Mgmt</option>
+                                                            <option  value="8539300">Z-FET_CMT Restructure</option>
+                                                            <option  value="8539301">Z-HAS Dept of Applied Sciences</option>
+                                                            <option  value="8539302">Z-HAS Dept of Social Sciences</option>
+                                                            <option  value="8539303">Z-HAS School of Health and Social Wellbeing</option>
+                                                            <option  value="8539298">Z-HAS_CMT Restructure</option>
+                                                    </select>
+                    </div>
+                </div>
+
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <label class="label">Type</label>
+                    <i title="Search Type" style="margin-left: 1em;color:#6297c8;cursor: pointer;" class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="field">
+                    <div class="select is-multiple control">
+                        <select name="Type[]" multiple>
+                                                            <option  value="Book">Book</option>
+                                                            <option  value="Book Chapter">Book Chapter</option>
+                                                            <option  value="Conference Proceeding">Conference Proceeding</option>
+                                                            <option  value="Dataset">Dataset</option>
+                                                            <option  value="Digital Artefact">Digital Artefact</option>
+                                                            <option  value="Exhibition / Performance">Exhibition / Performance</option>
+                                                            <option  value="Journal Article">Journal Article</option>
+                                                            <option  value="Other">Other</option>
+                                                            <option  value="Patent">Patent</option>
+                                                            <option  value="Physical Artefact">Physical Artefact</option>
+                                                            <option  value="Presentation / Conference">Presentation / Conference</option>
+                                                            <option  value="Report">Report</option>
+                                                            <option  value="Thesis">Thesis</option>
+                                                            <option  value="Working Paper">Working Paper</option>
+                                                    </select>
+                    </div>
+                </div>
+
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <label class="label">Publication Status</label>
+                    <i title="Search Publication Status" style="margin-left: 1em;color:#6297c8;cursor: pointer;" class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="field">
+                    <div class="select is-multiple control">
+                        <select name="PublicationStatus[]" multiple>
+                            <option  value="Submitted">Submitted</option>
+                            <option  value="Accepted">Accepted</option>
+                            <option  value="In Press">In Press</option>
+                            <option  value="Published">Published</option>
+                            <option  value="Unpublished">Unpublished</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <label class="label">Journal or Publication Title</label>
+                    <i title="Search Journal or Publication Title" style="margin-left: 1em;color:#6297c8;cursor: pointer;" class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="field has-addons">
+                    <p class="control">
+                        <span class="select">
+                            <select name="Journal_operator">
+                                <option  value="all">all of</option>
+                                <option  value="any">any of</option>
+                            </select>
+                        </span>
+                    </p>
+                    <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="Journal or Publication Title" name="Journal" value="">
+                    </p>
+                </div>
+
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <label class="label">Order the results</label>
+                    <i title="Set Order" style="margin-left: 1em;color:#6297c8;cursor: pointer;" class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+
+                <div class="field">
+                    <div class="control">
+                        <div class="select" >
+                            <select name="order">
+                                <option  value="updated_atDesc">By last modified (most recent first)</option>
+                                <option  value="updated_at">By last modified (oldest first)</option>
+                                <option  value="ReportingDateDesc">By year (most recent first)</option>
+                                <option  value="ReportingDate">By year (oldest first)</option>
+                                <option  value="Title">By title</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+        </section>
+        <footer class="modal-card-foot">
+            <div class="field is-grouped">
+                <div class="control">
+                    <button onclick="$('#advancedform').submit(); $(this).html('Searching').attr('disabled', true);" class="button is-link">Search</button>
+                </div>
+                <div class="control">
+                    <button onclick="$('#search').removeClass('is-active');$('html').css('overflow', 'auto');return false;" class="button is-light">Cancel</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/turbolinks.min.js"></script>
+
+<script>
+    jQuery(document).ready(function ($) {
+
+        
+        $('html').css('overflow', 'auto');
+
+        var $toggle = $('#nav-toggle');
+        var $menu = $('#nav-menu');
+
+        $toggle.click(function() {
+            $(this).toggleClass('is-active');
+            $menu.toggleClass('is-active');
+        });
+
+                            
+        $('.tree a').on('mouseover focus', function(e) {
+            $.get($(this).attr("href"), function(data, status) {
+                if (data.Description) {
+                    $('#org_info').show();
+
+                    $('#org_title').html(data.Name);
+                    $('#org_desc').html(data.Description);
+                } else {
+                    $('#org_info').hide();
+                }
+            });
+        });
+
+        $('.navbar-link').focus(function() {
+            var link = $(this);
+            var dropdown = link.next('.navbar-dropdown');
+            dropdown.css('display', 'block');
+
+            dropdown.children().last().on('blur', function() {
+                dropdown.attr('style', '');
+            });
+        });
+
+        $('.navbar-link').blur(function() {
+            var link = $(this);
+            var dropdown = link.next('.navbar-dropdown');
+            var children = dropdown.children();
+
+            // timeout to handle split second of focus loss from tab
+            setTimeout(function() {
+                if (! children.is(':focus')) {
+                    dropdown.attr('style', '');
+                }
+            }, 10);
+        });
+
+        $(window).click(function() {
+            var dropdowns = $('.navbar-dropdown');
+            if (dropdowns.is(':visible')) {
+                dropdowns.attr('style', '');
+            }
+        });
+
+        $(document).keypress(function(event){
+            var keycode = (event.keyCode ? event.keyCode : event.which);
+            var $modal = $('#search');
+            if(keycode == '13' && $modal.hasClass('is-active')){
+                $('#advancedform').submit();
+                $modal.find('button.is-link').html('Searching')
+                    .attr('disabled', true);
+            }
+        });
+
+    });
+</script>
+</body>
+</html>

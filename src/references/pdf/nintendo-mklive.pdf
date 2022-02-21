@@ -1,0 +1,9010 @@
+<!DOCTYPE html>
+<html lang="en"     class="pb-page"  data-request-id="96ac26a3-8a97-4869-8415-4f8e65ac8b82"  
+><head data-pb-dropzone="head"><meta name="pbContext" content=";wgroup:string:metapress;website:website:utoronto-site;page:string:Article/Chapter View;ctype:string:Journal Content;subPage:string:Abstract;journal:journal:cart;issue:issue:10.3138/cart.52.issue-2;pageGroup:string:Publication Pages;article:article:10.3138/cart.52.2.3823;requestedJournal:journal:cart"/>
+
+
+
+
+        <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" /><meta name="citation_journal_title" content="Cartographica: The International Journal for Geographic Information and Geovisualization" /><meta name="dc.Title" content="The Impact of 1980s and 1990s Video Games on Multimedia Cartography" /><meta name="dc.Creator" content="Dennis  Edler" /><meta name="dc.Creator" content="Frank  Dickmann" /><meta name="dc.Subject" content="multimedia cartography; animated cartography; interactive cartography; audiovisual cartography; 3D cartography; video games; overworld map; level map; overhead map; parallax scrolling; Mode 7; cartographie 3D; cartographie animée; cartographie audiovisuelle; cartographie interactive; cartographie multimédia; défilement parallaxe; jeux vidéo; ; mode 7" /><meta name="dc.Description" content="The video game industry revolutionized the game market from the 1970s onwards. Stationary video game machines, such as “coin-ops” and, later, consoles for home entertainment made it possible to exp..." /><meta name="Description" content="The video game industry revolutionized the game market from the 1970s onwards. Stationary video game machines, such as “coin-ops” and, later, consoles for home entertainment made it possible to exp..." /><meta name="dc.Description" content="L'industrie des jeux vidéo a révolutionné le marché des jeux depuis les années 1970. Les appareils de jeux vidéo fixes, comme les « bornes d'arcade », et les consoles de jeux domestiques par la sui..." lang="fr" /><meta name="Description" content="L'industrie des jeux vidéo a révolutionné le marché des jeux depuis les années 1970. Les appareils de jeux vidéo fixes, comme les « bornes d'arcade », et les consoles de jeux domestiques par la sui..." lang="fr" /><meta name="dc.Publisher" content=" University of Toronto Press " /><meta name="dc.Date" scheme="WTN8601" content="2017-06-21" /><meta name="dc.Type" content="research-article" /><meta name="dc.Format" content="text/HTML" /><meta name="dc.Identifier" scheme="doi" content="10.3138/cart.52.2.3823" /><meta name="dc.Source" content="https://doi.org/10.3138/cart.52.2.3823" /><meta name="dc.Language" content="en" /><meta name="dc.Coverage" content="world" /><meta name="dc.Rights" content="© University of Toronto Press 2017" /><meta name="keywords" content="multimedia cartography,animated cartography,interactive cartography,audiovisual cartography,3D cartography,video games,overworld map,level map,overhead map,parallax scrolling,Mode 7,cartographie 3D,cartographie animée,cartographie audiovisuelle,cartographie interactive,cartographie multimédia,défilement parallaxe,jeux vidéo,,mode 7" />
+        
+        
+
+        
+            <link rel="meta" type="application/atom+xml" href="https://doi.org/10.3138%2Fcart.52.2.3823" />
+            <link rel="meta" type="application/rdf+json" href="https://doi.org/10.3138%2Fcart.52.2.3823" />
+            <link rel="meta" type="application/unixref+xml" href="https://doi.org/10.3138%2Fcart.52.2.3823" />
+        
+    
+    
+            <link type="text/css" rel="stylesheet" href="https://www.utpjournals.press/pb-assets/text.css">
+
+
+<meta charset="UTF-8">
+<meta name="robots" content="noarchive"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <meta property="og:type" content="Article"/>
+    
+
+
+        <meta property="og:url" content="https://utpjournals.press/doi/abs/10.3138/cart.52.2.3823"/>
+    
+
+        <meta property="og:image" content="/pb-assets/utoronto/journal-headers/cart-1429995437207.jpg" />
+    
+
+
+        <meta property="og:site_name" content="Cartographica: The International Journal for Geographic Information and Geovisualization"/>
+    
+
+
+        <meta property="og:description" content="The video game industry revolutionized the game market from the 1970s onwards. Stationary video game machines, such as “coin-ops” and, later, consoles for home entertainment made it possible to experience and interact with new virtual environments. Based on technical innovations, early video games already included different graphic and auditory effects that were used to present and emphasize the spatial dimension of game stories. One of the most famous and successful video game series that “told” spatial stories and included many visualizations of virtual topographies was Nintendo's Super Mario series. Nintendo developed diverse video game topographies including different interactive and animated cartographic media throughout the Super Mario series. These maps were early and fundamental examples that were user-friendly and suitable for children. Moreover, they established a basis for future video game spaces, and the techniques used to create, animate, and visualize these maps have also found their ways into other applications of cartography and geomatics. It seems that the early worlds of Super Mario animated cartographers to animate cartographic visualizations. This article presents the characteristic spatial structures and cartographic techniques found in early Super Mario games, from the arcade classic Donkey Kong (1981) to the Super Nintendo classic Super Mario Kart (1992). The meaning of these structures and techniques for other cartographic applications is discussed."/>
+    
+
+<title>The Impact of 1980s and 1990s Video Games on Multimedia Cartography | Cartographica: The International Journal for Geographic Information and Geovisualization</title>
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/wro/kzfk~product.css"><link rel="stylesheet" type="text/css" href="/pb/css/t1645033589510-v1644330352000/head_1_6_7_en.css" id="pb-css" data-pb-css-id="t1645033589510-v1644330352000/head_1_6_7_en.css"/>
+
+
+<script type="text/javascript">
+    if (window.location.hash && window.location.hash == '#_=_') {
+        window.location.hash = '';
+    }
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/wro/kzfk~product.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <script type="text/javascript">
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                ga('create', 'UA-396306-32'
+                    
+                    , 'auto'
+                    );
+                
+                ga('send', 'pageview');
+            </script>
+            
+
+
+
+
+
+    <script src="//scholar.google.com/scholar_js/casa.js" async></script>
+</head>
+<body class="pb-ui">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    if(false) {
+        document.getElementById("skipNavigationLink").onclick =function skipElement () {
+            var element = document.getElementById('');
+            if(element == null || element == undefined) {
+                element = document.getElementsByClassName('').item(0);
+            }
+            element.setAttribute('tabindex','0');
+            element.focus();
+
+        }
+
+    }
+
+</script>
+
+
+
+
+
+    <div id="pb-page-content" data-ng-non-bindable>
+        <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none  widget-none  widget-compact-all" id="87a82e63-f0ab-431f-949c-c9c2ad251c5e"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='journal-meta'>
+            
+            <div class="widget-body body body-none  body-compact-all"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@utpjournals">
+<meta name="twitter:creator" content="@utpjournals">
+<meta name="twitter:title" content="Cartographica: The International Journal for Geographic Information and Geovisualization">
+<meta name="twitter:description" content="Content in Cartographica: The International Journal for Geographic Information and Geovisualization published by &commat;utpjournals.">
+<meta name="twitter:image" content="https://www.utpjournals.press/pb-assets/utoronto/journal-headers/cart.jpg">
+<meta name="twitter:image:alt" content="Cartographica: The International Journal for Geographic Information and Geovisualization banner"></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget cookiePolicy none  widget-none  widget-compact-all" id="9bb6d6d7-6332-449f-b712-227385cbd1df"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-cookie-popup'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div id="cookieBanner" class="cookieBanner">
+    <h4  class="b-header">Cookies &amp; Privacy</h4>
+    <div  class="b-body" style="padding-bottom: 5px;">
+        This site uses cookies for analytics and access management. For more information, view our <a href="https://utpjournals.press/privacy-policy">Privacy Policy</a>. Please accept our <a href="terms-and-conditions">Terms and Conditions</a> before using our website. <a href="https://utpjournals.press/privacy-policy">Learn more.</a>
+    <input id="accept-cookie-policy" type="button" value="Accept"/>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $("#accept-cookie-policy").click(function() {
+        $.get('/action/cookiePolicy?response=accept', function(data) {
+            $(".cookiePolicy").remove();
+        });
+
+    });
+</script></div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="pageHeader" data-widget-id="b025f5d7-9b3c-4923-9b82-0316eb0cfc79" class="utp-fullmenu-page">
+        
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget pageHeader none  widget-none  widget-compact-all" id="b025f5d7-9b3c-4923-9b82-0316eb0cfc79"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-main-header'>
+            
+            <div class="widget-body body body-none  body-compact-all"><header class="page-header">
+    <div data-pb-dropzone="main">
+    
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget layout-one-column none floatingHeader widget-none  widget-compact-all" id="6e1060d9-215b-4701-b95b-15328d5cd8e8"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-top-header'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="pb-columns row-fluid">
+    <div class="width_1_1">
+        <div data-pb-dropzone="center">
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none  widget-none  widget-compact-all" id="5b81acd7-f8d2-49a1-8cf5-b174944ca766"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-top-code'>
+            
+            <div class="widget-body body body-none  body-compact-all"><a href="#utp-main-content" id="skip-nav" tabindex="0">Skip to Main Content (Press Enter)</a>
+
+<link href="https://fonts.googleapis.com/css2?family=Asul&amp;family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&amp;display=swap" rel="stylesheet"> 
+<a id="#utptopjump"></a></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumCartLink none UTP-login-bar widget-none  widget-compact-all" id="b39be712-3b7e-4f4d-81b0-d62077bf0bb0"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-cart-button'>
+            
+            <div class="widget-body body body-none  body-compact-all"><a href="/action/showCart">
+        <div class="cartLabel ">
+            Cart
+            
+        </div>
+    </a></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none UTP-login-bar left-links widget-none  widget-compact-all" id="90ae075f-0f50-4929-a512-0f3247050eb9"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-top-text'>
+            
+            <div class="widget-body body body-none  body-compact-all"><span id="renewlink">&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://utpjournals.press/renew" title="Renew A Subscription" target="_blank">Renew</a></span>
+
+<span id="helplink">&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://utpjournals.press/resources/help" title="UTP Journals Website Help" target="_blank">Help</a>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+<a href="/action/showPreferences" class="profile-icon" title="Account Preferences"><img src="/pb-assets/icons/w/account-w-1512676691407.png" alt="Profile"></a>
+
+<div id="UTPsearchButton">
+<button onclick="UTPshowSearch()">
+<img style="width: 18px; cursor: pointer" src="/pb-assets/utoronto/images/icons/search-1595962297433.svg">
+
+</button>
+</div>
+
+<a href="https://utpjournals.press/resources/help" title="Site Help" id="utphelplink" class="profile-icon">?</a>
+
+
+<script>
+function UTPshowSearch() {
+  var x = document.getElementById("UTPsearch");
+       if(x.style.display == 'block')
+          x.style.display = 'none';
+       else
+          x.style.display = 'block';
+}
+</script></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumNavigationLoginBar none UTP-login-bar widget-none  widget-compact-all" id="52de22e2-fb96-4a34-8bff-cbd00f32b471"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-login-bar'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="loginBar">
+
+    
+
+    
+            
+            
+
+
+
+
+
+
+    
+
+
+
+<a href="/action/showLogin?uri=%2Fdoi%2F10.3138%2Fcart.52.2.3823">
+    Sign in
+</a>
+
+
+            &nbsp;|&nbsp;
+            
+
+
+
+
+
+    
+
+
+
+        <a href="/action/registration?redirectUri=%2Fdoi%2F10.3138%2Fcart.52.2.3823" class="register-link">
+            Register
+        </a>
+    
+        
+
+    
+
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none utp-home utp-some-icons widget-none  widget-compact-all" id="c68cb430-a728-4081-a8a0-c8c77cb55acb"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTP-SoMe'>
+            
+            <div class="widget-body body body-none  body-compact-all"><!--div class="stay-informed">
+<a href="http://visitor.r20.constantcontact.com/manage/optin?v=001povWiHOjwz9h5i5rwoevqonJw735hOJeMZjqEishwu8SeFFnuU-CwR0ONOGeXOcB9aEWGD52iczMMsH2EGVRbqSapYtz2qmAv7SxGuAYkak%3D" target="_blank">NEWSLETTER SIGN UP</a>
+</div-->
+
+
+<span itemscope itemtype="http://schema.org/Organization">
+    <link itemprop="url" href="https://www.utpjournals.press">
+    <a itemprop="sameAs" href="https://www.facebook.com/utpjournals" target="_blank"><img src="/pb-assets/utoronto/images/icons/facebook-1567606037233.png" alt="Facebook" title="Facebook"></a>
+    
+    <a itemprop="sameAs"  href="https://twitter.com/utpjournals" target="_blank"><img src="/pb-assets/utoronto/images/icons/twitter-1567607698983.png" alt="Twitter" title="Twitter"></a>
+        
+    <a itemprop="sameAs"  href="https://www.instagram.com/utpjournals" target="_blank" title="Instagram Opens in New Tab"><img src="/pb-assets/utoronto/images/icons/instagram-1567606226037.png" alt="Instagram" title="Instagram"></a>
+        
+    <a itemprop="sameAs"  href="https://lp.constantcontactpages.com/su/E1WGIsn" target="_blank"><img src="/pb-assets/icons/w/mail-1512676730647.png" alt="Mailing List" title="Mailing List"></a>
+    
+    <a itemprop="sameAs"  href="http://blog.utpjournals.com/" target="_blank"><img src="/pb-assets/utoronto/images/icons/blog-1567607524767.png" alt="Blog" title="Blog"></a>
+  
+
+</span></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none METAPRESS-menu-button widget-none  widget-compact-all" id="d3bd1d9a-6a48-4f73-8f63-8036ace4b88a"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-menu-button'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="utp-res-menu-button">
+<button onclick="UTPshowDMenu()">☰ </button>
+</div>
+
+
+<script>
+function UTPshowDMenu() {
+  var x = document.getElementById("UTP-main-menu-NEW");
+       if(x.style.display == 'block')
+          x.style.display = 'none';
+       else
+          x.style.display = 'block';
+}
+</script></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none  widget-none  widget-compact-all" id="5b24d9d6-4716-44d2-bc6c-643ee95dde93"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-main-banner'>
+            
+            <div class="widget-body body body-none  body-compact-all"><a href="/" title="UTP Journals Home">
+<!--[if lte IE 8]><img src="/pb-assets/utoronto/images/logo/utp_banner_w-1593538588550.png" alt="University of Toronto Press Journals"><![endif]-->
+<!--[if gt IE 8]><img src="/pb-assets/utoronto/images/logo/utp_banner_w-1593538589000.svg" alt="University of Toronto Press Journals"><![endif]-->
+<!--[if !IE]> --><!--img src="/pb-assets/utoronto/images/logo/utp_banner_w-1593538589000.svg" alt="University of Toronto Press Journals"--><!-- <![endif]-->
+<img src="/pb-assets/utoronto/images/logo/utp_banner_w-1593538589000.svg" alt="University of Toronto Press Journals">
+
+</a></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none menuXml widget-none  widget-compact-all" id="fb1346c2-1111-47f0-ad06-fba4d270a512"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTP-main-menu-NEW'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="utpNav" id="utpPrimaryNav">
+    <nav class="utpprimarynav" id="utp-nav">
+    
+    <ul class="primaryNav">
+<div class="utp-fixed-width">
+	<li class="utpNavHome"><a href="/">HOME</a></li>
+	<li class="utpNavItem"><a href="/journals">BROWSE PUBLICATIONS</a></li>
+	<li class="utpNavItem">
+		<a href="/about">ABOUT US</a>
+		<ul>
+		    <li><a href="/about-university-of-toronto-press">About University of Toronto Press</a></li>
+		    <li><a href="http://www.utpjournals.press/resources/editorial-policies">Editorial Policies</a></li>
+		    <li><a href="/about/permissions">Copyright &amp; Permissions</a></li>
+		    <!--li><a href="/resources/publication-ethics">Ethics and Publication Malpractice</a></li-->
+		    <li><a href="/about/open-access">Open Access</a></li>
+		    <li><a href="/awards">Awards</a></li>
+		 </ul>
+    </li>
+    <li class="utpNavItem">
+        <a href="/resources/for-subscribers">SUBSCRIBE</a>
+        <ul>
+            <li><a href="/renew">Subscribe or Renew Online</a></li>
+            <li><a href="/resources/for-subscribers">Subscriber Resources</a></li>
+            <li><a href="/the-collection">The Collection</a></li>
+            <li><a target="_blank" href="/pb-assets/utoronto/Resources/UTP-Journals-Archives-2022-1638810334817.pdf">UTP Journals Archives</a></li>
+             <li><a target="_blank" href="/pb-assets/utoronto/Resources/UTP_Journals_Catalogue-1638810448053.pdf" title="2022 Catalogue PDF">2022 Catalogue (PDF)</a></li>
+        </ul>
+    </li>
+    <li class="utpNavItem">
+		<a href="/resources/">RESOURCES</a>
+		<ul>
+			<li><a href="/resources/for-authors">For Authors</a></li>
+			<li><a href="/resources/for-librarians">For Librarians</a></li>
+			<li><a href="/resources/for-subscribers">For Subscribers</a></li>
+			<!--li><a href="/resources#faq">Frequently Asked Questions</a></li-->
+		</ul>
+	</li>
+	<li class="utpNavItem">
+	    <a href="https://utpjournals.press/publish-with-utp">PUBLISH WITH US</a>
+	    <ul>
+			<li><a href="/publish-with-utp">Partner with Us</a></li>
+			<li><a href="/call-for-papers">Call for Papers</a></li>
+			
+		</ul>
+		</li>
+	<li class="utpNavItem"><a href="/contact-us">CONTACT US</a></li>
+</div>
+</ul>
+</nav>
+</div>
+
+<script>
+    $(function(){
+    var url = window.location.href; 
+    
+    $("#utp-nav a").each(function() {
+        if(url == (this.href)) { 
+            $(this).closest("a").addClass("active");
+        }
+    });
+});
+</script></div>
+        </div>
+    </div>
+    
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget layout-one-column none utp-menu-banner-wrap widget-none  widget-compact-all" id="4f0f457e-df78-49cc-8150-d4fa6f9bf316"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTP-journal-header-column'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="pb-columns row-fluid">
+    <div class="width_1_1">
+        <div data-pb-dropzone="center">
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-image none utp-fixed-width journal-header widget-none  widget-compact-all" id="38b1f1b3-c2d4-4a52-b866-2349e7af4dee"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTP journal header'>
+            
+            <div class="widget-body body body-none  body-compact-all"><a href="/loi/cart"
+title="Cartographica: The International Journal for Geographic Information and Geovisualization banner"
+>
+<img src="/pb-assets/utoronto/journal-headers/cart-1429995437207.jpg"
+alt="Cartographica: The International Journal for Geographic Information and Geovisualization banner"
+/>
+</a></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none utp-keep utp-res-jmenu-button widget-none  widget-compact-all" id="875675d1-d3b3-4150-af1b-2292d4a633b0"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-JOURNAL-menu-drawer'>
+            
+            <div class="widget-body body body-none  body-compact-all"><button onclick="UTPshowJMenu()">☰ Journal Menu</button>
+
+
+<script>
+function UTPshowJMenu() {
+  var x = document.getElementById("UTP-journal-menu-NEW");
+       if(x.style.display == 'block')
+          x.style.display = 'none';
+       else
+          x.style.display = 'block';
+}
+</script></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none menuXml secondarynav utp-fixed-width widget-none  widget-compact-all" id="d9f16b8e-2b9a-4d01-9218-0b51ed218997"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTP-journal-menu-NEW'>
+            <h1 class="widget-header header-none  header-compact-all">Journal Menu ☰</h1>
+            <div class="widget-body body body-none  body-compact-all"><!--NOTE: Widget located at UTP - N/A - N/A - N/A scope but broken/edited at UTP - N/A - [journal] - N/A scope to match journal-specific menu items.-->
+
+<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="primaryNav secondaryNav">
+    <li><a href="/toc/cart/current" itemprop="url"><span itemprop="name">Current Issue</span></a></li>
+	<li><a href="/loi/cart">Browse Issues</a></li>
+<!--For journals without content, use line below instead of the two above
+	<li><a href="/loi/cart">Journal Home</a></li-->
+	<li><a href="/journal/cart">Subscribe</a></li>
+	<li><a>About</a>
+		<ul>
+			<li><a href="/journals/cart/editorial-board">Editorial Board</a></li>
+			<!--li><a href="/journals/cart/past-editors">Past Editors</a></li-->
+			<li><a href="/journals/cart/scope">Aim &amp; Scope</a></li>
+            <!--li><a href="/journals/cart/book-reviews">Book Reviews</a></li-->
+            <li><a href="/journals/cart/indexing">Abstracting &amp; Indexing</a></li>
+            <li><a href="/journals/cart/permissions">Permissions</a></li>     
+            <li><a href="/resources/publication-ethics" target="_blank">Editorial Policies</a></li>
+		</ul>
+	</li>
+	<li><a href="/journals/cart/advertising">Advertising</a></li>
+
+	<li><a>For Authors</a>
+        <ul>
+            <!--li><a href="/journals/cart/cfp">Call for Papers</a></li-->
+           
+            <li><a href="/journals/cart/submissions">Submission Guidelines</a></li>
+           
+            <li><a href="/journals/cart/open-access">Open Access</a></li>
+        </ul>
+	</li>
+    <li><a href="/journals/recommend?doi=10.3138/cart">Recommend</a></li>
+</ul>
+
+</nav></div>
+        </div>
+    </div>
+    
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget quickSearchWidget none utp-fixed-width widget-none  widget-compact-all" id="a234c855-90a3-4700-a5cb-bf88bccfc0e8"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTPsearch'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="quickSearchFormContainer">
+    
+
+    
+
+    
+
+
+    <form action="/action/doSearch" name="quickSearch" class="quickSearchForm " title="Quick Search" method="get"><span class="simpleSearchBoxContainer">
+                        <input name="AllField"
+               class="searchText magicsuggest main-search-field autocomplete"
+               value=""
+               type="search" id="searchText"
+               title="Type search term here"
+               placeholder="Enter words / phrases / DOI / ISBN / authors / keywords / etc." autocomplete="off"
+               data-history-items-conf="3"
+               data-publication-titles-conf="3"
+               data-group-titles-conf="3"
+               data-publication-items-conf="3"
+               data-topics-conf="3"
+               data-contributors-conf="3"
+               data-display-labels="true"
+               data-auto-complete-target="auto-complete"
+               data-fuzzy-suggester="false"
+               data-auto-complete-max-words="7"
+               data-auto-complete-max-chars="32"/>
+                        <input name="ConceptID"
+               value=""
+               type="hidden"/>
+                </span>
+                
+
+
+
+
+
+<span class="citationSearchBoxContainer hidden">
+    <input name="quickLinkJournal"
+           class="journalName mediumTextInput  autocomplete ui-autocomplete-input"
+           value="Cartographica: The International Journal for Geographic Information and Geovisualization"
+           type="text"
+           title="Journal"
+           placeholder="Journal"
+           autoComplete="off"
+           autoPopulate="true"
+           data-auto-complete-target="title-auto-complete"
+           data-history-items-conf="3"
+           data-publication-titles-conf="3"
+           data-topics-conf="3"
+           data-contributors-conf="3"/>
+
+    <input type="hidden" name="quickLink" value="true" />
+    <input class="year smallTextInput" title="Year" type="text" name="quickLinkYear" value="" size="15" autocomplete="false" placeholder="Year"pattern="([0-9]){1,4}$" />
+    <input class="volume smallTextInput" title="Volume" type="text" name="quickLinkVolume" value="" size="15" autocomplete="false" placeholder="Volume" />
+    <input class="issue smallTextInput" title="Issue" type="text" name="quickLinkIssue" value="" size="15" autocomplete="false" placeholder="Issue" />
+    <input class="page smallTextInput" title="Page" type="text" name="quickLinkPage" value="" size="15" autocomplete="false" placeholder="Page" />
+</span>
+
+            
+
+        
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<span class="searchDropDownDivRight">
+    
+            
+        
+    <label for="searchInSelector" class="visuallyhidden">Search in:</label>
+    
+    <select  id="searchInSelector" name="SeriesKey" class="custom-dropdown js__searchInSelector">
+
+
+        
+
+        
+            
+            
+                <option value="cart" id="thisJournal" data-search-in="thisJournal">
+                    This Journal
+                </option>
+            
+        
+
+        
+        
+            <option value="" data-search-in="default">Anywhere</option>
+        
+
+        
+
+
+        
+
+        
+
+        
+
+        
+
+        
+            <option value="citation" data-search-in="citation">
+                Citation
+            </option>
+        
+
+    </select>
+
+
+</span>
+            
+        
+
+        
+            
+
+
+
+
+<input class="mainSearchButton searchButtons pointer" title="search" type="submit" value="Search" /></form>
+</div>
+
+
+
+
+<div class="advancedSearchLinkDropZone" data-pb-dropzone="advancedSearchLinkDropZone">
+    
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html alignRight  widget-none  widget-compact-all" id="5a3cc9e7-cc52-43b1-918c-3f7a2336b34d"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-advance-search'>
+            
+            <div class="widget-body body body-none  body-compact-all"><a href="/action/doSearch">Advanced</a></div>
+        </div>
+    </div>
+    
+
+</div></div>
+        </div>
+    </div>
+    
+    </div>
+</header></div>
+        </div>
+    </div>
+    
+
+        </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none  widget-none  widget-compact-all" id="bbe23f89-7579-4fb7-94db-0c0f2f66ff07"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-google-script'>
+            
+            <div class="widget-body body body-none  body-compact-all"><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-396306-32', 'auto', {'siteSpeedSampleRate': 100});
+  ga('send', 'pageview');
+
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://www.utpjournals.press",
+  "logo": "http://www.utpjournals.press/pb-assets/utoronto/Resources/utp_logo.png",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+1-416-667–7810",
+    "contactType": "customer service"
+  }]
+}
+</script></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget layout-one-column none utp-menu-banner-wrap utp-deleted widget-none" id="4f3e67ff-e735-4adf-8123-c615d1e2ddd6"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='DELETED-UTP-journal-header-column'>
+            
+            <div class="widget-body body body-none "><div class="pb-columns row-fluid">
+    <div class="width_1_1">
+        <div data-pb-dropzone="center">
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="general-image" data-widget-id="4f5dba7e-7f05-4c41-b8b3-00232ad6e174" class="utp-cart">
+        
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-image none utp-fixed-width journal-header utp-deleted widget-none  widget-compact-all" id="4f5dba7e-7f05-4c41-b8b3-00232ad6e174"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='DELETED UTP journal header'>
+            
+            <div class="widget-body body body-none  body-compact-all"><a href="/loi/cart"
+title="Cartographica: The International Journal for Geographic Information and Geovisualization banner"
+>
+<img src="/pb-assets/utoronto/journal-headers/cart-1429995437207.jpg"
+alt="Cartographica: The International Journal for Geographic Information and Geovisualization banner"
+/>
+</a></div>
+        </div>
+    </div>
+    
+
+        </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none menuXml secondarynav utp-fixed-width utp-deleted widget-none  widget-compact-all" id="4a9e0a9f-8607-4773-bc75-ef9d4075e740"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='DELETED-UTP-journal-menu-NEW'>
+            
+            <div class="widget-body body body-none  body-compact-all"><!--NOTE: Widget located at UTP - N/A - N/A - N/A scope but broken/edited at UTP - N/A - [journal] - N/A scope to match journal-specific menu items.-->
+<div class="utpNav" id="utpPrimaryNav">
+    <nav class="utpprimarynav" id="utp-nav">
+
+<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<ul class="primaryNav secondaryNav">
+    <li><a href="/toc/cart/current" itemprop="url"><span itemprop="name">Current Issue</span></a></li>
+	<li><a href="/loi/cart">Browse Issues</a></li>
+<!--For journals without content, use line below instead of the two above
+	<li><a href="/loi/cart">Journal Home</a></li-->
+	<li><a href="/journal/cart">Subscribe</a></li>
+	<li><a>About</a>
+		<ul>
+			<li><a href="/journals/cart/editorial-board">Editorial Board</a></li>
+			<!--li><a href="/journals/cart/past-editors">Past Editors</a></li-->
+			<li><a href="/journals/cart/scope">Aim &amp; Scope</a></li>
+            <!--li><a href="/journals/cart/book-reviews">Book Reviews</a></li-->
+            <li><a href="/journals/cart/indexing">Abstracting &amp; Indexing</a></li>
+            <li><a href="/journals/cart/permissions">Permissions</a></li>     
+		</ul>
+	</li>
+	<li><a href="/journals/cart/advertising">Advertising</a></li>
+	<li><a>For Authors</a>
+        <ul>
+            <li><a href="/journals/cart/submissions">Submission Guidelines</a></li>
+            <li><a href="/journals/cart/cfp">Call for Papers</a></li>
+            <li><a href="/journals/cart/open-access">Open Access</a></li>
+        </ul>
+	</li>
+    <li><a href="/journals/recommend?doi=10.3138/cart">Recommend</a></li>
+</ul>
+
+</nav>
+</nav>
+</div>
+<script>
+    $(function(){
+    var url = window.location.href; 
+    
+    $("#utp-nav a").each(function() {
+        if(url == (this.href)) { 
+            $(this).closest("a").addClass("active");
+        }
+    });
+});
+</script></div>
+        </div>
+    </div>
+    
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget layout-one-column none utp-deleted widget-none  widget-compact-all" id="98530791-7705-4b06-9f65-f67fd50d81d1"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='DELETED-UTP-journalheader'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="pb-columns row-fluid">
+    <div class="width_1_1">
+        <div data-pb-dropzone="center">
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumBreadcrumbs none no-margin widget-none  widget-compact-vertical" id="e1ef0f84-8e13-49be-a35e-6ad098349e3f"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-breadcrumbs'>
+            
+            <div class="widget-body body body-none  body-compact-vertical"><!-- Service: showAbstract -->
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+                
+
+            
+    
+
+
+
+    
+    
+
+
+        
+    
+
+    
+    
+
+    
+    
+    
+            
+
+
+        
+                
+            
+        
+    
+
+            
+        
+
+    
+    
+
+    
+    
+
+
+
+
+        
+        
+                
+            
+
+    
+    
+
+
+
+
+
+
+
+
+<nav aria-label="breadcrumbs">
+    <ul class="breadcrumbs">
+        
+        
+            <li class="">
+
+                
+                    <a href="/">
+                    Home
+                    </a>
+                    
+                        <span class="divider">&gt;</span>
+                    
+                    
+            </li>
+        
+            <li class="">
+
+                
+                    <a href="/loi/cart">
+                    Cartographica: The International Journal for Geographic Information and Geovisualization
+                    </a>
+                    
+                        <span class="divider">&gt;</span>
+                    
+                    
+            </li>
+        
+            <li class="">
+
+                
+                    <a href="/loi/cart">
+                    List of Issues
+                    </a>
+                    
+                        <span class="divider">&gt;</span>
+                    
+                    
+            </li>
+        
+            <li class="">
+
+                
+                    <a href="/toc/cart/52/2">
+                    Vol. 52, No. 2
+                    </a>
+                    
+                        <span class="divider">&gt;</span>
+                    
+                    
+            </li>
+        
+            <li class="">
+
+                
+                        
+                        DOI: 10.3138/cart.52.2.3823
+            </li>
+        
+    </ul>
+</nav></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget pageBody none utp-fixed-width utp-new-body widget-none  widget-compact-all" id="e791001a-c32f-4ff9-b3eb-15d2047d8a13"  >
+        
+        
+
+        <div class="wrapped " >
+            
+            <div class="widget-body body body-none  body-compact-all"><!--begin pagefulltext-->
+<div class="page-body pagefulltext">
+    <div data-pb-dropzone="main">
+    
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumRightSidebar none utp-top-sidebar widget-none  widget-compact-all" id="78dcbcac-5fbf-434b-9402-1bc52cbcc2c2"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTP-rightsidebar-top'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="sidebar sidebar-right">
+    <div data-pb-dropzone="main">
+    
+
+    </div>
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget page-main-content none utp-new-main widget-none  widget-compact-all" id="0257d7ff-7880-4295-b2e7-dd61ea4c836a"  >
+        
+        
+
+        <div class="wrapped " >
+            
+            <div class="widget-body body body-none  body-compact-all"><main role="main" data-pb-dropzone="contents">
+    
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumBookIssueNavigation none utp-prev-next widget-none  widget-compact-all" id="3731cc25-6cbc-4a5f-87f5-14e5754e532e"  >
+        
+        
+
+        <div class="wrapped " >
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="pager issueBookNavPager">
+    <span class="journalNavLeftTd">
+        
+            <span class="prev placedLeft">
+            
+                    <a href="/doi/10.3138/cart.52.2.3781">
+                        &#8249;
+                    </a>
+                
+            </span>
+        
+    </span>
+    
+        
+            <span class="journalNavCenterTd">
+                <div class="journalNavTitle">
+                    
+
+                    Volume 52 Issue 2, Summer 2017, <span class="articlePageRange">pp. 168-177</span>
+                </div>
+
+                
+
+                
+                
+
+                
+
+                
+            </span>
+        
+    
+    <span class="journalNavRightTd">
+        
+
+
+
+
+
+
+
+     <span class="next">
+       <a href="/doi/10.3138/cart.52.2.3875">
+           &#8250;
+       </a>
+   </span>
+    
+
+    </span>
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumPublicationContentWidget none  widget-none  widget-compact-vertical" id="fb89678b-4870-4a63-a01d-b4446b0f26bf"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='utp-main-content'>
+            
+            <div class="widget-body body body-none  body-compact-vertical"><script type="text/javascript">
+<!-- // hide it from old browsers
+
+var anyDbId = -1;
+var sideParts = {
+    citation: "<tr><td class=\"black9pt\" width=\"15\" valign=\"top\">&nbsp;&bull;&nbsp;<\/td><td class=\"black9pt\" valign=\"top\"><a href=\"javascript:newWindow('{$linkoutUrl}')\">{$display}<\/a><\/td><\/tr>",
+    citingIsi: "<tr><td class=\"black9pt\" width=\"15\" valign=\"top\">&nbsp;&bull;&nbsp;<\/td><td class=\"black9pt\" valign=\"top\">Search for citing articles in:<br/>&nbsp;<a href=\"javascript:newWindow('/servlet/linkout?suffix=s0&dbid=128&doi={$doi}&url={$urlEnc}')\">ISI Web of Science<\/a> ({$citNum} or more)<\/a><\/td><\/tr>",
+    citingCrossref: "<tr><td class=\"black9pt\" width=\"15\" valign=\"top\">&nbsp;&bull;&nbsp;<\/td><td class=\"black9pt\" valign=\"top\"><a href=\"{$url}\">Citing articles in Crossref<\/a><\/td><\/tr>",
+    quicksearch: "<option value=\"{$value}\">{$display}<\/option>",
+    related: ", <a href=\"javascript:newWindow('{$linkoutUrl}')\">{$display}<\/a>"
+};
+
+function genSide(part, dbid, linkoutUrl, display, doi, url, citNum, value) {
+    if (dbid != anyDbId && (1125899906842623 & dbid) == 0) return;
+    var content = sideParts[part];
+    if (linkoutUrl) { content = content.replace(/{\$linkoutUrl}/g, linkoutUrl); }
+    if (display) { content = content.replace(/{\$display}/g, display); }
+    if (doi) { content = content.replace(/{\$doi}/g, doi); }
+    if (url) {
+        content = content.replace(/{\$url}/g, url);
+        content = content.replace(/{\$urlEnc}/g, encodeURIComponent(encodeURIComponent(url)));
+    }
+    if (citNum) { content = content.replace(/{\$citNum}/g, citNum); }
+    if (value) { content = content.replace(/{\$value}/g, value); }
+    document.write(content);
+}
+
+function hasSfxLinks() {
+	return false;
+}
+
+
+function genSfxLinks(id, url, doi) {
+    if (! doi) { doi = ""; }
+
+}
+function popSfxLink(prefix, id, url, doi) {
+    if (doi) {
+        url += "&id=doi:"+doi;
+    } else {
+        doi = "10.3138%2Fcart.52.2.3823";
+    }
+    var redirect = prefix + encodeURIComponent("?sid=literatum:utoronto&genre=article"+url);
+    var href = "/servlet/linkout?suffix="+id+"&dbid=16384&doi="+doi+"&url=" + encodeURIComponent(redirect);
+    return newWindow(href);
+}
+
+var sfxRefDisplay = {
+64:"ADS",
+32:"CAS",
+8192:"CIS",
+256:"CSA",
+16:"Crossref",
+128:"ISI",
+4096:"JSTOR",
+8:"Medline",
+1099511627776: "Ichushi",
+17592186044416: "Medical Online",
+8796093022208: "J-Stage",
+2199023255552: "Medical Finder",
+4398046511104: "Pier Online"
+};
+
+window.onload=disableRefLinkWrite ;
+
+function genRefLink(dbid, id, key, textOfLink) {
+    if (1125899906842623 & dbid != 0) {
+        if (typeof textOfLink === "undefined") {
+            if (sfxRefDisplay[dbid].substring(0,1) == "[") {
+                textOfLink = sfxRefDisplay[dbid];
+            } else {
+                textOfLink = "["+sfxRefDisplay[dbid]+"]";
+            }
+            // ToDo: move '[' and ']' to sfxRefDisplay (UPDATE: finish changing sfxRefDisplays and remove this branch)
+        }
+        else{ textOfLink = unescape(textOfLink)};
+
+        if(document.disableRefLinkWrite == null){
+            document.write("<a class='ref' href=\"javascript:popRefLink("+dbid+",'"+id+"','"+key+"')\">"+textOfLink+"<\/a>");
+        }
+    }
+}
+
+function disableRefLinkWrite () {
+    document.disableRefLinkWrite = true;
+}
+
+function popRefLink(dbid, id, key) {
+    var redirect = "/servlet/linkout?suffix=" + id + "&dbid=" + dbid + "&doi=10.3138%2Fcart.52.2.3823&key=" + key;
+    return newWindow(redirect);
+}
+function popRefFull(rid, citart, ptype, area) {
+    return popRefImplFull(rid, citart, ptype, area, 600, 500);
+}
+function popRefImplFull(rid, citart, ptype, area, width, height) {
+    var doi = "10.3138%2Fcart.52.2.3823";
+    if (! ptype) { ptype = ""; }
+    var pt = rid.charAt(0) + "cart5223823" + ptype;
+    return popupFull(rid, doi, pt, area, width, height);
+}
+function popRef(rid, citart, ptype, area) {
+    return popRefImpl(rid, citart, ptype, area, 600, 500);
+}
+function popRef2(rid, citart, ptype, area) {
+    return popRefImpl(rid, citart, ptype, area, 400, 100);
+}
+function popRefImpl(rid, citart, ptype, area, width, height) {
+    var doi = "10.3138%2Fcart.52.2.3823";
+    if (! citart) { citart = "citart1"; }
+    if (! ptype) { ptype = ""; }
+    var pt = rid.charAt(0) + "cart5223823" + ptype;
+    return popupRef(citart, rid, doi, pt, area, width, height);
+}
+
+
+
+function genCitingCrossref() {
+}
+
+var citLinkDisplay = {
+    
+    0:"SYSTEM",
+4:"SYSTEM",
+20:"SYSTEM",
+64:"ADS",
+32:"CAS",
+8192:"CIS",
+256:"CSA",
+16:"Crossref",
+128:"ISI",
+4096:"JSTOR",
+8:"MEDLINE"
+};
+var feeBasedMask = 4480;
+
+function genCitLink(dbid, suffix, key) {
+    if (dbid != anyDbId && (feeBasedMask & dbid) != 0 && (1125899906842623 & dbid) == 0) return;
+
+    var param = "/servlet/linkout?suffix=" + suffix + "&dbid=" + dbid + "&doi=10.3138%2Fcart.52.2.3823&key=" + key;
+    var display = citLinkDisplay[dbid];
+    var img = "/templates/jsp/_style2/_metaPress/images/" + display + "_btn.gif";
+
+
+
+    document.write("<a class='ref' href='javascript:newWindow(\"" + param + "\")'>");
+    document.write("<" + "img src='"+img+"' width='85' height='20' align='BOTTOM' alt='"+display+" Abstract' border='0'/>");
+    document.write("<\/a>");
+}
+// stop hiding -->
+</script>
+<script type="text/javascript" src="/swfobject.js"></script>
+<script type="text/javascript">
+function addFlashMovie(id, flv) {
+    var flashvars = {file: flv ,type: 'flv'};
+    var params = {allowfullscreen :true};
+    var attributes = {};
+    swfobject.embedSWF('/flvplayer.swf', id, "352", "288", "7.0.0", false, flashvars, params, attributes);
+}
+
+function addFlashMovie(id, flv, image) {
+    var flashvars = {file: flv ,type: 'flv', image: image};
+    var params = {allowfullscreen :true};
+    var attributes = {};
+    swfobject.embedSWF('/flvplayer.swf', id, "352", "288", "7.0.0", false, flashvars, params, attributes);
+}
+</script>
+
+
+
+
+<script type="text/javascript">
+    window.MathJax = {
+        AuthorInit: function () {
+            $.getScript( '/templates/jsp/_style2/_metaPress/_utoronto/pb2/js/mathJaxConfig.js' );
+        }
+    };
+</script>
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+        
+    
+
+    <div class="articleMeta ja">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="tocHeading">
+        <h2>Articles</h2>
+        
+    </div>
+
+
+
+
+
+
+<div class="hlFld-Title"> 
+    <div class="publicationContentTitle">
+        
+
+
+
+
+
+        <h1>
+            The Impact of 1980s and 1990s Video Games on Multimedia Cartography
+            
+            
+        </h1>
+    </div>
+
+    
+    
+</div>
+
+<div class="articleMetaDrop publicationContentDropZone" data-pb-dropzone="articleMetaDropZone">
+    
+</div>
+
+<div class="publicationContentAuthors"><div class="hlFld-ContribAuthor"><span class="contribDegrees"><a class="entryAuthor" href="/author/Edler%2C+Dennis"> Dennis Edler</a><a href="#d5548e123" class="tooltipTrigger infoIcon"><span class="ui-helper-hidden-accessible">Related information</span></a><div id="d5548e123" class="ui-helper-hidden-accessible">Geography Department / Ruhr-University Bochum / Bochum / Germany<br /></div>, </span><span class="contribDegrees"><a class="entryAuthor" href="/author/Dickmann%2C+Frank"> Frank Dickmann</a><a href="#d5548e138" class="tooltipTrigger infoIcon"><span class="ui-helper-hidden-accessible">Related information</span></a><div id="d5548e138" class="ui-helper-hidden-accessible">Geography Department / Ruhr-University Bochum / Bochum / Germany<br /></div></span></div><div class="NLM_bio"></div><div class="hlFld-AuthorNotes"><div class="NLM_bio"><p class="first last">Dr. <b>Dennis Edler</b> is a senior lecturer at the Geography Department of Ruhr-University Bochum (RUB), where he teaches courses on multimedia cartography, map design, object-oriented programming, statistics, and GIS. His current research interests are related to multimedia cartography, 3D cartography, empirical methods in cartography, and cognitive effects of map graphics on spatial memory. He has been involved in playing video games since Christmas in 1992.</p></div><div class="NLM_bio"><p class="first last">Dr <b>Frank Dickmann</b> is Professor of Cartography and Geo-Information Science at the Ruhr-University Bochum (RUB), where he lectures on cartography and geography. His major interests are 3D mapping, cognitive cartography, and exploring map efficiency using integrated media. For many years, he has been suffering from the first person shooters played by his kids.</p></div></div></div>
+
+<div class="articleMetaDrop publicationContentDropZone publicationContentDropZone1" data-pb-dropzone="articleMetaDropZone1">
+    
+</div>
+
+
+
+    <div class="publicationContentDoi">
+        <a href="https://doi.org/10.3138/cart.52.2.3823">https://doi.org/10.3138/cart.52.2.3823</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="publicationContentEpubDate dates">
+        Published Online: June 21, 2017
+    </div>
+
+
+<div>
+    
+        
+    
+    
+</div>
+
+
+    <div class="publicationContentLicenseTagging">
+            © University of Toronto Press 2017<br />2017<br /><a href=""></a><br />
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="publication-tabs ja publication-tabs-dropdown">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="tabs tabs-widget">
+    
+        
+            
+                    
+
+
+
+<ul class="tab-nav" role="tablist">
+    
+        <li class="active" role="tab">
+            <a href="/doi/abs/10.3138/cart.52.2.3823" class="show-abstract">
+                
+                        
+                                Abstract
+                            
+                    
+            </a>
+        </li>
+    
+    
+        <li role="tab">
+            <a href="/doi/full/10.3138/cart.52.2.3823" class="show-full">
+                
+                        Full Text
+                    
+            </a>
+        </li>
+    
+
+    
+
+    
+
+
+
+
+    <li role="tab">
+        <a href="/doi/ref/10.3138/cart.52.2.3823" class="show-references">
+            
+                    References
+                
+        </a>
+    </li>
+
+
+    
+    
+        <li role="tab">
+            <a href="/doi/citedby/10.3138/cart.52.2.3823">
+                
+                        Cited by
+                    
+            </a>
+        </li>
+    
+    
+    
+        
+                
+            
+        <li role="tab">
+            <a href="/doi/epdf/10.3138/cart.52.2.3823" class="show-pdf" target="_blank">
+                
+                        PDF
+                    
+            </a>
+        </li>
+    
+    
+    
+    
+        <li role="tab">
+            <a href="/doi/epub/10.3138/cart.52.2.3823">
+                
+                        EPUB
+                    
+            </a>
+        </li>
+    
+
+
+    
+
+</ul>
+                
+        
+        <div class="tab-content ">
+            <div class="tab tab-pane active">
+                <article class="article hideMathJax">
+                    
+                    
+                    
+                       <!-- abstract content --><div class="hlFld-Abstract"><a name="abstract"></a><div class="sectionInfo abstractSectionHeading"><div class="sectionHeading">Abstract</div></div><div class="abstractSection abstractInFull"> <p>The video game industry revolutionized the game market from the 1970s onwards. Stationary video game machines, such as “coin-ops” and, later, consoles for home entertainment made it possible to experience and interact with new virtual environments. Based on technical innovations, early video games already included different graphic and auditory effects that were used to present and emphasize the spatial dimension of game stories. One of the most famous and successful video game series that “told” spatial stories and included many visualizations of virtual topographies was Nintendo's <i>Super Mario</i> series. Nintendo developed diverse video game topographies including different interactive and animated cartographic media throughout the <i>Super Mario</i> series. These maps were early and fundamental examples that were user-friendly and suitable for children. Moreover, they established a basis for future video game spaces, and the techniques used to create, animate, and visualize these maps have also found their ways into other applications of cartography and geomatics. It seems that the early worlds of <i>Super Mario</i> animated cartographers to animate cartographic visualizations. This article presents the characteristic spatial structures and cartographic techniques found in early <i>Super Mario</i> games, from the arcade classic <i>Donkey Kong</i> (1981) to the Super Nintendo classic <i>Super Mario Kart</i> (1992). The meaning of these structures and techniques for other cartographic applications is discussed.</p> </div><div><trans-abstract language="fr"> <p>L'industrie des jeux vidéo a révolutionné le marché des jeux depuis les années 1970. Les appareils de jeux vidéo fixes, comme les « bornes d'arcade », et les consoles de jeux domestiques par la suite ont permis d'expérimenter de nouveaux environnements virtuels et d'interagir avec ces environnements. Grâce aux innovations techniques, les premiers jeux vidéo comportaient déjà différents éléments graphiques et auditifs servant à présenter et à mettre en valeur la dimension spatiale des scénarios de jeu. L'une des séries vidéoludiques les plus connues et les plus populaires proposant des scénarios spatiaux et de multiples visualisations de topographies virtuelles était la série de Nintendo <i>Super Mario</i>. Nintendo a mis au point diverses topographies de jeux vidéo, dont différents outils cartographiques interactifs et animés dans la série <i>Super Mario</i>. Ces cartes étaient la manifestation précoce et fondamentale d'un souci de convivialité et d'adaptation aux enfants. Elles jetaient en outre les bases des univers futurs des jeux vidéo, et les techniques permettant de créer, d'animer et de visualiser ces cartes ont également été transposées à d'autres applications de la cartographie et de la géomatique. Il semble que les premiers pas de <i>Super Mario</i> aient incité les cartographes à animer les représentations cartographiques. Les auteurs présentent les structures spatiales et les techniques cartographiques caractéristiques des premières versions des jeux <i>Super Mario</i>, du classique des jeux d'arcade <i>Donkey Kong</i> (1981) au classique du Super Nintendo <i>Super Mario Kart</i> (1992). Ils analysent la signification de ces structures et de ces techniques dans la perspective d'autres applications techniques.</p> </trans-abstract></div></div><!-- /abstract content --><div class="abstractKeywords"><div class="hlFld-KeywordText"><kwd-group><strong>Keywords: </strong> <a href="/keyword/Multimedia+Cartography">multimedia cartography</a>, <a href="/keyword/Animated+Cartography">animated cartography</a>, <a href="/keyword/Interactive+Cartography">interactive cartography</a>, <a href="/keyword/Audiovisual+Cartography">audiovisual cartography</a>, <a href="/keyword/3D+Cartography">3D cartography</a>, <a href="/keyword/Video+Games">video games</a>, <a href="/keyword/Overworld+Map">overworld map</a>, <a href="/keyword/Level+Map">level map</a>, <a href="/keyword/Overhead+Map">overhead map</a>, <a href="/keyword/Parallax+Scrolling">parallax scrolling</a>, <a href="/keyword/Mode+7">Mode 7</a></kwd-group><kwd-group language="fr"><strong>Mots clés : </strong> <a href="/keyword/Cartographie+3D">cartographie 3D</a>, <a href="/keyword/Cartographie+Anim%C3%A9e">cartographie animée</a>, <a href="/keyword/Cartographie+Audiovisuelle">cartographie audiovisuelle</a>, <a href="/keyword/Cartographie+Interactive">cartographie interactive</a>, <a href="/keyword/Cartographie+Multim%C3%A9dia">cartographie multimédia</a>, <a href="/keyword/D%C3%A9filement+Parallaxe">défilement parallaxe</a>, <a href="/keyword/Jeux+Vid%C3%A9o">jeux vidéo</a>, <a></a>, <a href="/keyword/Mode%C2%A07">mode 7</a></kwd-group></div></div><div class="response"><div class="sub-article-title"></div></div>
+                        
+                    
+                </article>
+            </div>
+            <div class="tab tab-pane" id="relatedContent">
+                
+
+
+
+
+
+
+            </div>
+            
+
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</div>
+    </div>
+<input id="viewLargeImageCaption" type="hidden" value="View Large Image" /></div>
+        </div>
+    </div>
+    
+</main></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumRightSidebar none utp-bottom-sidebar widget-none  widget-compact-all" id="464c2ece-71cd-47f0-96e4-3de3f4687ac3"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTP-rightsidebar-bottom'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="sidebar sidebar-right">
+    <div data-pb-dropzone="main">
+    
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumContentItemDownloadCount none  widget-emphasis" id="23cd4081-96e2-4433-894a-0f15b6512532"  >
+        
+        
+
+        <div class="wrapped " >
+            <h1 class="widget-header header-emphasis ">Metrics</h1>
+            <div class="widget-body body body-emphasis ">Downloaded 47 times</div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumContentItemHistory none  widget-emphasis" id="b6fe3f4c-e569-4d12-9b4f-412c57b52630"  >
+        
+        
+
+        <div class="wrapped " >
+            <h1 class="widget-header header-emphasis ">Article History</h1>
+            <div class="widget-body body body-emphasis "><div>Version of record: 21 June 2017</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumArticleToolsWidget none  widget-emphasis" id="c07b0013-71a9-4689-83d7-002ce483a827"  >
+        
+        
+
+        <div class="wrapped " >
+            <h2 class="widget-header header-emphasis ">Article Tools</h2>
+            <div class="widget-body body body-emphasis "><div class="articleTools">
+    
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="linkList blockLinks separators centered">
+    
+    
+        <li class="addToFavs">
+                <a href="/personalize/addFavoritePublication?doi=10.3138%2Fcart.52.2.3823">Add to Favourites</a>
+        </li>
+    
+    
+    
+        <li class="email">
+                <a href="/action/showMailPage?doi=10.3138%2Fcart.52.2.3823&href=%2Fdoi%2F10.3138%2Fcart.52.2.3823&title=The+Impact+of+1980s+and+1990s+Video+Games+on+Multimedia+Cartography">Share by Email</a>
+        </li>
+    
+    
+        <li class="downloadCitations">
+                <a href="/action/showCitFormats?doi=10.3138%2Fcart.52.2.3823">Citation Manager</a>
+        </li>
+    
+    
+        <li class="trackCitations">
+                <a href="/action/addCitationAlert?doi=10.3138%2Fcart.52.2.3823&referrer=%2Fdoi%2F10.3138%2Fcart.52.2.3823">Track Citations</a>
+        </li>
+    
+    
+        <li class="downloadPdf">
+                <a href="/doi/pdf/10.3138/cart.52.2.3823?download=true">Download PDF</a>
+        </li>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</ul>
+        
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none utp-connect widget-emphasis" id="daa9dd1b-5401-4725-9053-93453f26a48b"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-follow-buttons'>
+            <h2 class="widget-header header-emphasis ">Join the Conversation</h2>
+            <div class="widget-body body body-emphasis "><a href="https://www.facebook.com/utpjournals" title="Like Us"><img src="/pb-assets/icons/connect/facebook-1519145687863.png" alt="Facebook"></a>
+<a href="https://twitter.com/utpjournals" title="Follow Us"><img src="/pb-assets/icons/connect/twitter-1519145687850.png" alt="Twitter"></a>
+<a href="https://lp.constantcontactpages.com/su/A6pGsyP" target="blank" title="Join Our Mailing List"><img src="/pb-assets/icons/connect/mail-1519145687850.png" alt="Mail"></a>
+<!--a href="/action/doUpdateAlertSettings?action=addJournal&amp;journalCode=cart" title="New Content Alerts"><img src="/pb-assets/icons/connect/eTOCbutton-1519147247033.png" alt="Mail"></a--></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumRelatedContentSearch none  widget-emphasis" id="49491c80-56c9-4d98-8c0c-22f1f7654d50"  >
+        
+        
+
+        <div class="wrapped " >
+            <h2 class="widget-header header-emphasis ">Related Content Search</h2>
+            <div class="widget-body body body-emphasis "><div class="relatedContentForm">
+    <form action="/action/doSearch" name="relatedSearchForm" method="get"><h3><span>Find related content</span></h3>
+
+        
+
+        
+            
+                
+                
+            <div class="relatedKeywords relatedTerms"><span>By Keyword</span><ul><li><input name="KeywordRaw" value="Multimedia Cartography" type="checkbox" /><label>multimedia cartography</label></li><li><input name="KeywordRaw" value="Animated Cartography" type="checkbox" /><label>animated cartography</label></li><li><input name="KeywordRaw" value="Interactive Cartography" type="checkbox" /><label>interactive cartography</label></li><li><input name="KeywordRaw" value="Audiovisual Cartography" type="checkbox" /><label>audiovisual cartography</label></li><li><input name="KeywordRaw" value="3D Cartography" type="checkbox" /><label>3D cartography</label></li><li><input name="KeywordRaw" value="Video Games" type="checkbox" /><label>video games</label></li><li><input name="KeywordRaw" value="Overworld Map" type="checkbox" /><label>overworld map</label></li><li><input name="KeywordRaw" value="Level Map" type="checkbox" /><label>level map</label></li><li><input name="KeywordRaw" value="Overhead Map" type="checkbox" /><label>overhead map</label></li><li><input name="KeywordRaw" value="Parallax Scrolling" type="checkbox" /><label>parallax scrolling</label></li><li><input name="KeywordRaw" value="Mode 7" type="checkbox" /><label>Mode 7</label></li></ul></div><div class="relatedKeywords relatedTerms"><span>By Keyword</span><ul><li><input name="KeywordRaw" value="Cartographie 3D" type="checkbox" /><label>cartographie 3D</label></li><li><input name="KeywordRaw" value="Cartographie Animée" type="checkbox" /><label>cartographie animée</label></li><li><input name="KeywordRaw" value="Cartographie Audiovisuelle" type="checkbox" /><label>cartographie audiovisuelle</label></li><li><input name="KeywordRaw" value="Cartographie Interactive" type="checkbox" /><label>cartographie interactive</label></li><li><input name="KeywordRaw" value="Cartographie Multimédia" type="checkbox" /><label>cartographie multimédia</label></li><li><input name="KeywordRaw" value="Défilement Parallaxe" type="checkbox" /><label>défilement parallaxe</label></li><li><input name="KeywordRaw" value="Jeux Vidéo" type="checkbox" /><label>jeux vidéo</label></li><li><input name="KeywordRaw" value="" type="checkbox" /><label></label></li><li><input name="KeywordRaw" value="Mode 7" type="checkbox" /><label>mode 7</label></li></ul></div><div class="relatedAuthors relatedTerms"><span>By Author</span><ul><li><input name="ContribRaw" value="Edler, Dennis" type="checkbox" /><label>Dennis Edler</label></li><li><input name="ContribRaw" value="Dickmann, Frank" type="checkbox" /><label>Frank Dickmann</label></li></ul></div>
+        
+
+
+        
+
+        
+                
+                
+                <div class="searchIn relatedTerms">
+                    <span>Search in</span>
+                    <ul>
+                        <li>
+                            <input type="radio" name="searchService" value="utoronto" checked="checked" /> <label>University of Toronto Press</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="searchService" value="scholar" /> <label>Google Scholar</label>
+                        </li>
+                    </ul>
+                </div>
+            
+
+        <input class="searchButtons" type="submit" value="Search" /></form>
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget layout-tabs none utp-top-articles widget-emphasis" id="61e48daa-1a60-4ee6-bb77-0fbe6cb74c54"  >
+        
+        
+
+        <div class="wrapped " >
+            <h2 class="widget-header header-emphasis ">Top Articles</h2>
+            <div class="widget-body body body-emphasis "><div class="tabs tabs-widget " aria-live="polite" aria-atomic="true" aria-relevant="additions">
+    <ul class="tab-nav">
+        
+            
+            
+            <li class="active">
+                
+                        <a href="#61e48daa-1a60-4ee6-bb77-0fbe6cb74c54-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a" title="show Most Recent">Most Recent</a>
+                    
+            </li>
+            
+        
+            
+            
+            <li class="">
+                
+                        <a href="#61e48daa-1a60-4ee6-bb77-0fbe6cb74c54-b6de7b7c-de82-45a5-9538-313dd15c6659" title="show Most Read">Most Read</a>
+                    
+            </li>
+            
+        
+            
+            
+            <li class="">
+                
+                        <a href="#61e48daa-1a60-4ee6-bb77-0fbe6cb74c54-631aa7fb-53c8-4a4f-ac66-ae72735765cf" title="show Most Cited">Most Cited</a>
+                    
+            </li>
+            
+        
+    </ul>
+    <div class="tab-content">
+        
+            
+            
+                    <div class="tab-pane active" id="61e48daa-1a60-4ee6-bb77-0fbe6cb74c54-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a">
+                        
+                        <div class="tab-pane-content" data-pb-dropzone="tab-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a" data-pb-dropzone-name="Most Recent">
+                            
+                                    
+                                        
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumMostRecentWidget none  widget-emphasis  widget-compact-vertical" id="ce8c582e-a261-4355-af88-8600f7e5169a"  >
+        
+        
+
+        <div class="wrapped " >
+            
+            <div class="widget-body body body-emphasis  body-compact-vertical"><section id="topContentViewSection" class="popular">
+
+    <div class="mostRead  ">
+                <!-- Nothing by default -->
+                <ul class="topContentViewList">
+                
+                        <li>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+
+
+
+<div class="VolumeIssuePage">
+	
+			Volume: 56, Issue: 4, pp. 320-342
+		
+</div>
+
+
+
+
+
+
+
+<div class="tocHeading"></div>
+
+<div class="secondTOCHeading"> </div>
+
+
+
+<div class="title">
+    
+        
+                <a href="/doi/abs/10.3138/cart-2020-0010">&#x201c;Little Is Known of the Interior&#x201d;: Applied Historical Cartography and M&#xe9;tis Aboriginal Rights in the &#xce;le-&#xe0;-la-Crosse Region, Saskatchewan</a>
+            
+    
+</div>
+
+
+<div class="authors"><div class="contrib"><span class="authors">Frank J.  Tough</span></div> </div>
+
+
+ <div class="date"> </div>
+
+
+
+
+
+
+<div class="volumeIssue">
+    
+
+</div>
+
+
+
+
+                        </li>
+                   
+                        <li>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+
+
+
+<div class="VolumeIssuePage">
+	
+			Volume: 56, Issue: 4, pp. 267-283
+		
+</div>
+
+
+
+
+
+
+
+<div class="tocHeading"></div>
+
+<div class="secondTOCHeading"> </div>
+
+
+
+<div class="title">
+    
+        
+                <a href="/doi/abs/10.3138/cart-2020-0030">Digitizing and Visualizing Sketch Map Data: A Semi-Structured Approach to Qualitative GIS</a>
+            
+    
+</div>
+
+
+<div class="authors"><div class="contrib"><span class="authors">Christopher  Prener</span></div> </div>
+
+
+ <div class="date"> </div>
+
+
+
+
+
+
+<div class="volumeIssue">
+    
+
+</div>
+
+
+
+
+                        </li>
+                   
+                        <li>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+
+
+
+<div class="VolumeIssuePage">
+	
+			Volume: 56, Issue: 4, pp. 255-266
+		
+</div>
+
+
+
+
+
+
+
+<div class="tocHeading"></div>
+
+<div class="secondTOCHeading"> </div>
+
+
+
+<div class="title">
+    
+        
+                <a href="/doi/abs/10.3138/cart-2021-0002">Historical Cartographic Information for Cultural Heritage Applications in a Semantic Framework</a>
+            
+    
+</div>
+
+
+<div class="authors"><div class="contrib"><span class="authors">Eleni  Gkadolou and </span><span class="authors">Poulicos  Prastacos</span></div> </div>
+
+
+ <div class="date"> </div>
+
+
+
+
+
+
+<div class="volumeIssue">
+    
+
+</div>
+
+
+
+
+                        </li>
+                   
+                </ul>
+                
+                                <a class="more" href="/toc/cart/current">See More</a>
+                            
+            </div>
+        </section></div>
+        </div>
+    </div>
+    
+
+                                    
+                                
+                        </div>
+                    </div>
+                
+        
+            
+            
+                    <div class="tab-pane " id="61e48daa-1a60-4ee6-bb77-0fbe6cb74c54-b6de7b7c-de82-45a5-9538-313dd15c6659">
+                        
+                        <div class="tab-pane-content" data-pb-dropzone="tab-b6de7b7c-de82-45a5-9538-313dd15c6659" data-pb-dropzone-name="Most Read">
+                            
+                                    
+                                        
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumMostReadWidget none  widget-emphasis  widget-compact-vertical" id="169860e2-c5b1-4d1e-9f21-d15cb1327cab"  >
+        
+        
+
+        <div class="wrapped " >
+            
+            <div class="widget-body body body-emphasis  body-compact-vertical"><section id="topContentViewSection" class="popular">
+
+    <div class="mostRead  ">
+                <!-- Nothing by default -->
+                <ul class="topContentViewList">
+                
+                        <li>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+
+
+
+<div class="VolumeIssuePage">
+	
+			Volume: 55, Issue: 2, pp. 69-84
+		
+</div>
+
+
+
+
+
+
+
+<div class="tocHeading"></div>
+
+<div class="secondTOCHeading"> </div>
+
+
+
+<div class="title">
+    
+        
+                <a href="/doi/abs/10.3138/cart-2019-0019">Storytelling for Making Cartographic Design Decisions for Climate Change Communication in the United States</a>
+            
+    
+</div>
+
+
+<div class="authors"><div class="contrib"><span class="authors">Carolyn  Fish</span></div> </div>
+
+
+ <div class="date"> </div>
+
+
+
+
+
+
+<div class="volumeIssue">
+    
+
+</div>
+
+
+
+
+                        </li>
+                   
+                        <li>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+
+
+
+<div class="VolumeIssuePage">
+	
+			Volume: 54, Issue: 3, pp. 193-205
+		
+</div>
+
+
+
+
+
+
+
+<div class="tocHeading"></div>
+
+<div class="secondTOCHeading"> </div>
+
+
+
+<div class="title">
+    
+        
+                <a href="/doi/abs/10.3138/cart.54.3.2018-0019">New Paradigm in Mapping: A Critique on Cartography and GIS</a>
+            
+    
+</div>
+
+
+<div class="authors"><div class="contrib"><span class="authors">Bin  Jiang</span></div> </div>
+
+
+ <div class="date"> </div>
+
+
+
+
+
+
+<div class="volumeIssue">
+    
+
+</div>
+
+
+
+
+                        </li>
+                   
+                        <li>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+
+
+
+<div class="VolumeIssuePage">
+	
+			Volume: 50, Issue: 3, pp. 119-140
+		
+</div>
+
+
+
+
+
+
+
+<div class="tocHeading"></div>
+
+<div class="secondTOCHeading"> </div>
+
+
+
+<div class="title">
+    
+        
+                <a href="/doi/abs/10.3138/cart.50.3.2857">Eight Islands on Four Maps: The Cartographic Renegotiation of Hawai&#x2018;i, 1876&#x2013;1959</a>
+            
+    
+</div>
+
+
+<div class="authors"><div class="contrib"><span class="authors">John Wyatt  Greenlee</span></div> </div>
+
+
+ <div class="date"> </div>
+
+
+
+
+
+
+<div class="volumeIssue">
+    
+
+</div>
+
+
+
+
+                        </li>
+                   
+                </ul>
+                <a href="/action/showMostReadArticles?journalCode=cart" class="more">See More</a>
+            </div>
+        </section></div>
+        </div>
+    </div>
+    
+
+                                    
+                                
+                        </div>
+                    </div>
+                
+        
+            
+            
+                    <div class="tab-pane " id="61e48daa-1a60-4ee6-bb77-0fbe6cb74c54-631aa7fb-53c8-4a4f-ac66-ae72735765cf">
+                        
+                        <div class="tab-pane-content" data-pb-dropzone="tab-631aa7fb-53c8-4a4f-ac66-ae72735765cf" data-pb-dropzone-name="Most Cited">
+                            
+                                    
+                                        
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumMostCitedWidget none  widget-emphasis  widget-compact-vertical" id="fff92d7a-101c-4508-9133-d8ad0e718e85"  >
+        
+        
+
+        <div class="wrapped " >
+            
+            <div class="widget-body body body-emphasis  body-compact-vertical"><section id="topContentViewSection" class="popular">
+
+    <div class="mostRead  ">
+                
+                    <span class="mostCitedHeader"></span>
+                <!-- Nothing by default -->
+                <ul class="topContentViewList">
+                
+                        <li>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+
+
+
+<div class="VolumeIssuePage">
+	
+			Volume: 10, Issue: 2, pp. 112-122
+		
+</div>
+
+
+
+
+
+
+
+<div class="tocHeading"></div>
+
+<div class="secondTOCHeading"> </div>
+
+
+
+<div class="title">
+    
+        
+                <a href="/doi/abs/10.3138/FM57-6770-U75U-7727">ALGORITHMS FOR THE REDUCTION OF THE NUMBER OF POINTS REQUIRED TO REPRESENT A DIGITIZED LINE OR ITS CARICATURE</a>
+            
+    
+</div>
+
+
+<div class="authors"><div class="contrib"><span class="authors">DAVID H  DOUGLAS and </span><span class="authors">THOMAS K  PEUCKER</span></div> </div>
+
+
+ <div class="date"> </div>
+
+
+
+
+
+
+<div class="volumeIssue">
+    
+
+</div>
+
+
+
+
+                        </li>
+                   
+                        <li>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+
+
+
+<div class="VolumeIssuePage">
+	
+			Volume: 26, Issue: 2, pp. 1-20
+		
+</div>
+
+
+
+
+
+
+
+<div class="tocHeading"></div>
+
+<div class="secondTOCHeading"> </div>
+
+
+
+<div class="title">
+    
+        
+                <a href="/doi/abs/10.3138/E635-7827-1757-9T53">DECONSTRUCTING THE MAP</a>
+            
+    
+</div>
+
+
+<div class="authors"><div class="contrib"><span class="authors">J B  HARLEY</span></div> </div>
+
+
+ <div class="date"> </div>
+
+
+
+
+
+
+<div class="volumeIssue">
+    
+
+</div>
+
+
+
+
+                        </li>
+                   
+                        <li>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+
+
+
+<div class="VolumeIssuePage">
+	
+			Volume: 50, Issue: 2, pp. 71-85
+		
+</div>
+
+
+
+
+
+
+
+<div class="tocHeading"></div>
+
+<div class="secondTOCHeading"> </div>
+
+
+
+<div class="title">
+    
+        
+                <a href="/doi/abs/10.3138/cart.50.2.2662">POI Pulse: A Multi-granular, Semantic Signature&#x2013;Based Information Observatory for the Interactive Visualization of Big Geosocial Data</a>
+            
+    
+</div>
+
+
+<div class="authors"><div class="contrib"><span class="authors">Grant  McKenzie</span><span class="authors">Krzysztof  Janowicz</span><span class="authors">Song  Gao</span></div>, <div class="contrib"><span class="authors">Jiue-An  Yang and </span><span class="authors">Yingjie  Hu</span></div> </div>
+
+
+ <div class="date"> </div>
+
+
+
+
+
+
+<div class="volumeIssue">
+    
+
+</div>
+
+
+
+
+                        </li>
+                   
+                </ul>
+                <a href="/action/showMostCitedArticles?journalCode=cart" class="more">See More</a>
+            </div>
+        </section></div>
+        </div>
+    </div>
+    
+
+                                    
+                                
+                        </div>
+                    </div>
+                
+        
+    </div>
+
+    
+
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+    </div>
+</div></div>
+        </div>
+    </div>
+    
+    </div>
+</div><!--end pagefulltext--></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget layout-two-columns none  widget-none  widget-compact-all" id="e21b1064-9af0-4034-9a73-1e1af849d68d"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTP feedback button test'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="pb-columns row-fluid gutterless">
+    <div class="width_7_8">
+        <div data-pb-dropzone="left" class="pb-autoheight">
+        </div>
+    </div>
+    <div class="width_1_8">
+        <div data-pb-dropzone="right" class="pb-autoheight">
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget layout-tabs none floating-feedback widget-none  widget-compact-all" id="abde1dbd-6017-4d7e-b831-21f164edc4dc"  >
+        
+        
+
+        <div class="wrapped " >
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="tabs tabs-widget  menu-tabs" aria-live="polite" aria-atomic="true" aria-relevant="additions">
+    <ul class="tab-nav">
+        
+            
+            
+            <li class="">
+                
+                        <a href="#abde1dbd-6017-4d7e-b831-21f164edc4dc-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a" title="show FEEDBACK">FEEDBACK</a>
+                    
+            </li>
+            
+        
+    </ul>
+    <div class="tab-content">
+        
+            
+            
+                    <div class="tab-pane " id="abde1dbd-6017-4d7e-b831-21f164edc4dc-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a">
+                        
+                        <div class="tab-pane-content" data-pb-dropzone="tab-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a" data-pb-dropzone-name="FEEDBACK">
+                            
+                                    
+                                        
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+            
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+            
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget literatumFeedbackWidget alignRight utp-feedback-form widget-none  widget-compact-all widget-border-toggle widget-rounded" id="f619e3b2-4a30-4cae-808a-5e55ac1a0a90"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTP feedback form'>
+            
+            <div class="widget-body body body-none  body-compact-all body-border-toggle body-rounded"><!--empty -->
+<form action="/feedback/mail" name="feedbackForm" method="post"><input type="hidden" name="Submit" value="true" />
+    
+    <div class="field">
+        
+        <label for="fullName">
+            <!-- Your name -->
+            Your name
+        </label>
+        <input id="fullName" name="fullName" value="" />
+    </div>
+
+    <div class="field">
+        
+        <label for="emailAddress">
+            <!-- Email -->
+            Email
+        </label>
+        <input id="emailAddress" name="emailAddress" value="" />
+    </div>
+    
+    <div class="field">
+        
+        <label for="message">
+            <!-- Message -->
+            Message
+        </label>
+        <textarea id="message" name="content" rows="10" cols="60"></textarea>
+    </div>
+
+    
+        <div class="field">
+            
+            
+
+
+
+        
+
+
+
+
+        <script src='//www.google.com/recaptcha/api.js?render=explicit&onload=loadRecaptcha&hl=en' async defer></script>
+        <div class="g-recaptcha "  data-sitekey="6Lc4HR8TAAAAAPFSxfchztMruqn2dTwPIQ9vaX9b" ></div>
+    
+
+
+    
+
+        </div>
+        <br/>
+    
+
+    
+    <br/>
+    <div class="field">
+        <input class="defButton" type="submit" value="Submit" />
+    </div></form></div>
+        </div>
+    </div>
+    
+
+                                    
+                                
+                        </div>
+                    </div>
+                
+        
+    </div>
+
+    
+
+</div></div>
+        </div>
+    </div>
+    
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget pageFooter none emphasized-bg-color widget-none  widget-compact-all" id="fe812320-6567-442a-9c2f-bda7e859fb50"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-page-footer'>
+            
+            <div class="widget-body body body-none  body-compact-all"><footer class="page-footer">
+    <div data-pb-dropzone="main">
+    
+
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none utp-fixed-width  widget-none  widget-compact-vertical" id="cc32ae51-743a-408a-bd67-f1fd7311b82c"  >
+        
+        
+
+        <div class="wrapped " >
+            
+            <div class="widget-body body body-none  body-compact-vertical"><p style="margin:0; font-weight: bold; font-size: 22px">UNIVERSITY OF TORONTO PRESS</p>
+<p style="margin-bottom: 7px; margin-top:0; font-size: 20px">Journals Division</p></div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget layout-three-columns none utp-fixed-width widget-none  widget-compact-all" id="92d3dc37-5104-4c67-90eb-2df17bfc0237"   data-track="true" data-track-tag="utp-footer-links">
+        
+        
+            
+        
+
+        <div class="wrapped " id='UTP new footer columns'>
+            
+            <div class="widget-body body body-none  body-compact-all"><div class="pb-columns row-fluid gutterless">
+    <div class="width_1_3">
+        <div data-pb-dropzone="left" class="pb-autoheight">
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none  widget-none" id="d3ff86f8-0ae4-4b51-84dd-0cec7b4ccf2e"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='THE UTP FOOTER LINKS 1'>
+            
+            <div class="widget-body body body-none "><p style="padding:0; margin: 0; font-weight: bold; font-size: 18px"><a href="/about" alt="About">ABOUT</a></p>
+<a href="/about" alt="About">UTP Journals</a><br>
+<a href="/journals" alt="Journals">List of Journals</a><br>
+<a href="/resources/copyright-and-permissions" alt="Copyright &amp; Permissions">Copyright &amp; Permissions</a><br>
+<a href="http://www.utpjournals.press/resources/editorial-policies">Editorial Policies</a><br>
+<!--a href="/resources/publication-ethics" alt="Ethics">Publication Ethics &amp; Malpractice</a><br-->
+<a href="/about/open-access">Open Access</a><br>
+<a href="/publish-with-utp">Publish with Us</a><br>
+<a href="/contact-us" alt="Contact Us">Contact Us</a><br></div>
+        </div>
+    </div>
+    
+        </div>
+    </div>
+    <div class="width_1_3">
+        <div data-pb-dropzone="center" class="pb-autoheight">
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none  widget-none" id="196d73f4-6ce3-474a-a9d5-0bd41d2ca07b"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='THE UTP FOOTER LINKS 1'>
+            
+            <div class="widget-body body body-none "><p style="padding:0; margin: 0; font-weight: bold; font-size: 18px"><a href="/resources">RESOURCES</a></p>
+<a href="/resources">Resource Centre</a><br>
+<a href="/resources#faq">FAQ</a><br>
+<a href="/resources/for-authors">Authors</a><br>
+<a href="/resources/for-librarians">Librarians</a><br>
+<a href="/resources/for-subscribers">Subscribers</a><br>
+<a href="/resources/help">Site Help</a><br>
+<a href="/pb%2Dassets/utoronto/UTP%20Site%20License%20Agreement-R.pdf">Site License Agreement (PDF)</a>
+<!--
+<a href="resources/for-reviewers">Reviewers</a><br>
+<a href="resources/for-editors">Editors</a><br>
+<a href="resources/for-societies">Societies</a><br>
+--></div>
+        </div>
+    </div>
+    
+        </div>
+    </div>
+    <div class="width_1_3">
+        <div data-pb-dropzone="right" class="pb-autoheight">
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html none  widget-none" id="14f62c52-9241-41f8-8e5d-3bc63a4588b6"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='THE UTP FOOTER LINKS 1'>
+            
+            <div class="widget-body body body-none "><p style="padding:0; margin: 0; font-weight: bold; font-size: 18px"><a href="https://utorontopress.com/" target="_blank">UNIVERSITY OF TORONTO PRESS</a></p>
+
+<a href="https://utorontopress.com/ca/publish-with-utp" target="_blank" alt="UTP">UTP Books</a><br>
+<a href="https://utpdistribution.com/" target="_blank" alt="UTP Distribution">UTP Distribution</a><br>
+<a href="https://uoftbookstore.com/" target="_blank" alt="UofT Bookstore">UofT Bookstore</a><br>
+<a href="https://utorontopress.com/ca/careers" target="_blank">Job Opportunities</a><br>
+<a href="https://utorontopress.com/ca/environmental-policy" target="_blank">Environmental Policy</a><br>
+<a href="https://utorontopress.com/ca/privacy-policy" target="_blank">Privacy Policy</a><br>
+<a href="https://utorontopress.com/ca/accessibility" target="_blank">Accessibility Policy</a></div>
+        </div>
+    </div>
+    
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget layout-two-columns none utp-fixed-width widget-none" id="bb6ee395-8612-4e4f-8b1c-68aef831eb47"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-footer-two-columns'>
+            
+            <div class="widget-body body body-none "><div class="pb-columns row-fluid ">
+    <div class="width_1_2">
+        <div data-pb-dropzone="left" class="pb-autoheight">
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html alignLeft  widget-none  widget-compact-all" id="1a657cca-ac62-49c0-bb38-b4f3ce8c5bb9"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-footer-copyright'>
+            
+            <div class="widget-body body body-none  body-compact-all">© 2022 <a href="https://utorontopress.com" target="_blank">University of Toronto Press</a></div>
+        </div>
+    </div>
+    
+        </div>
+    </div>
+    <div class="width_1_2">
+        <div data-pb-dropzone="right" class="pb-autoheight">
+
+
+
+    
+    
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+            
+            
+                
+            
+            
+                
+                
+                
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    
+
+    
+    <div class="widget general-html alignRight  widget-none  widget-compact-all" id="78578d4b-2718-41dc-90cd-3acbe9ed9d38"  >
+        
+        
+            
+        
+
+        <div class="wrapped " id='METAPRESS-footer-atypon'>
+            
+            <div class="widget-body body body-none  body-compact-all">Powered by <a href="http://www.atypon.com/" target="new">Atypon® Literatum</a></div>
+        </div>
+    </div>
+    
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+    
+    </div>
+</footer></div>
+        </div>
+    </div>
+    
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(() => setTimeout(() => {
+            let _bnw=window,_bna=atob("bG9jYXRpb24="),_bnb=atob("b3JpZ2lu"),_hn=_bnw[_bna][_bnb],_bnt=btoa(_hn+new Array(5 - _hn.length % 4).join(" "));
+            $.get("/resource/lodash?t="+_bnt);
+        },4000));
+    </script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6e0d58e47ef3dedd","token":"69d99aa0c77748099fa2a040d17abb6e","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

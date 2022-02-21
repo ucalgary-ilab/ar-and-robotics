@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en"     class="pb-page"  data-request-id="7bf8a600-e340-41a8-b655-e6d7a9025bb8"  
+><head data-pb-dropzone="head"><meta name="pbContext" content=";article:article:doi\:10.1145/3355049.3360534;taxonomy:taxonomy:conference-collections;wgroup:string:ACM Publication Websites;groupTopic:topic:acm-pubtype&gt;proceeding;ctype:string:Book Content;page:string:Article/Chapter View;subPage:string:Abstract;csubtype:string:Conference Proceedings;website:website:dl-site;issue:issue:doi\:10.1145/3355049;journal:journal:acmconferences;pageGroup:string:Publication Pages;topic:topic:conference-collections&gt;siggraph"/>
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"></link><meta name="dc.Format" content="text/HTML"></meta><meta name="dc.Language" content="EN"></meta><meta name="dc.Coverage" content="world"></meta><!-- ${citation_fulltext_world_readable:10.1145/3355049.3360534} -->
+
+
+
+
+
+
+<title>PinpointFly: An Egocentric Position-pointing Drone Interface using Mobile AR | SIGGRAPH Asia 2019 Emerging Technologies</title>
+
+
+
+
+
+
+<meta charset="UTF-8">
+<meta name="robots" content="noarchive"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <meta property="og:title" content="PinpointFly: An Egocentric Position-pointing Drone Interface using Mobile AR | SIGGRAPH Asia 2019 Emerging Technologies"/>
+    
+
+
+        <meta property="og:type" content="Chapter"/>
+    
+
+
+        <meta property="og:url" content="https://dl.acm.org/doi/abs/10.1145/3355049.3360534"/>
+    
+
+
+
+        <meta property="og:site_name" content="ACM Conferences"/>
+    
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+
+
+    <!--link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700,800|Merriweather:300,400,700,900')--><link rel="stylesheet" href="/products/acm/releasedAssets/css/build-84316ef87de76f1304c6.css"/><link rel="stylesheet" href="/products/acm/releasedAssets/css/print-84316ef87de76f1304c6.css" media="print"/>
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script defer src="https://scholar.google.com/scholar_js/casa.js" async></script>
+<script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+      heap.load("1083010732");
+</script>
+<link rel="apple-touch-icon" sizes="180x180" href="/pb-assets/head-metadata/apple-touch-icon-1574252172393.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/pb-assets/head-metadata/favicon-32x32-1574252172003.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/pb-assets/head-metadata/favicon-16x16-1574252172937.png">
+<link rel="manifest" href="/pb-assets/head-metadata/site-1574252171130.webmanifest" crossorigin="use-credentials">
+<link rel="mask-icon" href="/pb-assets/head-metadata/safari-pinned-tab-1574252171193.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="theme-color" content="#ffffff">
+
+    <!-- Google Tag Manager -->
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NFGCMX');</script>
+    <!-- End Google Tag Manager -->
+
+
+
+
+
+</head>
+<body class="pb-ui">
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFGCMX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    if(false) {
+        document.getElementById("skipNavigationLink").onclick =function skipElement () {
+            var element = document.getElementById('');
+            if(element == null || element == undefined) {
+                element = document.getElementsByClassName('').item(0);
+            }
+            element.setAttribute('tabindex','0');
+            element.focus();
+
+        }
+
+    }
+
+</script>
+
+
+
+
+
+    <div id="pb-page-content" data-ng-non-bindable>
+        <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <header data-widget-def="ux3-layout-widget" data-widget-id="88f434fd-b4d9-4f0e-b7b6-cde0fadcc9ef" class="header base siggraph">
+        
+
+
+
+        
+        <div class="header__fixed-items fixed fixed-element">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="c844bab8-b1d5-4df4-8bea-71f6156459e4" class="container header--first-row">
+        
+
+
+
+        
+        <div class="pull-left">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="83eada61-9003-4cb3-99a8-a38fa7692761" class="header__logo1">
+        
+
+
+
+        
+        <a href="/" title="ACM Digital Library home"><img id="" alt="ACM Digital Library home" src="/specs/products/acm/releasedAssets/images/acm-dl-logo-white.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="5517ee17-e847-46ff-b42e-c5a6754e032d" class="header__logo2">
+        
+
+
+
+        
+        <a href="https://www.acm.org" title="ACM home"><img id="" alt="ACM home" src="specs/products/acm/releasedAssets/images/acm-logo-1.png"/></a>
+
+        </div>
+    
+</div><div class="pull-right">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="ab4ba9a1-6e57-4b90-b9c2-fc7914d9a3a1" class="header__quick-menu text-onDark">
+        
+
+
+
+        
+        <ul class="rlist--inline"><li class="advanced-search-link hidden-lg hidden-md hidden-sm">
+
+
+
+        
+        <a href="/search/advanced" >Advanced Search</a>
+</li><li class="show-on-mobile">
+
+
+
+        
+        <a href="/browse/" title="browse by title or publisher">Browse</a>
+</li><li class="show-on-mobile">
+
+
+
+        
+        <a href="/about" title="About the ACM Digital Library">About</a>
+</li><li class="login-list">
+
+
+
+        
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropBlock loginBar login-open">
+    <ul class="rlist--inline">
+        <li class="login-link">
+            <a href="/action/showLogin?redirectUri=%2Fdoi%2F10.1145%2F3355049.3360534">
+                Sign in
+            </a>
+        </li>
+        <li class="register-link">
+            
+                    <a href="https://accounts.acm.org?redirectUri=%2Fdoi%2F10.1145%2F3355049.3360534" class="btn" title="Register">
+                        Register
+                    </a>
+                
+        </li>
+    </ul>
+</div>
+
+
+
+    
+
+</li></ul>
+
+        </div>
+    
+</div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="menuWidget" data-widget-id="13da1316-80a7-4370-a291-8968cd9cb35e" class="container header--second-row">
+        
+
+
+
+        
+        <div class="responsive-menu-container clearfix"><div class="left-section pull-left"></div><div class="menu-section"><div class="main-nav responsive-menu-nav"><a href="#global-menu" data-target="global-menu" data-toggle="nav" title="menu drawer"><span class="drawer__icons-box"><span class="drawer__icons-controls"></span></span></a><nav role="navigation" id="global-menu" data-ctrl-res="screen-sm" class="drawer__nav container gutterless hidden-sm hidden-xs"><ul id="menubar" role="menubar" class="menubar rlist--inline"><li class="hidden-lg hidden-md"><div data-toggle="transplant" data-target-class="hidden-xs hidden-sm" data-target=".header--second-row .quick-search--form" data-direction="from" data-transplant="self" class="quick-search-mobile"></div></li><li role="menuitem" aria-label="Advanced Search" id="menu-item-global-menu-0" class="menu-item mobile-menu-item"><a href="/search/advanced"><span>Advanced Search</span></a></li><li role="menuitem" aria-label="Journals" id="menu-item-global-menu-1" class="menu-item"><a href="/journals"><span>Journals</span></a></li><li role="menuitem" aria-label="Magazines" id="menu-item-global-menu-2" class="menu-item"><a href="/magazines"><span>Magazines</span></a></li><li role="menuitem" aria-label="Proceedings" id="menu-item-global-menu-3" class="menu-item"><a href="/proceedings"><span>Proceedings</span></a></li><li role="menuitem" aria-label="Books" id="menu-item-global-menu-4" class="menu-item"><a href="/acmbooks"><span>Books</span></a></li><li role="menuitem" aria-label="SIGs" id="menu-item-global-menu-5" class="menu-item"><a href="/sigs"><span>SIGs</span></a></li><li role="menuitem" aria-label="Conferences" id="menu-item-global-menu-6" class="menu-item"><a href="/conferences"><span>Conferences</span></a></li><li role="menuitem" aria-label="People" id="menu-item-global-menu-7" class="menu-item"><a href="/people"><span>People</span></a></li><li class="hidden-lg hidden-md"><div data-toggle="transplant" data-target-class="hidden-xs hidden-sm" data-target=".header__quick-menu .show-on-mobile" data-direction="from" data-transplant="self"></div></li><li role="menuitem" aria-haspopup="true" aria-label="More" class="dropdown-more hidden dropdown menu-parent"><a href="#" title="More" data-toggle="dropdown" class="dropdown__toggle"><span>More</span><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="main0-1" aria-hidden="true" role="menu" class="rlist dropdown__menu"></ul></li><li class="menubar__extra-mob-links"></li></ul></nav></div></div><div class="right-section pull-right">
+
+
+
+        
+        <div class="quickSearchFormContainer"><div class="quick-search"><div class="clearfix quick-search__clearfix"><form action="/action/doSearch" name="defaultQuickSearch" method="get" title="Quick Search" class="quick-search--form"><div class="quick-search--input"><div class="input-group option-0"><label for="AllFieldf73847c0-d936-48ec-9bf9-139b3828507f" class="sr-only">Search ACM Digital Library</label><input id="AllFieldf73847c0-d936-48ec-9bf9-139b3828507f" type="search" name="AllField" placeholder="Search ACM Digital Library" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" data-group-titles-conf="3" value="" class="autocomplete quick-search__input"/></div></div><div class="quick-search--button"><button type="submit" title="Search" aria-label="Search" class="btn quick-search__button icon-Icon_Search"><span class="sr-only">Search</span><span>Search</span></button></div></form></div>
+
+
+
+        
+        <a class="quick-search__advancedHeader" title="link to Advanced Search form" href="/search/advanced">Advanced Search</a>
+</div></div>
+</div></div><div class="header__dropzone"></div>
+
+        </div>
+    
+
+
+
+
+        
+        <span style="display: none;">10.1145/3355049.3360534</span><span style="display: none;">acmconferences</span><span style="display: none;">Article/Chapter View</span><span style="display: none;">Abstract</span><span style="display: none;">Publication Pages</span><span style="display: none;">siggraph</span><span style="display: none;">Conference Proceedings</span><span style="display: none;">conference-collections</span><div class="sub-nav fixed-element"><a href="#" data-db-target-for="sub-nav__items" data-more="false" data-lines="1" style="text-transform: uppercase;" class="sub-nav__toggle hidden-lg truncate-text-css">siggraph</a><div class="sub-nav__container"><div class="container"><div data-ctrl-res="screen-md" class="responsive-menu-container"><div class="left-section pull-left"></div><div class="menu-section"><div style="display: block" class="responsive-menu-nav"><nav id="sub-nav__items" data-db-target-of="sub-nav__items" class="sub-nav__holder drawer__nav"><ul role="menu" class="rlist--inline menubar"><li role="menuitem"><a href="/conference/siggraph" class="sub-nav__item">Conference</a></li><li role="menuitem"><a href="/conference/siggraph/proceedings" class="sub-nav__item">Proceedings</a></li><li role="menuitem"><a href="/conference/siggraph/upcoming" class="sub-nav__item">Upcoming Events</a></li><li role="menuitem"><a href="/conference/siggraph/authors" class="sub-nav__item">Authors</a></li><li role="menuitem"><a href="/conference/siggraph/affiliations" class="sub-nav__item">Affiliations</a></li><li role="menuitem"><a href="/conference/siggraph/award-winners" class="sub-nav__item">Award Winners</a></li><li role="menuitem" aria-haspopup="true" aria-label="More" class="dropdown-more hidden dropdown menu-parent"><a href="#" title="More" data-toggle="dropdown" class="dropdown__toggle hidden-md hidden-sm hidden-xs"><span>More</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><ul aria-labelledby="main0-1" aria-hidden="true" role="menu" class="rlist dropdown__menu visible-md visible-sm visible-xs"></ul></li></ul></nav></div></div><div class="right-section hidden-md hidden-sm hidden-xs"></div></div></div></div><div class="hidden-xs hidden-sm"><div class="progress-bar--wrapper"><div style="width: 0.116818%;" class="progress-bar"></div></div></div></div>
+</div><div></div><div class="banner conference-landing"></div><div class="header-breadcrumb">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="f5f275c5-a862-48bf-8119-8528d04615da" class="container">
+        
+
+
+
+        
+        <div>
+
+
+
+        
+        
+
+
+
+        
+        <nav class="article__breadcrumbs separator"><a href="https://dl.acm.org/" class="article__tocHeading">Home</a><a href="/conferences" class="article__tocHeading">Conferences</a><a href="/conference/siggraph" class="article__tocHeading">SIGGRAPH</a><a href="/conference/siggraph/proceedings" class="article__tocHeading">Proceedings</a><a href="/doi/proceedings/10.1145/3355049" class="article__tocHeading">SA '19</a><a href="/doi/10.1145/3355049.3360534" class="article__tocHeading">PinpointFly: An Egocentric Position-pointing Drone Interface using Mobile AR</a></nav>
+
+</div>
+
+        </div>
+    
+</div>
+
+        </header>
+    
+
+
+
+
+
+
+        
+        <main class="content siggraph loi-page no-margin">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3combinedRecommendationsWidget" data-widget-id="bf2b14e9-d9dc-4518-8bb0-d9b157f47c7e" class="recommendations" data-show-id="sec-ref">
+        
+
+
+
+        
+        <div data-ajaxurl="/pb/widgets/lazyLoadRecommended?widgetId=bf2b14e9-d9dc-4518-8bb0-d9b157f47c7e&amp;doi=10.1145%2F3355049.3360534&amp;pbContext=%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3355049.3360534%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3355049%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages%3Btopic%3Atopic%3Aconference-collections%26gt%3Bsiggraph" class="recommended--lazyLoad"></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-publicationContent-widget" data-widget-id="f69d88a8-b404-4aae-83a9-9acea4426d78" class="container">
+        
+
+
+
+        
+        <article data-enable-mathjax="true" data-citationInfo="/action/acmCitationInfo?widgetId=f69d88a8-b404-4aae-83a9-9acea4426d78&ajax=true&doi=10.1145%2F3355049.3360534&pbContext=%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3355049.3360534%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3355049%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages%3Btopic%3Atopic%3Aconference-collections%26gt%3Bsiggraph" data-proceedingInfo="/action/proceedingArticleMeta?widgetId=f69d88a8-b404-4aae-83a9-9acea4426d78&ajax=true&doi=10.1145%2F3355049.3360534&pbContext=%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3355049.3360534%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3355049%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages%3Btopic%3Atopic%3Aconference-collections%26gt%3Bsiggraph"><div class="row"><div class="col-md-2 col-sm-3"></div><div class="col-md-8 col-sm-7"><div class="article-citations"><div class="citation"><div class="issue-item__citation"><span class="issue-heading">abstract </span><span class="article__access"><span></span></span></div><div class="border-bottom clearfix"><h1 class="citation__title">PinpointFly: An Egocentric Position-pointing Drone Interface using Mobile AR</h1>
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="share__block share__inline-links"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><div class="rlist--inline addthis addthis_toolbox addthis_default_style addthis_32x32_style"><a role="link" class="addthis_button_twitter"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_Twitter"></i></a><a role="link" class="addthis_button_linkedin"><i aria-hidden="true" class="at-icon-wrapper icon-linkedin"></i></a><a role="link" class="addthis_button_reddit"><i aria-hidden="true" class="at-icon-wrapper icon-riddit-filled"></i></a><a role="link" class="addthis_button_facebook"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_Facebook"></i></a><a role="link" class="addthis_button_email"><i aria-hidden="true" class="at-icon-wrapper icon-Icon_mail"></i></a><div class="pb-dropzone" data-pb-dropzone="share-additional-links" title="share-additional-links"></div></div></div>
+</div><div class="border-bottom clearfix"> <div id="sb-1"> <ul data-lines="2" ariaa-label="authors" class="rlist--inline loa truncate-list"> <li class="label"><b>Authors: </b></li> <li class="loa__item"><a id="arnd_13794201708777800_Ctrl" href="javascript:void(0);" aria-controls="arnd_13794201708777800" aria-haspopup="true" class="author-name" title="Linfeng Chen"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Linfeng Chen</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_13794201708777800" data-doi="10.1145/contrib-99659478754">Tohoku University</p></span></span></a><div id="arnd_13794201708777800" aria-labelledby="arnd_13794201708777800_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d25037755e64"></div> <div class="author-info__body"> <p data-pill-inst="d25037755e64" data-doi="10.1145/contrib-99659478754">Tohoku University</p><a href="/profile/99659478754" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_13794201709047406_Ctrl" href="javascript:void(0);" aria-controls="arnd_13794201709047406" aria-haspopup="true" class="author-name" title="Akiyuki Ebi"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Akiyuki Ebi</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_13794201709047406" data-doi="10.1145/contrib-99659478651">Tohoku University</p></span></span></a><div id="arnd_13794201709047406" aria-labelledby="arnd_13794201709047406_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d25037755e82"></div> <div class="author-info__body"> <p data-pill-inst="d25037755e82" data-doi="10.1145/contrib-99659478651">Tohoku University</p><a href="/profile/99659478651" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_13794201709288625_Ctrl" href="javascript:void(0);" aria-controls="arnd_13794201709288625" aria-haspopup="true" class="author-name" title="Kazuki Takashima"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Kazuki Takashima</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_13794201709288625" data-doi="10.1145/contrib-81351601788">Tohoku University</p></span></span></a><div id="arnd_13794201709288625" aria-labelledby="arnd_13794201709288625_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d25037755e100"></div> <div class="author-info__body"> <p data-pill-inst="d25037755e100" data-doi="10.1145/contrib-81351601788">Tohoku University</p><a href="/profile/81351601788" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_13794201709525243_Ctrl" href="javascript:void(0);" aria-controls="arnd_13794201709525243" aria-haspopup="true" class="author-name" title="Kazuyuki Fujita"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/pb-assets/icons/DOs/default-profile-1543932446943.svg" width="24" height="24" alt="" aria-hidden="true"/>Kazuyuki Fujita</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_13794201709525243" data-doi="10.1145/contrib-81442608795">Tohoku University</p></span></span></a><div id="arnd_13794201709525243" aria-labelledby="arnd_13794201709525243_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d25037755e118"></div> <div class="author-info__body"> <p data-pill-inst="d25037755e118" data-doi="10.1145/contrib-81442608795">Tohoku University</p><a href="/profile/81442608795" class="btn blue stretched">View Profile</a></div> </div><span>,</span></li> <li class="loa__item"><a id="arnd_13794201709743893_Ctrl" href="javascript:void(0);" aria-controls="arnd_13794201709743893" aria-haspopup="true" class="author-name" title="Yoshifumi Kitamura"><span class="loa__author-info"> <div class="author-data"><span class="loa__author-name"><span><img class="author-picture" src="/do/10.1145/contrib-81100273942/rel-imgonly/yk-180x120.jpg" width="24" height="24" alt="" aria-hidden="true"/>Yoshifumi Kitamura</span></span></div><span class="loa_author_inst"> <p data-pill-inst="arnd_13794201709743893" data-doi="10.1145/contrib-81100273942">Tohoku University</p></span></span></a><div id="arnd_13794201709743893" aria-labelledby="arnd_13794201709743893_Ctrl" class="author-info"> <div class="author-info__header" data-pill="d25037755e136"></div> <div class="author-info__body"> <p data-pill-inst="d25037755e136" data-doi="10.1145/contrib-81100273942">Tohoku University</p><a href="/profile/81100273942" class="btn blue stretched">View Profile</a></div> </div> </li> </ul><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-full-screen="false" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-label="<i class='icon-Icon_Information'&gt;</i&gt; Information &amp; Authors" class="loa__link w-slide__btn tab-link slide-active">Authors Info &amp; Claims </a></div> </div> <div class="border-bottom clearfix"><div class="issue-item__detail"><a href="/doi/proceedings/10.1145/3355049" title="SA '19: SIGGRAPH Asia 2019 Emerging Technologies"><span class="epub-section__title">SA '19: SIGGRAPH Asia 2019 Emerging Technologies</span></a><span class="dot-separator"><span class="epub-section__date">November 2019  </span></span><span class="dot-separator"><span class="epub-section__pagerange">Pages   34–35</span></span><span class="dot-separator"><a href="https://doi.org/10.1145/3355049.3360534" class="issue-item__doi">https://doi.org/10.1145/3355049.3360534</a></span></div></div><div class="border-bottom clearfix"><span class="bold label">Online:</span><span class="CitationCoverDate">17 November 2019</span><a href="#" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-information__content" class="publication-history-link w-slide__btn tab-link">Publication History</a></div>
+
+
+
+        
+        
+<div class="border-bottom clearfix"><div class="issue-item__footer"><div class="issue-item__footer-info pull-left"><div tabindex="0" class="tooltip"><ul title="Click to stay open" class="rlist--inline"><li><span class="citation"><i class="icon-quote"></i><span>4</span><span class="sr-only">citation</span></span></li><li><span class="metric"><i class="icon-metric"></i><span>263</span></span></li><span class="sr-only">Downloads</span></ul><div class="tooltip__body"><span class="arrow"></span><div class="left-bordered-title">Metrics</div><a href="javascript:void(0);" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-citations__content" title="See Bibliometrics &amp; Citations section" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="w-slide__btn tab-link"><div class="citation">Total Citations<span class="bold">4</span></div></a><a href="javascript:void(0);" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-tab="pill-bibliometrics__content" title="See Bibliometrics &amp; Citations section" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="w-slide__btn tab-link"><div class="metric">Total Downloads<span class="bold">263</span></div></a><div class="info">Last 12 Months<span class="bold">78</span></div><div class="info">Last 6 weeks<span class="bold">3</span></div></div></div></div><div class="issue-item__footer-links pull-right"><ul class="rlist--inline">
+
+
+
+        
+        <li role="presentation" class="article-tool"><a id="manageAlert__crtl" href="/action/addCitationAlert?doi=10.1145/3355049.3360534" role="menuitem" data-title="Get Citation Alerts" data-target="#manageAlert" class="btn--icon simple-tooltip__block--b"><i aria-hidden="true" class="icon-Icon_Alerts"></i><span class="visibility-hidden">Get Citation Alerts</span></a><div class="ux-modal-container"><div id="manageAlert" class="modal"><div class="modal__dialog"><div class="modal__dialog--success"><div class="modal__header"><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><a id="id-hatemile-navigation-6073290063892647-7" name="id-hatemile-navigation-6073290063892647-7" data-headinganchorfor="id-hatemile-navigation-6073290063892647-6" class="heading-anchor"></a><h2 id="id-hatemile-navigation-6073290063892647-6">New Citation Alert added!</h2></div><div class="modal__body"><p>This alert has been successfully added and will be sent to:<span class="email"></span></p><p>You will be notified whenever a record that you have chosen has been cited.</p></div><div class="modal__footer"><p>To manage your alert preferences, click on the button below.</p><a href="/action/showPreferences?menuTab=Alerts" title="Manage my Alerts" id="id-hatemile-display-1019331959102511-5" class="btn blue big stretched manageAlert__btn"><span data-attributetitleof="id-hatemile-display-1019331959102511-5" class="force-read-before">Manage my Alerts</span></a></div></div><div class="modal__dialog--error"><div class="modal__header"><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><a id="id-hatemile-navigation-6073290063892647-9" name="id-hatemile-navigation-6073290063892647-9" data-headinganchorfor="id-hatemile-navigation-6073290063892647-8" class="heading-anchor"></a><h2 id="id-hatemile-navigation-6073290063892647-8">New Citation Alert!</h2></div><div class="modal__body"><p>Please <a href="/action/showLogin?redirectUri=/doi/10.1145/3355049.3360534" title="Sign In" class="link">log in to your account</a></p></div></div></div></div></div></li>
+<li role="presentation" class="article-tool"><a href="javascript:void(0)" role="menuitem" data-title="Save to Binder" data-db-target-for="save-to-binder" data-link="/action/binderList?doi=10.1145/3355049.3360534" class="btn--icon simple-tooltip__block--b saveToBinders"><i aria-hidden="true" class="icon-add-folder"></i><span class="visibility-hidden">Save to Binder</span></a><div data-db-target-of="save-to-binder"><div class="saveToBinders-list"><input type="hidden" name="doiVal" value="10.1145/3355049.3360534"/><h5>Save to Binder</h5><div class="binder-list-alerts"></div><div class="saveToBinders-list__container"><ul class="rlist saveToBinders-list__items"><div class="loader"><img src="/specs/products/acm/releasedAssets/images/loader.gif"/></div></ul></div><div class="binder__create"><a data-action="show" href="/action/showMyBinders" title="Create a New Binder" class="show-binder-form toggle-binder-form"><i class="icon-plus-light"></i>Create a New Binder</a><div class="binder-create-form binder__create-mini-form"><div class="input-group input-group--gray-bg"><label>Name</label><div class="input-group__field-container--right-icon"><input type="text" placeholder="My new Binder" name="binderName" data-maxChar="256" class="binder-create-form__name charCount__text form-control"/><span class="input-group-addon input-group-addon--right"><span class="charLimit"></span></span></div></div><div><ul class="rlist--inline binder__create-btns-container"><li><button type="reset" value="Cancel" data-action="hide" class="toggle-binder-form btn btn--border-less btn transparent binder__create-cancel">Cancel</button></li><li class="pull-right"><button type="submit" value="Create Binder" disabled="disabled" data-append-newbinder-link="/action/createBinder" class="btn btn--no-margin blue big binder__create-submit binder-create-form__create"><i aria-hidden="true" class="icon-plus-light"></i>Create</button></li></ul></div></div></div></div></div></li><li role="presentation" class="article-tool"><a href="/" role="menuitem" data-title="Export Citation" data-toggle="modal" data-target="#exportCitation" class="btn--icon simple-tooltip__block--b"><i aria-hidden="true" class="icon-quote"></i><span class="visibility-hidden">Export Citation</span><input type="hidden" name="doiVal" value="10.1145/3355049.3360534"/></a></li><li class="publisher-site article-tool"><a href="#" class="btn blue"><span>Publisher Site</span><i aria-hidden="true" class="icon-export"></i></a></li></ul><ul class="rlist--inline right"><input type="hidden" id="formatsCount" value="3"/><li><a href="javascript:void(0);" data-slide-target="#pill-access" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-get-access&quot;&gt;&lt;/i&gt;Get Access" title="Get Access" class="get-access w-slide__btn"><i class="icon-get-access"></i><span>Get Access</span></a></li></ul></div></div></div></div></div></div><div class="col-sm-2"></div></div><div class="row"><div class="col-md-2 col-sm-3 sidebar-section article-sidebar-section"><div class="article__sections"><div class="sections-box"><div><div class="sections-box__static-items"><div class="parent-item"><h5 class="parent-item__title"><a href="/doi/proceedings/10.1145/3355049" data-lines="2" data-title="SA '19: SIGGRAPH Asia 2019 Emerging Technologies" class="simple-tooltip__inline--r truncate-text-css">SA '19: SIGGRAPH Asia 2019 Emerging Technologies</a></h5><span href="/doi/proceedings/10.1145/3355049" data-lines="2" data-title="PinpointFly: An Egocentric Position-pointing Drone Interface using Mobile AR" class="parent-item__subtitle simple-tooltip__inline--r truncate-text-css">PinpointFly: An Egocentric Position-pointing Drone Interface using Mobile AR</span><div class="pageRange">Pages   34–35</div></div>
+
+
+
+        
+        <div class="content-navigation clearfix"><a href="/doi/10.1145/3355049.3360538" title="Previous item in TOC" class="content-navigation__btn--pre "><span><i class="icon-Arrow-Stroke"></i></span><span class="control">Previous</span><span class="type">Chapter</span></a><a href="/doi/10.1145/3355049.3360518" title="Next item in TOC" class="content-navigation__btn--next "><span class="control">Next</span><span class="type">Chapter</span><span><i class="icon-Arrow-Stroke"></i></span></a></div>
+</div><div class="sections-block scroll-to-target"></div></div><div class="logo"><img src="/specs/products/acm/releasedAssets/images/footer-logo1.png" alt="ACM Digital Library" title="ACM Digital Library"/></div></div></div></div><div class="col-md-8 col-sm-7 sticko__side-content"><div class="stickybar__original__position"></div><nav class="stickybar coolBar trans visible-xs visible-sm"><div class="stickybar__wrapper coolBar__wrapper clearfix"><div class="coolBar__section"><a id="article_Ctrl" href="#" data-db-target-for="article-sec_Pop" role="button" aria-expanded="false" class="coolBar__ctrl"><i class="icon-burger"></i></a><div id="article_Pop" data-db-target-of="article-sec_Pop" aria-hidden="true" class="coolBar__drop fixed rlist"><div data-target=".article__sections" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></div><div data-target=".pill-section .pill-list" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></nav><div class="article__body"><!-- abstract content --><div class="hlFld-Abstract"><div class="article__section article__abstract hlFld-Abstract"><div class="colored-block__title"><h2 id="d25037786e1" class="section__title left-bordered-title">ABSTRACT</h2></div><div class="abstractSection abstractInFull">
+		<p>We propose PinpointFly, an egocentric drone interface that allows users to arbitrarily position and rotate a flying drone using position control interactions on a see-through mobile AR where the position and direction of the drone are visually enhanced with a virtual cast shadow. Unlike traditional speed control methods, users hold a smartphone and precisely edit the drone’s motions and directions by dragging the cast shadow or a slider bar on the touchscreen.</p>
+	</div></div></div><!-- /abstract content --><div class="pb-dropzone" data-pb-dropzone="pubContentAccessDenialDropzone"><!-- Empty dropzone --></div><div class="article__section article__references show-more-items" data-sectionname="References"><p class="explanation__text"></p><div class="colored-block__title"><h2 id="sec-ref" class="section__title left-bordered-title">
+                    References
+                </h2></div><ol class="rlist references__list references__numeric"><li id="ref-00001" class="&#xA;                references__item&#xA;            "><span class="references__note">Yu-An Chen, Mike&nbsp;Y. Chen, Te-Yen Wu, Tim Chang, Jun&nbsp;You Liu, Yuan-Chang Hsieh, Leon&nbsp;Yulun Hsu, Ming-Wei Hsu, Paul Taele, and Neng-Hao Yu. 2018. ARPilot: Designing and Investigating AR Shooting Interfaces on Mobile Devices for Drone Videography. In Proceedings of MobileHCI ’18. 42:1–42:8.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Yu-An+Chen%2C+Mike%C2%A0Y.+Chen%2C+Te-Yen+Wu%2C+Tim+Chang%2C+Jun%C2%A0You+Liu%2C+Yuan-Chang+Hsieh%2C+Leon%C2%A0Yulun+Hsu%2C+Ming-Wei+Hsu%2C+Paul+Taele%2C+and+Neng-Hao+Yu.+2018.+ARPilot%3A+Designing+and+Investigating+AR+Shooting+Interfaces+on+Mobile+Devices+for+Drone+Videography.+In+Proceedings+of+MobileHCI+%E2%80%9918.+42%3A1%E2%80%9342%3A8."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/3229434.3229475" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00002" class="&#xA;                references__item&#xA;            "><span class="references__note">Sergio Garrido-Jurado, Rafael Muñoz-Salinas, Francisco Madrid-Cuevas, and Rafael Medina-Carnicer. 2015. Generation of fiducial marker dictionaries using Mixed Integer Linear Programming. Pattern Recognition 51 (10 2015).<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Sergio+Garrido-Jurado%2C+Rafael+Mu%C3%B1oz-Salinas%2C+Francisco+Madrid-Cuevas%2C+and+Rafael+Medina-Carnicer.+2015.+Generation+of+fiducial+marker+dictionaries+using+Mixed+Integer+Linear+Programming.+Pattern+Recognition+51+%2810+2015%29."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00003" class="&#xA;                references__item&#xA;            "><span class="references__note">Shunichi Kasahara, Ryuma Niiyama, Valentin Heun, and Hiroshi Ishii. 2013. exTouch: Spatially-aware Embodied Manipulation of Actuated Objects Mediated by Augmented Reality. In Proceedings of the 7th International Conference on Tangible, Embedded and Embodied Interaction(TEI ’13). ACM, 223–228. https://doi.org/10.1145/2460625.2460661<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Shunichi+Kasahara%2C+Ryuma+Niiyama%2C+Valentin+Heun%2C+and+Hiroshi+Ishii.+2013.+exTouch%3A+Spatially-aware+Embodied+Manipulation+of+Actuated+Objects+Mediated+by+Augmented+Reality.+In+Proceedings+of+the+7th+International+Conference+on+Tangible%2C+Embedded+and+Embodied+Interaction%28TEI+%E2%80%9913%29.+ACM%2C+223%E2%80%93228.+https%3A%2F%2Fdoi.org%2F10.1145%2F2460625.2460661"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span><span class="references__suffix"><a href="/doi/10.1145/2460625.2460661" target="_blank"><span class="visibility-hidden">Digital Library</span><img class="simple-tooltip__block--b" data-title="Digital Library" alt="Digital Library" src="/templates/jsp/_ux3/_acm/images/DL_icon.svg"></img></a></span></span></li><li id="ref-00004" class="&#xA;                references__item&#xA;            "><span class="references__note">Kiam Heong Ang, G. Chong, and Yun Li. 2005. PID control system analysis, design, and technology. IEEE Transactions on Control Systems Technology 13, 4 (July 2005), 559–576.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Kiam+Heong+Ang%2C+G.+Chong%2C+and+Yun+Li.+2005.+PID+control+system+analysis%2C+design%2C+and+technology.+IEEE+Transactions+on+Control+Systems+Technology+13%2C+4+%28July+2005%29%2C+559%E2%80%93576."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00005" class="&#xA;                references__item&#xA;            "><span class="references__note">Francisco Romero-Ramirez, Rafael Muñoz-Salinas, and Rafael Medina-Carnicer. 2018. Speeded Up Detection of Squared Fiducial Markers. Image and Vision Computing 76 (06 2018). https://doi.org/10.1016/j.imavis.2018.05.004<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Francisco+Romero-Ramirez%2C+Rafael+Mu%C3%B1oz-Salinas%2C+and+Rafael+Medina-Carnicer.+2018.+Speeded+Up+Detection+of+Squared+Fiducial+Markers.+Image+and+Vision+Computing+76+%2806+2018%29.+https%3A%2F%2Fdoi.org%2F10.1016%2Fj.imavis.2018.05.004"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00006" class="&#xA;                references__item&#xA;            "><span class="references__note">K. Yonezawa and T. Ogawa. 2015. Flying robot manipulation system using a virtual plane. In 2015 IEEE Virtual Reality (VR). 313–314. https://doi.org/10.1109/VR.2015.7223421<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=K.+Yonezawa+and+T.+Ogawa.+2015.+Flying+robot+manipulation+system+using+a+virtual+plane.+In+2015+IEEE+Virtual+Reality+%28VR%29.+313%E2%80%93314.+https%3A%2F%2Fdoi.org%2F10.1109%2FVR.2015.7223421"target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li><li id="ref-00007" class="&#xA;                references__item&#xA;            "><span class="references__note">Shumin Zhai. 2002. Human Performance in Six Degree of Freedom Input Control.<span class="references__suffix"><a class="google-scholar" href="http://scholar.google.com/scholar?hl=en&q=Shumin+Zhai.+2002.+Human+Performance+in+Six+Degree+of+Freedom+Input+Control."target="_blank"><span class="visibility-hidden">Google Scholar</span><img src="/specs/products/acm/images/googleScholar.svg" class="simple-tooltip__block--b" alt="Google Scholar"/></a></span></span></li></ol></div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3TagWidget" data-widget-id="2a75f978-170a-4843-8722-e878a1b77fbc" class="citation article__section article__index-terms">
+        
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="4ca2ed65-717e-4e67-bbb5-6578b8c6acac" class="colored-block__title">
+        
+
+
+
+        
+        <h2 id="sec-terms" style="display: inline-block" class="section__title left-bordered-title">Index Terms</h2><span> (auto-classified)</span>
+
+        </div>
+    
+
+<ol class="rlist organizational-chart"><li><h6>PinpointFly: An Egocentric Position-pointing Drone Interface using Mobile AR</h6><ol class="rlist level-1  ch-1"><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10010147?ContentGroupKey=10.1145%2F3355049&amp;expand=all">Computing methodologies</a></p></div><ol class="rlist level-2 ch-1 hasNodes"><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10010147.10010371?ContentGroupKey=10.1145%2F3355049&amp;expand=all">Computer graphics</a></p></div><ol class="rlist level-3 ch-1 hasNodes"><li><div data-background="#808080" style="background-color:#808080;box-shadow:none"><p><a href="/topic/ccs2012/10010147.10010371.10010387?ContentGroupKey=10.1145%2F3355049&amp;expand=all">Graphics systems and interfaces</a></p></div><ol class="rlist level-4 ch-0"></ol></li></ol></li></ol></li></ol></li></ol>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="91639479-279a-46e3-b7c7-f902a3fd7945" class="toc__section accordion-tabbed__tab">
+        
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3RelatedDigitalObject" data-widget-id="98838540-5c38-436f-9b98-0e292765fbe4" class="accordion-tabbed__content">
+        
+
+
+
+        
+        
+
+        </div>
+    
+
+
+        </div>
+    
+
+
+
+
+        
+        <div class="article__section article__comments">
+
+
+
+        
+        <div class="colored-block__title"> <h2 id="sec-comments" class="section__title left-bordered-title">Comments</h2> </div>
+
+
+
+
+        
+        <div id="disqus_thread"></div><a href="https://dl.acm.org/doi/10.1145/3355049.3360534#disqus_thread" class="disqus-count hidden"></a><script>var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = '10.1145/3355049.3360534';
+    this.page.remote_auth_s3 = '';
+    this.page.api_key = 'MmWj4FlWmXk20FJsmWMXbTJoZT7TVzTsc9Rw0yrJp3L1ZNXZuvmxF3F5rFIF8RqQ';
+};
+(function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://acm-prod.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();</script><noscript>Please enable JavaScript to view the<a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript><script id="dsq-count-scr" src="//acm-prod.disqus.com/count.js" async=""></script>
+</div>
+</div><div class="pill-content"><div id="pill-access"><div class="pill-access__content">
+
+
+
+        
+        <div class="pill-access__content"><div class="section__separator"><h3 class="left-bordered-title">Login options</h3><div class="section__content"><p class="info--text">Check if you have access through your login credentials or your institution to get full access on this article.</p><a href="/action/showLogin?redirectUri=/doi/10.1145/3355049.3360534" title="Sign in" class="btn big btn--inverse">Sign in</a></div></div><div class="section__separator"><h3 class="left-bordered-title">Full Access</h3><div class="section__content"><a href="/action/publisherEcommerceHelper?doi=10.1145/3355049.3360534&amp;redirectUri=https://dl.acm.org/doi/10.1145/3355049.3360534" title="Get this Publication" class="btn blue big">Get this Publication</a></div></div></div>
+</div></div><div id="pill-information"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-information__contentcon" href="#pill-information__content" aria-controls="pill-information__content" role="tab" data-toggle="tab" title="Information" aria-selected="true" data-simple-tab-id="" tabindex="0">Information</a></li><li role="presentation"><a id="pill-authors__contentcon" href="#pill-authors__content" aria-controls="pill-authors__content" role="tab" data-toggle="tab" title="Authors" aria-selected="false" data-simple-tab-id="" tabindex="-1">Contributors</a></li></ul><ul class="rlist tab__content"><li id="pill-information__content" aria-labelledby="pill-information__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"><div class="pill-information__content"><div class="section__separator"><h3 class="left-bordered-title">Published in</h3><div class="section__content cover-image-proceeding">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3CoverImage" data-widget-id="7b8bd09e-8112-4266-b136-2f71ab2b109c" class="left-side-image">
+        
+
+
+
+        
+        <div class="cover-image"><div class="cover-image__image"><img src="/specs/products/acm/releasedAssets/images/Default_image_lazy.svg" data-src="/specs/products/acm/releasedAssets/images/cover-default--acm-proceeding.svg" alt="ACM Conferences cover image" class="lazy"/></div><div class="cover-image__details"><div class="book-meta">SA '19: SIGGRAPH Asia 2019 Emerging Technologies</div><div class="cover-date">November 2019</div><div class="cover-pages">54  pages</div><div class="cover-image__details-extra"><div class="flex-container"><span class="bold">ISBN:</span><span class="space">9781450369428</span></div><div class="flex-container"><span class="bold">DOI:</span><span class="space">10.1145/3355049</span></div></div><div class="pb-dropzone" data-pb-dropzone="metadataDisplayExtra" title="metadataDisplayExtra"></div></div></div>
+
+        </div>
+    
+<p class="copyrights small">Copyright © 2019 Owner/Author</p></div></div><div class="section__separator proceedingInfo-sponsors hidden"><h3 class="left-bordered-title">Sponsors</h3><ul class="proceedingInfo-sponsors__list"></ul></div><div class="section__separator proceedingInfo-inCoop hidden"><h3 class="left-bordered-title">In-Cooperation</h3><ul class="proceedingInfo-inCoop__list"></ul></div><div class="section__separator"><h3 class="left-bordered-title">Publisher</h3><div class="section__content publisher"><div class="inlineBlock"></div><div class="inlineBlock"><p class="publisher__name">Association for Computing Machinery</p><p class="publisher__address">New York, NY, United States</p></div></div></div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="contentItemHistory" data-widget-id="6eba30da-4023-4f09-bb08-f98cf09d5aa0" class="section__separator">
+        
+
+
+
+        
+            <h3 class="left-bordered-title">
+                Publication History
+            </h3>
+        
+        <div class="section__content"><ul class="rlist article-chapter-history-list"><li><span class="item_label">Online:</span> 17 November 2019</li><li><span class="item_label">Published:</span> 17 November 2019</li></ul></div>
+
+        </div>
+    
+
+
+
+
+        
+        <!-- rightslink drop zone-->
+
+
+
+        
+        
+
+
+
+<div class="section__separator"><h3 class="left-bordered-title">Author Tags</h3><div class="section__content"><div class="tags-widget"><div class="tags-widget__content"><ul class="rlist--inline"><li><a href="/keyword/Targeting?expand=all" title="Targeting" class="badge-type">Targeting</a></li><li><a href="/keyword/Depth Perception?expand=all" title="Depth Perception" class="badge-type">Depth Perception</a></li><li><a href="/keyword/Visualization?expand=all" title="Visualization" class="badge-type">Visualization</a></li><li><a href="/keyword/Videography?expand=all" title="Videography" class="badge-type">Videography</a></li></ul></div></div></div></div><div class="section__separator"><h3 class="left-bordered-title">Qualifiers</h3><ul class="qualifiers__list"><li class="capitalized qualifiers__list__item">abstract</li><li class="qualifiers__list__item">Research</li><li class="qualifiers__list__item">Refereed limited</li></ul></div><div class="section__separator proceedingInfo-conference hidden"><h3 class="left-bordered-title">Conference</h3></div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3AcceptanceRatesWidget" data-widget-id="daac1568-1d03-438e-a4c9-c9df280908b7" class="section__separator">
+        
+
+
+
+        
+        <div class="acceptance-rates__section"><h2 id="acceptance-rates" aria-expanded="true" class="left-bordered-title">Acceptance Rates</h2><div class="accordion-tabbed__content"><div class="acceptance-rates__heading"><h6>Overall Acceptance Rate<span> 178 </span>of<span> 869 </span>submissions,<span> 20%</span></h6></div></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3UpcomingConferencesWidget" data-widget-id="452ce022-9919-435e-ab40-1386965a30bd" class="section__separator">
+        
+
+
+
+        
+        
+
+        </div>
+    
+<div class="section__separator funding-sources hidden"><h3 class="left-bordered-title">Funding Sources</h3><ul class="funding-list"></ul></div></div></li><li id="pill-authors__content" aria-labelledby="pill-authors__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><div class="pill-authors__content"><div class="section__separator"><div class="pill-authors-list"><div class="expandable-accordion"><div class="pill-normalized-authors">
+
+
+
+        
+        <div class="publication-contribs-contianer"><input id="ContribsAjax" type="hidden" data-ajax="/pb/widgets/getContribs?widgetId=f6c6c0f3-1b50-42bb-a7bb-1062377c12d4&amp;pbContext=%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3355049.3360534%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3355049%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages%3Btopic%3Atopic%3Aconference-collections%26gt%3Bsiggraph"/><div class="loader"><img src="/specs/products/acm/releasedAssets/images/loader.gif"/></div></div>
+</div><!--.pill-all-authors.authors-accordion.disable-truncate.hidden(aria-hidden="true")--><!--    if(data.item && data.item.contribsFull)--><!--        | !{data.item.contribsFull}--></div></div></div><div class="section__separator"><h3 class="left-bordered-title">Other Metrics</h3><div class="section__content badges"><a href="#pill-bibliometrics__contentcon" data-slide-target="#pill-metric" data-tab="pill-bibliometrics__content" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" class="btn big stretched btn--inverse w-slide__btn tab-link pill-content">View Article Metrics</a></div></div></div></li></ul></div></div><div id="pill-metric"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-bibliometrics__contentcon" href="#pill-bibliometrics__content" aria-controls="pill-bibliometrics__content" role="tab" data-toggle="tab" title="Bibliometrics" aria-selected="true" data-simple-tab-id="" tabindex="0">Bibliometrics</a></li><li role="presentation"><a id="pill-citations__contentcon" href="#pill-citations__content" data-ajaxurl="/action/ajaxShowCitedBy?widgetId=f69d88a8-b404-4aae-83a9-9acea4426d78&amp;ajax=true&amp;doi=10.1145%2F3355049.3360534&amp;pbContext=%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3355049.3360534%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3355049%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages%3Btopic%3Atopic%3Aconference-collections%26gt%3Bsiggraph" data-component="pubAjaxContent" data-ajaxtarget="#pill-citations__content .citedBy" aria-controls="pill-citations__content" role="tab" data-toggle="tab" title="Citations" aria-selected="false" data-simple-tab-id="" tabindex="-1" class="loadAjax loadLazyAjax">Citations<span class="citation-count count-bubble">4</span></a></li></ul><ul class="rlist tab__content"><li id="pill-bibliometrics__content" aria-labelledby="pill-bibliometrics__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"><div class="pill-bibliometrics__content"><div class="section__separator"><h3 class="left-bordered-title">Article Metrics</h3><div class="section__content"><ul class="rlist--inline article-metrics"><li><div class="article-metric citation"><div class="metric-value"><span>4</span></div>Total Citations</div><a href="#pill-citations__contentcon" data-tab="pill-citations__content" data-slide-target="#pill-metric" data-full-screen="false" data-ctrl-res="screen-xlg" class="primary-blue-color w-slide__btn tab-link slide-active pill-content">View Citations</a></li><li><div class="article-metric download"><div class="metric-value"><span>263</span></div>Total Downloads</div></li></ul><ul class="rlist metrics__list"><li><span class="metric-name">Downloads (Last 12 months)</span><span class="metric-value">78</span></li><li><span class="metric-name">Downloads (Last 6 weeks)</span><span class="metric-value">3</span></li></ul></div></div><div class="section__separator"><h3 class="left-bordered-title">Other Metrics</h3><div class="section__content"><a href="#pill-authors__contentcon" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-tab="pill-authors__content" data-full-screen="false" data-label="&lt;i class=&quot;icon-Icon_Information &quot;&gt;&lt;/i&gt;Information &amp; Authors" class="btn big stretched btn--inverse w-slide__btn tab-link pill-content">View Author Metrics</a></div></div></div></li><li id="pill-citations__content" aria-labelledby="pill-citations__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><div class="pill-citations__content"><div class="section__separator"><div class="header-container"><h3 class="left-bordered-title citedBy-label">Cited By</h3><a id="downloadAll" href="/action/ajaxShowCitedBy?doi=10.1145/3355049.3360534" target="_blank" title="View all cited by in new tab" class="btn btn--rounded ml-0 mt-0 mb-0 pl-2 blue pull-right">View all<i class="icon-export ml-2"></i></a><ol class="rlist references__list citedBy mt-5"></ol></div></div></div></li></ul></div></div><div id="pill-formats"><div class="pill-formats__content"><div class="section__separator"><h3 class="left-bordered-title">PDF Format</h3><div class="section__content"><p class="info--text">View or Download as a PDF file.</p><a href="/doi/pdf/10.1145/3355049.3360534" title="View or Download as a PDF file" class="btn big stretched red"><i aria-hidden="true" class="icon-pdf-file"></i>PDF</a></div></div><div class="section__separator"><h3 class="left-bordered-title">eReader</h3><div class="section__content"><p class="info--text">View online with eReader.</p><a href="/doi/epdf/10.1145/3355049.3360534" title="View online with eReader" class="btn big stretched blue no-margin-top w-slide__btn pill-content"><i aria-hidden="true" class="icon-eReader"></i>eReader</a></div></div><div class="section__separator de-format hidden"><h3 class="left-bordered-title">Digital Edition</h3><div class="section__content"><p class="info--text">View this article in digital edition.</p><a href="#" title="View Digital Edition" class="btn big stretched blue"><i aria-hidden="true" class="icon-open-book"></i>View Digital Edition</a></div></div><div class="section__separator"><h3 class="left-bordered-title">HTML Format </h3><div class="section__content"><p class="info--text">View this article in HTML Format .</p><a href="/doi/fullHtml/10.1145/3355049.3360534" title="ViewHTML Format " class="btn big stretched blue"><i aria-hidden="true" class="icon-html"></i>View HTML Format </a></div></div></div></div><div id="pill-references"><div class="pill-references__content"></div></div><div id="pill-media"><div class="tab tab--flex"><ul role="tablist" class="rlist tab__nav"><li role="presentation" class="active"><a id="pill-fig__contentcon" href="#pill-fig__content" aria-controls="pill-fig__content" role="tab" data-toggle="tab" title="Figures" aria-selected="true" data-simple-tab-id="" tabindex="0">Figures</a></li><li role="presentation"><a id="pill-media__contentcon" href="#pill-media__content" aria-controls="pill-media__content" role="tab" data-toggle="tab" title="Other" aria-selected="false" data-simple-tab-id="" tabindex="-1">Other</a></li></ul><div class="pill-figures__content"><ul class="rlist tab__content"><li id="pill-fig__content" aria-labelledby="pill-fig__contentcon" role="tabpanel" aria-hidden="false" tabindex="0" class="tab__pane active"></li><li id="pill-media__content" aria-labelledby="pill-media__contentcon" role="tabpanel" aria-hidden="true" class="tab__pane"><ul class="rlist pill-media__content"></ul></li></ul></div></div></div><div id="pill-tables"><div class="pill-tables__content"></div></div><div id="pill-share"><div class="pill-share__content"><div class="section__separator"><h3 class="left-bordered-title">Share this Publication link</h3><div class="section__content copy__text-wrapper"><fieldset><p id="shareable-link__text" class="copy__text">https://dl.acm.org/doi/10.1145/3355049.3360534</p><button type="submit" class="btn big btn--inverse copy__btn"><i aria-hidden="true" class="icon-pages"></i>Copy Link</button></fieldset></div></div><div class="section__separator"><h3 class="left-bordered-title">Share on Social Media</h3><div class="section__content"><div class="visible-service-name">
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><div class="share__block share__inline-links"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><div class="rlist--inline addthis addthis_toolbox addthis_default_style addthis_32x32_style"><a role="link" class="addthis_button_twitter"></a><a role="link" class="addthis_button_linkedin"></a><a role="link" class="addthis_button_reddit"></a><a role="link" class="addthis_button_facebook"></a><a role="link" class="addthis_button_email"></a><div class="pb-dropzone" data-pb-dropzone="share-additional-links" title="share-additional-links"></div></div></div>
+</div></div></div></div></div></div></div><div class="col-sm-2 pill-section"><div data-stop-on=".more-issue__section" class="pill-icons"><ul class="rlist pill-list"><li title="Information &amp; Authors"><a href="javascript:void(0);" data-slide-target="#pill-information" data-ctrl-res="screen-xlg" data-full-screen="false" title="Information and Authors" data-label="&lt;i class=&quot;icon-Icon_Information&quot;&gt;&lt;/i&gt;Information &amp; Authors" class="w-slide__btn pill-information"><i aria-hidden="true" class="icon-Icon_Information"></i></a></li><li title="Bibliometrics &amp; Citations"><a href="javascript:void(0);" data-slide-target="#pill-metric" data-ctrl-res="screen-xlg" data-full-screen="false" data-label="&lt;i class=&quot;icon-metric &quot;&gt;&lt;/i&gt;Bibliometrics &amp; Citations" title="Bibliometrics and Citations" class="w-slide__btn pill-metric"><i aria-hidden="true" class="icon-metric"></i></a></li><li title="Get Access"><a href="javascript:void(0);" data-slide-target="#pill-access" data-ctrl-res="screen-xlg" data-full-screen="false" title="Get Access" data-label="&lt;i class=&quot;icon-get-access&quot;&gt;&lt;/i&gt;Get Access" class="w-slide__btn pill-access"><i class="icon-get-access"></i></a></li><li title="References"><a href="javascript:void(0);" data-slide-target="#pill-references" data-ctrl-res="screen-xlg" data-full-screen="false" title="References" data-label="&lt;i class=&quot;icon-Icon_Links-References&quot;&gt;&lt;/i&gt;References" class="w-slide__btn pill-references"><i aria-hidden="true" class="icon-Icon_Links-References"></i><span class="refNum count-bubble">0<span class="sr-only">References</span></span></a></li><li title="Media"><a href="javascript:void(0);" data-slide-target="#pill-media" data-ctrl-res="screen-xlg" data-full-screen="false" title="Media" data-label="&lt;i class=&quot;icon-Icon_Images&quot;&gt;&lt;/i&gt;Media" data-ajaxtarget="#pill-fig__content" data-component="pubAjaxContent" data-action="onResponse" data-ajaxurl="/action/ajaxShowFigures?widgetId=f69d88a8-b404-4aae-83a9-9acea4426d78&amp;ajax=true&amp;doi=10.1145%2F3355049.3360534&amp;pbContext=%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3355049.3360534%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3355049%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages%3Btopic%3Atopic%3Aconference-collections%26gt%3Bsiggraph" class="w-slide__btn loadAjax-auto pill-media"><i aria-hidden="true" class="icon-Icon_Images"></i></a></li><li title="Tables"><a href="javascript:void(0);" data-slide-target="#pill-tables" data-ctrl-res="screen-xlg" title="Tables" data-full-screen="false" data-label="&lt;i class=&quot;icon-table&quot;&gt;&lt;/i&gt;Tables" data-ajaxtarget=".pill-tables__content" data-component="pubAjaxContent" data-action="onResponse" data-ajaxurl="/action/ajaxShowTables?widgetId=f69d88a8-b404-4aae-83a9-9acea4426d78&amp;ajax=true&amp;doi=10.1145%2F3355049.3360534&amp;pbContext=%3Barticle%3Aarticle%3Adoi%5C%3A10.1145%2F3355049.3360534%3Btaxonomy%3Ataxonomy%3Aconference-collections%3Bwgroup%3Astring%3AACM+Publication+Websites%3BgroupTopic%3Atopic%3Aacm-pubtype%26gt%3Bproceeding%3Bctype%3Astring%3ABook+Content%3Bpage%3Astring%3AArticle%2FChapter+View%3BsubPage%3Astring%3AAbstract%3Bcsubtype%3Astring%3AConference+Proceedings%3Bwebsite%3Awebsite%3Adl-site%3Bissue%3Aissue%3Adoi%5C%3A10.1145%2F3355049%3Bjournal%3Ajournal%3Aacmconferences%3BpageGroup%3Astring%3APublication+Pages%3Btopic%3Atopic%3Aconference-collections%26gt%3Bsiggraph" class="w-slide__btn loadAjax-auto pill-tables"><i aria-hidden="true" class="icon-table"></i></a></li><li title="Share"><a href="javascript:void(0);" data-slide-target="#pill-share" data-ctrl-res="screen-xlg" data-full-screen="false" title="Share" data-label="&lt;i class=&quot;icon-Icon_Share&quot;&gt;&lt;/i&gt;Share" class="w-slide__btn pill-share pill-content"><i aria-hidden="true" class="icon-Icon_Share"></i></a></li></ul></div></div></div></article><div id="figure-viewer" data-ux3-wrapper="figure-viewer" data-ux3-transformed-by="figureInit" data-ux3-role="parent" role="dialog" class="figure-viewer"><div class="figure-viewer__reg__top clearfix"><div class="figure-viewer__top__right"><a title="Zoom In" href="#" class="figure-viewer__ctrl figure-viewer__ctrl__zoom zoomSetting"><div aria-hidden="true" class="icon-zoom-in zoom-in"></div></a><a title="Zoom Out" href="#" class="figure-viewer__ctrl figure-viewer__label__zoom zoomSetting"><div aria-hidden="true" class="icon-zoom-out zoom-out"></div></a><a title="Open Caption" href="#" class="figure-viewer__ctrl figure-viewer__ctrl__caption"><i aria-hidden="true" class="icon-Icon_Information"></i></a><a href="#" data-ux3-role="controller" role="button" title="close" class="figure-viewer__ctrl figure-viewer__ctrl__close"><i aria-hidden="true" class="icon-cancel-bold"><span class="sr-only">Close Figure Viewer</span></i></a></div><h4 class="figure-viewer__top__center"></h4><div class="figure-viewer__top__left"><a href="#" role="button" title="Browse All" class="figure-viewer__ctrl__browse"><i aria-hidden="true" class="icon-grid-3"><span class="sr-only">Browse All</span></i></a><a href="#" role="button" title="Return" class="figure-viewer__ctrl__return is-hidden"><i aria-hidden="true" class="icon-cancel-bold"><span class="sr-only">Return</span></i></a><span class="zoomSlider js__zoom-slider ui-slider zoomSetting"><label for="figure-viewer__zoom-range" class="sr-only">Change zoom level</label><input type="range" id="figure-viewer__zoom-range" class="zoom-range"/></span></div></div><div class="figure-viewer__reg__center"><div class="figure-viewer__cent__left"><div class="figure-viewer__hold__fig"><div class="holder"></div></div><div class="figure-viewer__hold__list"><h3 class="figure-viewer__browse-title"></h3><div class="flex-grid"></div></div></div><div class="figure-viewer__cent__right"><div class="figure-viewer__caption-header"><h3 class="figure-viewer__caption-label">Caption</h3><a title="Close Caption" href="#" class="pull-right figure-viewer__close-caption figure-viewer__ctrl__caption"><i aria-hidden="true" class="icon-cancel-bold"></i></a></div><div class="figure-viewer__caption-wrapper"><div class="figure-viewer__title"><span class="figure-viewer__title__text"></span></div><div class="figure-viewer__hold__figcap"></div></div></div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="separated-block--dashed align-center"><a href="/doi/proceedings/10.1145/3355049" style="text-transform: capitalize;" class="btn btn--inverse big">View Table of Contents</a></div>
+
+
+
+
+        
+        <div class="ux-modal-container"><div id="exportCitation" class="modal"><div class="modal__dialog"><div class="modal__header"><button type="button" data-dismiss="modal" class="close"><i aria-hidden="true" class="icon-close_thin"></i></button><h2>Export Citations</h2></div><div class="modal__body"><div class="exportCitation__tabs"><div class="tab"><ul role="tablist" class="rlist tab__nav"></ul></div><div class="csl-wrapper copy__text-wrapper"><form action="/action/exportCiteProcCitation" method="post" target="_blank"><input type="hidden" name="content" value=""/><input type="hidden" name="dois" value=""/><input type="hidden" name="format" value=""/><fieldset class="input-group"><label for="citation-format" class="visibility-hidden">Select Citation format</label><select id="citation-format" data-csl-doi="10.1145/3355049.3360534"><option value="bibtex" data-format="bibTex">BibTeX</option><option value="endNote" data-format="endNote">EndNote</option><option value="acm" data-format="text">ACM Ref</option></select><span class="select-arrow"><i class="icon-bottom-arrow"></i></span></fieldset><ul class="rlist tab__content"><li id="selectedTab" aria-labelledby="selected" role="tabpanel" class="tab__pane active"><div class="csl-wrapper copy__text-wrapper"><pre class="copy__text csl-response"></pre><div id="export-warning"></div><div class="pull-right"><ul class="rlist--inline separator"><li><a href="javascript:void(0)" role="menuitem" title="Download citation" class="download__btn disabled"><label class="visibility-hidden">Download citation</label><i aria-hidden="true" class="icon-Icon_Download"></i></a></li><li><a href="javascript:void(0)" role="menuitem" title="Copy citation" class="copy__btn disabled"><label class="visibility-hidden">Copy citation</label><i aria-hidden="true" class="icon-pages"></i><input type="hidden" id="doisLimitNumber" value="-1"/></a></li></ul></div></div></li><li id="allResultstab" aria-labelledby="allResults" role="tabpanel" class="tab__pane"><div class="all-results-tab-container"><div class="desc-text"><div class="bold">Preview is not available.</div>By clicking download,<b class="ml-1">a new tab</b> will open to start the export process. The process may take<b class="ml-1">a few minutes</b> but once it finishes a file will be downloaded on your browser so<b class="ml-1">please do not close the new tab.</b></div><a href="#" title="Download" target="_blank" class="btn transparent downloadBtn"><i aria-hidden="true" class="icon-Icon_Download"></i>Download<i aria-hidden="true" class="icon-export"></i></a></div></li></ul></form></div></div></div></div></div></div>
+</main>
+
+
+
+
+        
+        <footer class="footer">
+
+
+
+        
+        <div class="back-to-top clearfix">
+    <i class="icon-arrow_u_p"></i>
+</div>
+
+
+
+
+        
+        <div class="footer-top">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="81a18a14-d709-41fd-9bb6-25a7fc1e13df" class="container">
+        
+
+
+
+        
+        <div class="row sitemap">
+
+
+
+        
+        <div class="col-sm-2 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="5b00ef28-f63b-4518-bd06-da82035f86ca" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">Categories</div>
+<ul class="rlist">
+    <li><a href="/journals" title="Browse a listing of ACM’s Journals">Journals</a></li>
+    <li><a href="/magazines" title="Browse ACM's Magazines">Magazines</a></li>
+    <li><a href="/acmbooks" title="Browse new Releases of ACM Books">Books</a></li>
+    <li><a href="/proceedings" title="Browse the ACM Proceedings">Proceedings</a></li>
+    <li><a href="/sigs" title="Browse the Special Interest Groups">SIGs</a></li>
+    <li><a href="/conferences" title="Browse the Conferences">Conferences</a></li>
+    <li><a href="/collections" title="Browse the Special Collections">Collections</a></li>
+    <li><a href="/people" title="Discover ACM’s community of authors">People</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-4 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="731f98d3-e996-490d-a071-e9b966b32e2d" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">About</div>
+<ul class="rlist">
+    <li><a href="/about">About ACM Digital Library</a></li>
+    <li><a href="/about/access" title="Accessing the DL">Subscription Information</a></li>
+    <li><a href="https://www.acm.org/publications/authors/information-for-authors" title="Information for Authors">Author Guidelines</a></li>
+    <li><a href="/about/access" title="Accessing the DL">Using ACM Digital Library</a></li>
+    <li><a href="/about/content#sec2">All Holdings within the ACM Digital Library</a></li>
+    <li><a href="/ccs" title="Classify publications using ACM's Computing Classification System">ACM Computing Classification System</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-3 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="d4ed040d-22e8-481c-a7ef-0cac141f5246" class="sitemap__data">
+        
+
+
+
+        
+        <div class="bold" style="margin-bottom: 18px;">Join</div>
+<ul class="rlist">
+    <li><a href="https://www.acm.org/membership/join">Join ACM</a></li>
+    <li><a href="https://www.acm.org/special-interest-groups/join">Join SIGs</a></li>
+    <li><a href="https://www.acm.org/publications/subscribe">Subscribe to Publications</a></li>
+    <li><a href="https://libraries.acm.org/">Institutions and Libraries</a></li>
+</ul>
+
+        </div>
+    
+</div><div class="col-sm-3 col-xs-6 sitemap__column">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="4a649bf1-cf3f-472c-b764-dc3ab0cf4310" class="sitemap__data">
+        
+
+
+
+        
+        <b>Connect</b>
+<ul class="rlist social-media__connect">
+    <li><a href="/cdn-cgi/l/email-protection#7d19115009181c103d150c531c1e1053120f1a" title="email dl team"><i class="icon-Icon_mail" aria-hidden="true"></i><span>Contact</span></a></li>
+    <li><a href="https://www.facebook.com/AssociationForComputingMachinery/" title="ACM on facebook"><i class="icon-facebook" aria-hidden="true"></i><span>Facebook</span></a></li>
+    <li><a href="https://twitter.com/acmdl" title="Tweets from ACM DL"><i class="icon-twitter" aria-hidden="true"></i><span>Twitter</span></a></li>
+    <li><a href="https://www.linkedin.com/company/association-for-computing-machinery/" title="acm  linkedin"><i class="icon-linkedin" aria-hidden="true"></i><span>Linkedin</span></a></li>
+    <!--li><a href="#" title="icon-Rss"><i class="icon-Rss" aria-hidden="true"></i><span>RSS</span></a></li-->
+</ul>
+
+        </div>
+    
+</div>
+</div>
+
+        </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="6e6da9b7-371e-4ea0-827e-8de5915b8cd5" class="footer-bottom text-onDark">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class="col-md-8 col-sm-6 footer__copyright-wrapper">
+
+
+
+        
+        <div class="copyright">The ACM Digital Library is published by the Association for Computing Machinery. Copyright © 2022 ACM, Inc.</div>
+<ul class="rlist--inline">
+    <li><a href="https://libraries.acm.org/digital-library/policies#anchor3">Terms of Usage</a></li>
+    <li><a href="https://www.acm.org/about-acm/privacy-policy">Privacy Policy</a></li>
+    <li><a href="https://www.acm.org/code-of-ethics">Code of Ethics</a></li>
+</ul>
+</div><div class="col-md-4 col-sm-6 footer__logos-wrapper">
+
+
+
+        
+        <div class="logos">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="42d543b3-ff9d-4f92-bf03-6d1fa00da8c6" class="footer__logo1">
+        
+
+
+
+        
+        <a href="/" title="ACM Digital Library home"><img id="" alt="ACM Digital Library home" src="/specs/products/acm/releasedAssets/images/acm-logo-dl.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="5a0bc5df-cd95-408f-8ae5-8b1f40746519" class="footer__logo2">
+        
+
+
+
+        
+        <a href="https://www.acm.org" title="ACM home"><img id="" alt="ACM home" src="/specs/products/acm/releasedAssets/images/acm-logo-3.png"/></a>
+
+        </div>
+    
+</div>
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <!-- Mopinion Pastea.se  start --><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">(function(){var id="7zt4vp6rxi2bbpxuy9yzabob4fy2enwmumr";var js=document.createElement("script");var pbBtn=document.querySelector('.admin-bar-disclosure');if(!window.PB){js.setAttribute("src","//deploy.mopinion.com/js/pastease.js");document.getElementsByTagName("head")[0].appendChild(js);var t=setInterval(function(){try{new Pastease.load(id);clearInterval(t)}catch(e){}},50)}})();
+    </script><!-- Mopinion Pastea.se end -->
+</footer>
+
+
+
+
+        
+        <script type="text/javascript">
+(function(h,o,t,j,a,r){
+    h.hj=h.hj||function()
+    
+    {(h.hj.q=h.hj.q||[]).push(arguments)}
+    ;
+    h._hjSettings={hjid:1290436,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+
+
+        
+        <script type="text/javascript">
+    (function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {elements_selector: ".lazy", "class_loaded": "image-lazy-loaded"};
+    b.appendChild(s);
+}(window, document));
+</script>
+
+
+
+
+        
+        
+
+
+
+
+        
+        <div class="cookiePolicy-popup"><div class="cookiePolicy-popup__header"><i aria-hidden="true" class="icon-cookie"></i><h5 class="cookiePolicy-popup__title">About Cookies On This Site</h5></div><div class="cookiePolicy-popup__body clearfix"><p><p>We use cookies to ensure that we give you the best experience on our website.</p>
+<p><a href="https://www.acm.org/privacy-policy" class="blue link">Learn more</a></p></p><a href="#" class="btn blue cookiePolicy-popup__close pull-right">Got it!</a></div></div>
+
+
+
+
+        
+        
+
+
+
+        
+    
+
+        </div>
+    </div>
+
+
+	
+    <script>if (typeof define !== 'undefined' && define.amd)
+    define.amd = false</script><script src="/products/acm/releasedAssets/js/main.bundle-2fb189a235237e8822f2.js"></script><script>(function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script");
+    var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+    s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+    s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+    w.lazyLoadOptions = {elements_selector: ".lazy", "class_loaded": "image-lazy-loaded"};
+    b.appendChild(s);
+}(window, document));</script>
+<script type="text/javascript" src="/wro/kz8c~product.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(() => setTimeout(() => {
+            let _bnw=window,_bna=atob("bG9jYXRpb24="),_bnb=atob("b3JpZ2lu"),_hn=_bnw[_bna][_bnb],_bnt=btoa(_hn+new Array(5 - _hn.length % 4).join(" "));
+            $.get("/resource/lodash?t="+_bnt);
+        },4000));
+    </script>
+
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6e0d15a3f8eb0d9c","token":"b7f168b3cd354a55a4dd51b513830799","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
