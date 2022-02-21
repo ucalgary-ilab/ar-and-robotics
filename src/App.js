@@ -53,7 +53,7 @@ class App extends Component {
                   let s = String(i + 1)
                   while (s.length < 2) {s = "0" + s;}
                   return (
-                    <img key={i} src={ `ar-and-robotics/chi-2022/original/paper-${s}.jpg`} />
+                    <img key={i} src={ `/ar-and-robotics/chi-2022/original/paper-${s}.jpg`} />
                   )
                 })}
               </a>
