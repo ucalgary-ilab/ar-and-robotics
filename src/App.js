@@ -42,13 +42,13 @@ class App extends Component {
                 Augmented Reality and Robotics
               </h1>
               <p><b>A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces</b></p>
-
-              <a href="ar-and-robotics/chi-2022/chi-2022.pdf" target="_blank">
-                <img id="teaser" src="ar-and-robotics/sketches/teaser.jpg" />
+              <p><i>by Ryo Suzuki, Adnan Karim, Tian Xia, Hooman Hedayati, Nicolai Marquardt</i></p>
+              <a href="/ar-and-robotics/chi-2022/chi-2022.pdf" target="_blank">
+                <img id="teaser" src="/ar-and-robotics/sketches/teaser.jpg" />
               </a>
             </div>
             <div>
-              <a className="ui tiny images" href="ar-and-robotics/chi-2022/chi-2022.pdf" target="_blank">
+              <a className="ui tiny images" href="/ar-and-robotics/chi-2022/chi-2022.pdf" target="_blank">
                 { [...Array(10).keys()].map(i => {
                   let s = String(i + 1)
                   while (s.length < 2) {s = "0" + s;}
@@ -57,7 +57,6 @@ class App extends Component {
                   )
                 })}
               </a>
-              <p><i>by Ryo Suzuki, Adnan Karim, Tian Xia, Hooman Hedayati, Nicolai Marquardt</i></p>
             </div>
           </div>
           <div className="ui vertical segment">

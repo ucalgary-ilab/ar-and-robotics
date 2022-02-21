@@ -18,7 +18,7 @@ body {
 }
 
 .card .main-content {
-  height: 100px;
+  height: 120px;
 }
 
 .modal .images .image {
@@ -37,8 +37,6 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  font-size: 0.9em !important;
-  line-height: 1.3em !important;
   line-clamp: 3;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -48,8 +46,6 @@ body {
 .max-two-lines {
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 0.7em !important;
-  line-height: 1.4em !important;
   display: -webkit-box;
   line-clamp: 2;
   -webkit-line-clamp: 2;
