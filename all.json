@@ -1,0 +1,2057 @@
+[
+  {
+    "key": "abbas2012augmented",
+    "title": "Augmented Reality Based Teaching Pendant for Industrial Robot",
+    "found": false
+  },
+  {
+    "key": "ahn2013supporting",
+    "title": "Supporting Augmented Reality Based Children's Play with pro-Cam Robot: Three User Perspectives",
+    "found": false
+  },
+  {
+    "key": "aikawa2018comparison",
+    "title": "Comparison of Gesture Inputs for Robot System Using Mixed Reality to Encourage Driving Review",
+    "found": false
+  },
+  {
+    "key": "akan2011intuitive",
+    "title": "Intuitive Industrial Robot Programming through Incremental Multimodal Language and Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "akinbiyi2006dynamic",
+    "title": "Dynamic Augmented Reality for Sensory Substitution in Robot-Assisted Surgical Systems",
+    "found": true
+  },
+  {
+    "key": "al2012furhat",
+    "title": "Furhat: A Back-Projected Human-like Robot Head for Multiparty Human-Machine Interaction",
+    "found": true
+  },
+  {
+    "key": "aleotti2017detection",
+    "title": "Detection of Nuclear Sources by UAV Teleoperation Using a Visuo-Haptic Augmented Reality Interface",
+    "found": false
+  },
+  {
+    "key": "alrashidi2016pedagogical",
+    "title": "A Pedagogical Virtual Machine for Assembling Mobile Robot Using Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "alrashidi2017evaluating",
+    "title": "Evaluating the Use of Pedagogical Virtual Machine with Augmented Reality to Support Learning Embedded Computing Activity",
+    "found": false
+  },
+  {
+    "key": "amir2013uncertainty",
+    "title": "Uncertainty-Encoded Augmented Reality for Robot-Assisted Partial Nephrectomy: A Phantom Study",
+    "found": true
+  },
+  {
+    "key": "andersen2016projecting",
+    "title": "Projecting Robot Intentions into Human Environments",
+    "found": false
+  },
+  {
+    "key": "aoki2005kobito",
+    "title": "Kobito: Virtual Brownies",
+    "found": false
+  },
+  {
+    "key": "araiza2019augmented",
+    "title": "Augmented Reality for Quick and Intuitive Robotic Packing Re-Programming",
+    "found": false
+  },
+  {
+    "key": "arevalo2020there",
+    "title": "There's More than Meets the Eye: Enhancing Robot Control through Augmented Visual Cues",
+    "found": false
+  },
+  {
+    "key": "arevalo2021assisting",
+    "title": "Assisting Manipulation and Grasping in Robot Teleoperation with Augmented Reality Visual Cues",
+    "found": false
+  },
+  {
+    "key": "arevalo2021exploring",
+    "title": "Exploring the Visual Space to Improve Depth Perception in Robot Teleoperation Using Augmented Reality: The Role of Distance and Target's Pose in Time, Success, and Certainty",
+    "found": false
+  },
+  {
+    "key": "argyle1976gaze",
+    "title": "Gaze and Mutual Gaze.",
+    "found": false
+  },
+  {
+    "key": "arpaia2020robotic",
+    "title": "Robotic Autism Rehabilitation by Wearable Brain-Computer Interface and Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "aschenbrenner2018comparing",
+    "title": "Comparing Different Augmented Reality Support Applications for Cooperative Repair of an Industrial Robot",
+    "found": false
+  },
+  {
+    "key": "aschenbrenner2020mirrorlabs",
+    "title": "Mirrorlabs-Creating Accessible Digital Twins of Robotic Production Environment with Mixed Reality",
+    "found": true
+  },
+  {
+    "key": "bambusek2019combining",
+    "title": "Combining Interactive Spatial Augmented Reality with Head-Mounted Display for End-User Collaborative Robot Programming",
+    "found": false
+  },
+  {
+    "key": "bardosi2020ciguide",
+    "title": "CIGuide: In Situ Augmented Reality Laser Guidance",
+    "found": true
+  },
+  {
+    "key": "bentz2019unsupervised",
+    "title": "Unsupervised Learning of Assistive Camera Views by an Aerial Co-Robot in Augmented Reality Multitasking Environments",
+    "found": true
+  },
+  {
+    "key": "bianchi2021use",
+    "title": "The Use of Augmented Reality to Guide the Intraoperative Frozen Section during Robot-Assisted Radical Prostatectomy",
+    "found": false
+  },
+  {
+    "key": "blankemeyer2018intuitive",
+    "title": "Intuitive Robot Programming Using Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "boateng2021virtual",
+    "title": "Virtual Shadow Rendering for Maintaining Situation Awareness in Proximal Human-Robot Teaming",
+    "found": false
+  },
+  {
+    "key": "boeing-uav",
+    "title": "Boeing: UAVs. Holograms. Wildfire",
+    "found": false
+  },
+  {
+    "key": "bolano2019transparent",
+    "title": "Transparent Robot Behavior Using Augmented Reality in Close Human-Robot Interaction",
+    "found": false
+  },
+  {
+    "key": "bolano2020planning",
+    "title": "Planning and Evaluation of Robotic Solutions in a Logistic Line through Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "botev2021immersive",
+    "title": "Immersive Robotic Telepresence for Remote Educational Scenarios",
+    "found": true
+  },
+  {
+    "key": "caiza2020augmented",
+    "title": "Augmented Reality for Robot Control in Low-Cost Automation Context and IoT",
+    "found": false
+  },
+  {
+    "key": "calandra2021evaluating",
+    "title": "Evaluating an Augmented Reality-Based Partially Assisted Approach to Remote Assistance in Heterogeneous Robotic Applications",
+    "found": false
+  },
+  {
+    "key": "calife2009robot",
+    "title": "Robot Arena: An Augmented Reality Platform for Game Development",
+    "found": false
+  },
+  {
+    "key": "cancedda2017mixed",
+    "title": "Mixed Reality-Based User Interaction Feedback for a Hand-Controlled Interface Targeted to Robot Teleoperation",
+    "found": false
+  },
+  {
+    "key": "cao2018ani",
+    "title": "Ani-Bot: A Modular Robotics System Supporting Creation, Tweaking, and Usage with Mixed-Reality Interactions",
+    "found": true
+  },
+  {
+    "key": "cao2019ghostar",
+    "title": "GhostAR: A Time-Space Editor for Embodied Authoring of Human-Robot Collaborative Task with Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "cao2019v",
+    "title": "V. Ra: An in-Situ Visual Authoring System for Robot-IoT Task Planning with Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "cardenas2021reducing",
+    "title": "Reducing Cognitive Workload in Telepresence Lunar-Martian Environments through Audiovisual Feedback in Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "carroll2013augmented",
+    "title": "Augmented Reality Gaming with Sphero",
+    "found": false
+  },
+  {
+    "key": "caruso2010robotic",
+    "title": "Robotic Arm for Car Dashboard Layout Assessment in Mixed Reality Environment",
+    "found": false
+  },
+  {
+    "key": "cauchard2019drone",
+    "title": "Drone. Io: A Gestural and Visual Interface for Human-Drone Interaction",
+    "found": false
+  },
+  {
+    "key": "cha2018effects",
+    "title": "Effects of Robot Sound on Auditory Localization in Human-Robot Collaboration",
+    "found": true
+  },
+  {
+    "key": "chacko2019augmented",
+    "title": "An Augmented Reality Interface for Human-Robot Interaction in Unconstrained Environments",
+    "found": false
+  },
+  {
+    "key": "chacko2020augmented",
+    "title": "An Augmented Reality Spatial Referencing System for Mobile Robots",
+    "found": false
+  },
+  {
+    "key": "chacko2020augmented2",
+    "title": "An Augmented Reality Framework for Robotic Tool-Path Teaching",
+    "found": false
+  },
+  {
+    "key": "chadalavada2020bi",
+    "title": "Bi-Directional Navigation Intent Communication Using Spatial Augmented Reality and Eye-Tracking Glasses for Improved Safety in Human--Robot Interaction",
+    "found": false
+  },
+  {
+    "key": "chae2018pervasive",
+    "title": "A Pervasive Assistive Robot System including Projection-Camera Technology for Older Adults",
+    "found": false
+  },
+  {
+    "key": "chakraborti2018projection",
+    "title": "Projection-Aware Task Planning and Execution for Human-in-the-Loop Operation of Robots in a Mixed-Reality Workspace",
+    "found": true
+  },
+  {
+    "key": "chan2018virtual",
+    "title": "Virtual Barriers in Augmented Reality for Safe Human-Robot Collaboration in Manufacturing",
+    "found": false
+  },
+  {
+    "key": "chan2020augmented",
+    "title": "An Augmented Reality Human-Robot Physical Collaboration Interface Design for Shared, Large-Scale, Labour-Intensive Manufacturing Tasks",
+    "found": false
+  },
+  {
+    "key": "chan2020towards",
+    "title": "Towards a Multimodal System Combining Augmented Reality and Electromyography for Robot Trajectory Programming and Execution",
+    "found": false
+  },
+  {
+    "key": "chang2010improving",
+    "title": "Improving the Authentic Learning Experience by Integrating Robots into the Mixed-Reality Environment",
+    "found": false
+  },
+  {
+    "key": "charoenseang2011human",
+    "title": "Human--Robot Collaboration with Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "chen2006object",
+    "title": "Object Detection for a Mobile Robot Using Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "chen2010analysing",
+    "title": "Analysing Mixed Reality Simulation for Industrial Applications: A Case Study in the Development of a Robotic Screw Remover System",
+    "found": true
+  },
+  {
+    "key": "chen2019pinpointfly",
+    "title": "PinpointFly: An Egocentric Position-Pointing Drone Interface Using Mobile AR",
+    "found": false
+  },
+  {
+    "key": "chen2020combination",
+    "title": "Combination of Augmented Reality Based Brain-Computer Interface and Computer Vision for High-Level Control of a Robotic Arm",
+    "found": false
+  },
+  {
+    "key": "chen2020industrial",
+    "title": "Industrial Robot Training Platform Based on Virtual Reality and Mixed Reality Technology",
+    "found": false
+  },
+  {
+    "key": "chen2020multichannel",
+    "title": "A Multichannel Human-Swarm Robot Interaction System in Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "chen2020optimization",
+    "title": "Optimization of Virtual and Real Registration Technology Based on Augmented Reality in a Surgical Navigation System",
+    "found": true
+  },
+  {
+    "key": "chen2021pinpointfly",
+    "title": "PinpointFly: An Egocentric Position-Control Drone Interface Using Mobile AR",
+    "found": false
+  },
+  {
+    "key": "choi2013haptic",
+    "title": "A Haptic Augmented Reality Surgeon Console for a Laparoscopic Surgery Robot System",
+    "found": false
+  },
+  {
+    "key": "chong2009robot",
+    "title": "Robot Programming Using Augmented Reality: An Interactive Method for Planning Collision-Free Paths",
+    "found": false
+  },
+  {
+    "key": "chou2004augmented",
+    "title": "Augmented Reality Based Preoperative Planning for Robot Assisted Tele-Neurosurgery",
+    "found": false
+  },
+  {
+    "key": "christensen2017depth",
+    "title": "Depth Cues in Augmented Reality for Training of Robot-Assisted Minimally Invasive Surgery",
+    "found": false
+  },
+  {
+    "key": "clemente2016humans",
+    "title": "Humans Can Integrate Augmented Reality Feedback in Their Sensorimotor Control of a Robotic Hand",
+    "found": true
+  },
+  {
+    "key": "coovert2014spatial",
+    "title": "Spatial Augmented Reality as a Method for a Mobile Robot to Communicate Intended Movement",
+    "found": false
+  },
+  {
+    "key": "corotan2019indoor",
+    "title": "An Indoor Navigation Robot Using Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "costa2015augmented",
+    "title": "Augmented Reality behind the Wheel-Human Interactive Assistance by Mobile Robots",
+    "found": false
+  },
+  {
+    "key": "costa2015mixed",
+    "title": "A Mixed Reality Game Using 3Pi Robots—\"PiTanks\"",
+    "found": false
+  },
+  {
+    "key": "coste2003planning",
+    "title": "Planning, Simulation, and Augmented Reality for Robotic Cardiac Procedures: The STARS System of the ChIR Team",
+    "found": false
+  },
+  {
+    "key": "cousins2017development",
+    "title": "Development of a Mixed Reality Based Interface for Human Robot Interaciotn",
+    "found": false
+  },
+  {
+    "key": "danielsson2017assessing",
+    "title": "Assessing Instructions in Augmented Reality for Human-Robot Collaborative Assembly by Using Demonstrators",
+    "found": false
+  },
+  {
+    "key": "darbar2019dronesar",
+    "title": "DroneSAR: Extending Physical Spaces in Spatial Augmented Reality Using Projection on a Drone",
+    "found": true
+  },
+  {
+    "key": "de2019intuitive",
+    "title": "An Intuitive Augmented Reality Interface for Task Scheduling, Monitoring, and Work Performance Improvement in Human-Robot Collaboration",
+    "found": false
+  },
+  {
+    "key": "dias2015augmented",
+    "title": "Augmented Reality on Robot Navigation Using Non-Central Catadioptric Cameras",
+    "found": false
+  },
+  {
+    "key": "dias2020deep",
+    "title": "Deep Learning of Augmented Reality Based Human Interactions for Automating a Robot Team",
+    "found": false
+  },
+  {
+    "key": "diehl2020augmented",
+    "title": "Augmented Reality Interface to Verify Robot Learning",
+    "found": false
+  },
+  {
+    "key": "dietrich2010visualization",
+    "title": "Visualization of Robot's Awareness and Perception",
+    "found": true
+  },
+  {
+    "key": "dinh2017augmented",
+    "title": "Augmented Reality Interface for Taping Robot",
+    "found": true
+  },
+  {
+    "key": "dragone2006mixing",
+    "title": "Mixing Robotic Realities",
+    "found": false
+  },
+  {
+    "key": "dragone2007using",
+    "title": "Using Mixed Reality Agents as Social Interfaces for Robots",
+    "found": true
+  },
+  {
+    "key": "dragone2009mixed",
+    "title": "Mixed Reality Agent (MiRA) Chameleons",
+    "found": false
+  },
+  {
+    "key": "edgcumbe2016augmented",
+    "title": "Augmented Reality Imaging for Robot-Assisted Partial Nephrectomy Surgery",
+    "found": false
+  },
+  {
+    "key": "el2021teaching",
+    "title": "Teaching System for Multimodal Object Categorization by Human-Robot Interaction in Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "elsharkawy2021uwb",
+    "title": "A UWB-Driven Self-Actuated Projector Platform for Interactive Augmented Reality Applications",
+    "found": true
+  },
+  {
+    "key": "erat2018drone",
+    "title": "Drone-Augmented Human Vision: Exocentric Control for Drones Exploring Hidden Areas",
+    "found": false
+  },
+  {
+    "key": "estevez2015robot",
+    "title": "Robot Devastation: Using DIY Low-Cost Platforms for Multiplayer Interaction in an Augmented Reality Game",
+    "found": true
+  },
+  {
+    "key": "everitt2017polysurface",
+    "title": "PolySurface: A Design Approach for Rapid Prototyping of Shape-Changing Displays Using Semi-Solid Surfaces",
+    "found": true
+  },
+  {
+    "key": "everitt20193d",
+    "title": "3D Printed Deformable Surfaces for Shape-Changing Displays",
+    "found": true
+  },
+  {
+    "key": "evlampev2019obstacle",
+    "title": "Obstacle Avoidance for Robotic Manipulator Using Mixed Reality Glasses",
+    "found": false
+  },
+  {
+    "key": "falk2005cardio",
+    "title": "Cardio Navigation: Planning, Simulation, and Augmented Reality in Robotic Assisted Endoscopic Bypass Grafting",
+    "found": false
+  },
+  {
+    "key": "fang2009robot",
+    "title": "Robot Programming Using Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "fang2012interactive",
+    "title": "Interactive Robot Trajectory Planning and Simulation Using Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "fang2012robot",
+    "title": "Robot Path and End-Effector Orientation Planning Using Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "fang2013orientation",
+    "title": "Orientation Planning of Robot End-Effector Using Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "fang2014novel",
+    "title": "A Novel Augmented Reality-Based Interface for Robot Path Planning",
+    "found": false
+  },
+  {
+    "key": "ferraguti2020augmented",
+    "title": "Augmented Reality and Robotic-Assistance for Percutaneous Nephrolithotomy",
+    "found": false
+  },
+  {
+    "key": "filipenko2020virtual",
+    "title": "Virtual Commissioning with Mixed Reality for next-Generation Robot-Based Mechanical Component Testing",
+    "found": true
+  },
+  {
+    "key": "follmer2013inform",
+    "title": "inFORM: Dynamic Physical Affordances and Constraints through Shape and Object Actuation.",
+    "found": true
+  },
+  {
+    "key": "fong2019robot",
+    "title": "A Robot with an Augmented-Reality Display for Functional Capacity Evaluation and Rehabilitation of Injured Workers",
+    "found": true
+  },
+  {
+    "key": "frank2016realizing",
+    "title": "Realizing Mixed-Reality Environments with Tablets for Intuitive Human-Robot Collaboration for Object Manipulation Tasks",
+    "found": true
+  },
+  {
+    "key": "frank2016towards",
+    "title": "Towards Teleoperation-Based Interactive Learning of Robot Kinematics Using a Mobile Augmented Reality Interface on a Tablet",
+    "found": false
+  },
+  {
+    "key": "frank2017mobile",
+    "title": "Mobile Mixed-Reality Interfaces That Enhance Human--Robot Interaction in Shared Spaces",
+    "found": true
+  },
+  {
+    "key": "frank2017toward",
+    "title": "Toward Mobile Mixed-Reality Interaction with Multi-Robot Systems",
+    "found": false
+  },
+  {
+    "key": "fujii2020development",
+    "title": "Development and Evaluation of Mixed Reality Co-Eating System: Sharing the Behavior of Eating Food with a Robot Could Improve Our Dining Experience",
+    "found": false
+  },
+  {
+    "key": "fung2011augmented",
+    "title": "An Augmented Reality System for Teaching Sequential Tasks to a Household Robot",
+    "found": true
+  },
+  {
+    "key": "fuste2020kinetic",
+    "title": "Kinetic AR: A Framework for Robotic Motion Systems in Spatial Computing",
+    "found": false
+  },
+  {
+    "key": "gadre2019end",
+    "title": "End-User Robot Programming Using Mixed Reality",
+    "found": true
+  },
+  {
+    "key": "ganesan2018better",
+    "title": "Better Teaming through Visual Cues: How Projecting Imagery in a Workspace Can Improve Human-Robot Collaboration",
+    "found": true
+  },
+  {
+    "key": "gao2019fast",
+    "title": "Fast Adaptation with Meta-Reinforcement Learning for Trust Modelling in Human-Robot Interaction",
+    "found": true
+  },
+  {
+    "key": "gao2019pati",
+    "title": "PATI: A Projection-Based Augmented Table-Top Interface for Robot Programming",
+    "found": false
+  },
+  {
+    "key": "gao2020visual",
+    "title": "Visual Reference of Ambiguous Objects for Augmented Reality-Powered Human-Robot Communication in a Shared Workspace",
+    "found": false
+  },
+  {
+    "key": "garcia2011educational",
+    "title": "Educational Autonomous Robotics Setup Using Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "gaschler2014intuitive",
+    "title": "Intuitive Robot Tasks with Augmented Reality and Virtual Obstacles",
+    "found": false
+  },
+  {
+    "key": "genccturk2019development",
+    "title": "Development of Augmented Reality Based Mobile Robot Maintenance Software",
+    "found": false
+  },
+  {
+    "key": "ghiringhelli2014interactive",
+    "title": "Interactive Augmented Reality for Understanding and Analyzing Multi-Robot Systems",
+    "found": false
+  },
+  {
+    "key": "gianni2013augmented",
+    "title": "ARE: Augmented Reality Environment for Mobile Robots",
+    "found": false
+  },
+  {
+    "key": "giannone2021augmented",
+    "title": "Augmented Reality and Image-Guided Robotic Liver Surgery",
+    "found": false
+  },
+  {
+    "key": "gong2017real",
+    "title": "Real-Time Human-in-the-Loop Remote Control for a Life-Size Traffic Police Robot with Multiple Augmented Reality Aided Display Terminals",
+    "found": false
+  },
+  {
+    "key": "gong2019projection",
+    "title": "Projection-Based Augmented Reality Interface for Robot Grasping Tasks",
+    "found": false
+  },
+  {
+    "key": "gradmann2018augmented",
+    "title": "Augmented Reality Robot Operation Interface with Google Tango",
+    "found": false
+  },
+  {
+    "key": "green2008collaborating",
+    "title": "Collaborating with a Mobile Robot: An Augmented Reality Multimodal Interface",
+    "found": true
+  },
+  {
+    "key": "grijalva2019landmark",
+    "title": "Landmark-Based Virtual Path Estimation for Assisted UAV FPV Tele-Operation with Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "groechel2019using",
+    "title": "Using Socially Expressive Mixed Reality Arms for Enhancing Low-Expressivity Robots",
+    "found": true
+  },
+  {
+    "key": "gronbaek2020kirigamitable",
+    "title": "KirigamiTable: Designing for Proxemic Transitions with a Shape-Changing Tabletop",
+    "found": true
+  },
+  {
+    "key": "gruenefeld2020mind",
+    "title": "Mind the ARm: Realtime Visualization of Robot Motion Intent in Head-Mounted Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "guhl2017concept",
+    "title": "Concept and Architecture for Programming Industrial Robots Using Augmented Reality with Mobile Devices like Microsoft HoloLens",
+    "found": false
+  },
+  {
+    "key": "guhl2018enabling",
+    "title": "Enabling Human-Robot-Interaction via Virtual and Augmented Reality in Distributed Control Systems",
+    "found": false
+  },
+  {
+    "key": "guo2009touch",
+    "title": "Touch and Toys: New Techniques for Interaction with a Remote Group of Robots",
+    "found": true
+  },
+  {
+    "key": "hamada2020current",
+    "title": "The Current Status and Challenges in Augmented-Reality Navigation System for Robot-Assisted Laparoscopic Partial Nephrectomy",
+    "found": false
+  },
+  {
+    "key": "hamilton2021s",
+    "title": "What's the Point? Tradeoffs between Effectiveness and Social Perception When Using Mixed Reality to Enhance Gesturally Limited Robots",
+    "found": false
+  },
+  {
+    "key": "han2015examining",
+    "title": "Examining Young Children's Perception toward Augmented Reality-Infused Dramatic Play",
+    "found": false
+  },
+  {
+    "key": "hardy2015shapeclip",
+    "title": "Shapeclip: Towards Rapid Prototyping with Shape-Changing Displays for Designers",
+    "found": false
+  },
+  {
+    "key": "hartmann2020aar",
+    "title": "AAR: Augmenting a Wearable Augmented Reality Display with an Actuated Head-Mounted Projector",
+    "found": true
+  },
+  {
+    "key": "hashimoto2011touchme",
+    "title": "Touchme: An Augmented Reality Based Remote Robot Manipulation",
+    "found": true
+  },
+  {
+    "key": "hedayati2018improving",
+    "title": "Improving Collocated Robot Teleoperation with Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "hernandez2020increasing",
+    "title": "Increasing Robot Autonomy via Motion Planning and an Augmented Reality Interface",
+    "found": true
+  },
+  {
+    "key": "hirai2018xslate",
+    "title": "Xslate: A Stiffness-Controlled Surface for Shape-Changing Interfaces",
+    "found": false
+  },
+  {
+    "key": "hiraki2015phygital",
+    "title": "Phygital Field: Integrated Field with Visible Images and Robot Swarm Controlled by Invisible Images",
+    "found": false
+  },
+  {
+    "key": "hiraki2016phygital",
+    "title": "Phygital Field: An Integrated Field with a Swarm of Physical Robots and Digital Images",
+    "found": true
+  },
+  {
+    "key": "hiraki2018phygital",
+    "title": "Phygital Field: An Integrated Field with Physical Robots and Digital Images Using Projection-Based Localization and Control Method",
+    "found": false
+  },
+  {
+    "key": "hiraki2019navigatorch",
+    "title": "NavigaTorch: Projection-Based Robot Control Interface Using High-Speed Handheld Projector",
+    "found": false
+  },
+  {
+    "key": "hiroi2010evaluation",
+    "title": "Evaluation of Head Size of an Interactive Robot Using an Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "ho2020supervised",
+    "title": "Supervised Control for Robot-Assisted Surgery Using Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "hoang2021virtual",
+    "title": "Virtual Barriers in Augmented Reality for Safe and Effective Human-Robot Cooperation in Manufacturing",
+    "found": false
+  },
+  {
+    "key": "hololens-robot",
+    "title": "Microsoft Hololens Robot Demo at Build 2015",
+    "found": false
+  },
+  {
+    "key": "howard2012using",
+    "title": "Using Mixed Reality to Map Human Exercise Demonstrations to a Robot Exercise Coach",
+    "found": false
+  },
+  {
+    "key": "huang2019flight",
+    "title": "Flight, Camera, Action! Using Natural Language and Mixed Reality to Control a Drone",
+    "found": true
+  },
+  {
+    "key": "huang2020augmented",
+    "title": "Augmented Reality with Multi-View Merging for Robot Teleoperation",
+    "found": false
+  },
+  {
+    "key": "huang2021augmented",
+    "title": "Augmented Reality-Based Autostereoscopic Surgical Visualization System for Telesurgery",
+    "found": false
+  },
+  {
+    "key": "huy2017see",
+    "title": "See-through and Spatial Augmented Reality-a Novel Framework for Human-Robot Interaction",
+    "found": true
+  },
+  {
+    "key": "hwang2008augmented",
+    "title": "Augmented Robot Agent: Enhancing Co-Presence of the Remote Participant",
+    "found": false
+  },
+  {
+    "key": "iqbal2021augmented",
+    "title": "Augmented Reality in Robotic Assisted Orthopaedic Surgery: A Pilot Study",
+    "found": false
+  },
+  {
+    "key": "ishii2009designing",
+    "title": "Designing Laser Gesture Interface for Robot Control",
+    "found": true
+  },
+  {
+    "key": "jaguar-rover",
+    "title": "Jaguar Land Rover Lights up the Road Ahead for Self-Driving Vehicles of the Future",
+    "found": false
+  },
+  {
+    "key": "jeong2018mechanism",
+    "title": "Mechanism Perfboard: An Augmented Reality Environment for Linkage Mechanism Design and Fabrication",
+    "found": false
+  },
+  {
+    "key": "ji2021closed",
+    "title": "A Closed-Loop Brain-Computer Interface with Augmented Reality Feedback for Industrial Human-Robot Collaboration",
+    "found": true
+  },
+  {
+    "key": "jia2020collision",
+    "title": "Collision Detection Based on Augmented Reality for Construction Robot",
+    "found": false
+  },
+  {
+    "key": "jiang2021adjacent",
+    "title": "Adjacent Surface Trajectory Planning of Robot-Assisted Tooth Preparation Based on Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "jones2020vroom",
+    "title": "VROOM: Virtual Robot Overlay for Online Meetings",
+    "found": true
+  },
+  {
+    "key": "jones2021ar",
+    "title": "AR/vr Tutorial System for Human-Robot Teaming",
+    "found": false
+  },
+  {
+    "key": "jones2021belonging",
+    "title": "Belonging There: VROOM-Ing into the Uncanny Valley of XR Telepresence",
+    "found": true
+  },
+  {
+    "key": "jost2018safe",
+    "title": "Safe Human-Robot-Interaction in Highly Flexible Warehouses Using Augmented Reality and Heterogenous Fleet Management System",
+    "found": false
+  },
+  {
+    "key": "kain2017tablet",
+    "title": "Tablet-Based Augmented Reality in the Factory: Influence of Knowledge in Computer Programming on Robot Teaching Tasks",
+    "found": false
+  },
+  {
+    "key": "kalia2020evaluation",
+    "title": "Evaluation of a Marker-Less, Intra-Operative, Augmented Reality Guidance System for Robot-Assisted Laparoscopic Radical Prostatectomy",
+    "found": false
+  },
+  {
+    "key": "kalia2021preclinical",
+    "title": "Preclinical Evaluation of a Markerless, Real-Time, Augmented Reality Guidance System for Robot-Assisted Radical Prostatectomy",
+    "found": false
+  },
+  {
+    "key": "kansaku2010my",
+    "title": "My Thoughts through a Robot's Eyes: An Augmented Reality-Brain--Machine Interface",
+    "found": false
+  },
+  {
+    "key": "kapinus2019spatially",
+    "title": "Spatially Situated End-User Robot Programming in Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "kapinus2020end",
+    "title": "End-User Robot Programming Case Study: Augmented Reality vs. Teach Pendant",
+    "found": false
+  },
+  {
+    "key": "kasahara2013extouch",
+    "title": "exTouch: Spatially-Aware Embodied Manipulation of Actuated Objects Mediated by Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "kasetani2015projection",
+    "title": "Projection Mapping by Mobile Projector Robot",
+    "found": false
+  },
+  {
+    "key": "kastner2019augmented",
+    "title": "Augmented-Reality-Based Visualization of Navigation Data of Mobile Robots on the Microsoft Hololens-Possibilities and Limitations",
+    "found": true
+  },
+  {
+    "key": "kato2009multi",
+    "title": "Multi-Touch Interface for Controlling Multiple Mobile Robots",
+    "found": true
+  },
+  {
+    "key": "kato2019robot",
+    "title": "A Robot System Using Mixed Reality to Encourage Driving Review",
+    "found": false
+  },
+  {
+    "key": "khatib2021human",
+    "title": "Human-Robot Contactless Collaboration with Mixed Reality Interface",
+    "found": true
+  },
+  {
+    "key": "kim2014task",
+    "title": "Task-Oriented Teleoperation through Natural 3D User Interaction",
+    "found": false
+  },
+  {
+    "key": "kobayashi2007overlay",
+    "title": "Overlay What Humanoid Robot Perceives and Thinks to the Real-World by Mixed Reality System",
+    "found": false
+  },
+  {
+    "key": "kojima2006augmented",
+    "title": "Augmented Coliseum: An Augmented Game Environment with Small Vehicles",
+    "found": true
+  },
+  {
+    "key": "kolagunda2018mixed",
+    "title": "A Mixed Reality Guidance System for Robot Assisted Laparoscopic Radical Prostatectomy",
+    "found": false
+  },
+  {
+    "key": "korthauer2020watch",
+    "title": "Watch Your Vehicle Driving at the City: Interior HMI with Augmented Reality for Automated Driving",
+    "found": false
+  },
+  {
+    "key": "kot2017application",
+    "title": "Application of Augmented Reality in Mobile Robot Teleoperation",
+    "found": false
+  },
+  {
+    "key": "kousi2019enabling",
+    "title": "Enabling Human Robot Interaction in Flexible Robotic Assembly Lines: An Augmented Reality Based Software Suite",
+    "found": false
+  },
+  {
+    "key": "krupke2018comparison",
+    "title": "Comparison of Multimodal Heading and Pointing Gestures for Co-Located Mixed Reality Human-Robot Interaction",
+    "found": true
+  },
+  {
+    "key": "krzywinski2009robotable",
+    "title": "RoboTable: A Tabletop Framework for Tangible Interaction with Robots in a Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "lakshantha2014human",
+    "title": "Human Robot Interaction and Control: Translating Diagrams into an Intuitive Augmented Reality Approach",
+    "found": true
+  },
+  {
+    "key": "lamberti2018robotquest",
+    "title": "Robotquest: A Robotic Game Based on Projected Mixed Reality and Proximity Interaction",
+    "found": false
+  },
+  {
+    "key": "lamberti2019designing",
+    "title": "Designing Interactive Robotic Games Based on Mixed Reality Technology",
+    "found": false
+  },
+  {
+    "key": "lambrecht2012spatial",
+    "title": "Spatial Programming for Industrial Robots Based on Gestures and Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "lambrecht2021towards",
+    "title": "Towards Commissioning, Resilience and Added Value of Augmented Reality in Robotics: Overcoming Technical Obstacles to Industrial Applicability",
+    "found": false
+  },
+  {
+    "key": "laranjeira20203d",
+    "title": "3D Perception and Augmented Reality Developments in Underwater Robotics for Ocean Sciences",
+    "found": false
+  },
+  {
+    "key": "lazna2018visualization",
+    "title": "The Visualization of Threats Using the Augmented Reality and a Remotely Controlled Robot",
+    "found": false
+  },
+  {
+    "key": "le2016zooids",
+    "title": "Zooids: Building Blocks for Swarm User Interfaces",
+    "found": true
+  },
+  {
+    "key": "lee2007human",
+    "title": "Human Machine Interface with Augmented Reality for the Network Based Mobile Robot",
+    "found": false
+  },
+  {
+    "key": "lee2008augmented",
+    "title": "Augmented Reality Based Vision System for Network Based Mobile Robot",
+    "found": false
+  },
+  {
+    "key": "lee2011note",
+    "title": "A Note on Hybrid Control of Robotic Spatial Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "lee2018augmented",
+    "title": "Augmented Reality in Human-Robot Cooperative Search",
+    "found": false
+  },
+  {
+    "key": "lee2018physical",
+    "title": "The Physical-Virtual Table: Exploring the Effects of a Virtual Human's Physical Influence on Social Interaction",
+    "found": true
+  },
+  {
+    "key": "lee2020realization",
+    "title": "Realization of Robot Fish with 3D Hologram Fish Using Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "leithinger2010relief",
+    "title": "Relief: A Scalable Actuated Shape Display",
+    "found": true
+  },
+  {
+    "key": "leithinger2011direct",
+    "title": "Direct and Gestural Interaction with Relief: A 2.5 D Shape Display",
+    "found": true
+  },
+  {
+    "key": "leithinger2013sublimate",
+    "title": "Sublimate: State-Changing Virtual and Physical Rendering to Augment Interaction with Shape Displays",
+    "found": true
+  },
+  {
+    "key": "leitner2010physical",
+    "title": "Physical Interfaces for Tabletop Games",
+    "found": true
+  },
+  {
+    "key": "lenhardt2010augmented",
+    "title": "An Augmented-Reality Based Brain-Computer Interface for Robot Control",
+    "found": false
+  },
+  {
+    "key": "lera2014augmented",
+    "title": "Augmented Reality in Robotic Assistance for the Elderly",
+    "found": false
+  },
+  {
+    "key": "lerotic2007pq",
+    "title": "Pq-Space Based Non-Photorealistic Rendering for Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "leutert2012support",
+    "title": "Support of Power Plant Telemaintenance with Robots by Augmented Reality Methods",
+    "found": false
+  },
+  {
+    "key": "leutert2013spatial",
+    "title": "A Spatial Augmented Reality System for Intuitive Display of Robotic Data",
+    "found": false
+  },
+  {
+    "key": "leutert2015augmented",
+    "title": "Augmented Reality for Telemaintenance and-Inspection in Force-Sensitive Industrial Robot Applications",
+    "found": false
+  },
+  {
+    "key": "li2019augmented",
+    "title": "An Augmented Reality Based Human-Robot Interaction Interface Using Kalman Filter Sensor Fusion",
+    "found": false
+  },
+  {
+    "key": "liang2019robot",
+    "title": "Robot Teleoperation System Based on Mixed Reality",
+    "found": true
+  },
+  {
+    "key": "lin2016mandibular",
+    "title": "Mandibular Angle Split Osteotomy Based on a Novel Augmented Reality Navigation Using Specialized Robot-Assisted Arms—a Feasibility Study",
+    "found": false
+  },
+  {
+    "key": "linder2010luminar",
+    "title": "LuminAR: Portable Robotic Augmented Reality Interface Design and Prototype",
+    "found": true
+  },
+  {
+    "key": "lindlbauer2016combining",
+    "title": "Combining Shape-Changing Interfaces and Spatial Augmented Reality Enables Extended Object Appearance",
+    "found": true
+  },
+  {
+    "key": "lingamaneni2017dronecast",
+    "title": "DroneCAST: Towards a Programming Toolkit for Airborne Multimedia Display Applications",
+    "found": false
+  },
+  {
+    "key": "liu2011roboshop",
+    "title": "Roboshop: Multi-Layered Sketching Interface for Robot Housework Assignment and Management",
+    "found": true
+  },
+  {
+    "key": "liu2015augmented",
+    "title": "Augmented Reality and Cone Beam CT Guidance for Transoral Robotic Surgery",
+    "found": true
+  },
+  {
+    "key": "liu2018interactive",
+    "title": "Interactive Robot Knowledge Patching Using Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "liu2020mobile",
+    "title": "Mobile Delivery Robots: Mixed Reality-Based Simulation Relying on ROS and Unity 3D",
+    "found": true
+  },
+  {
+    "key": "livatino2010augmented",
+    "title": "Augmented Reality Stereoscopic Visualization for Intuitive Robot Teleguide",
+    "found": true
+  },
+  {
+    "key": "livatino2010video",
+    "title": "Video and Laser Based Augmented Reality Stereoscopic Viewing for Mobile Robot Teleoperation",
+    "found": false
+  },
+  {
+    "key": "livatino20113",
+    "title": "3-D Integration of Robot Vision and Laser Data with Semiautomatic Calibration in Augmented Reality Stereoscopic Visual Interface",
+    "found": false
+  },
+  {
+    "key": "livatino2021intuitive",
+    "title": "Intuitive Robot Teleoperation through Multi-Sensor Informed Mixed Reality Visual Aids",
+    "found": true
+  },
+  {
+    "key": "luebbers2019augmented",
+    "title": "Augmented Reality Interface for Constrained Learning from Demonstration",
+    "found": true
+  },
+  {
+    "key": "luipers2021concept",
+    "title": "Concept of an Intuitive Human-Robot-Collaboration via Motion Tracking and Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "lupetti2016designing",
+    "title": "Designing Playful HRI: Acceptability of Robots in Everyday Life through Play",
+    "found": false
+  },
+  {
+    "key": "lupetti2018design",
+    "title": "Design and Evaluation of a Mixed-Reality Playground for Child-Robot Games",
+    "found": false
+  },
+  {
+    "key": "luxenburger2019augmented",
+    "title": "Augmented Reality for Human-Robot Cooperation in Aircraft Assembly",
+    "found": false
+  },
+  {
+    "key": "magnenat2015enhancing",
+    "title": "Enhancing Robot Programming with Visual Feedback and Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "mahajan2020adapting",
+    "title": "Adapting Usability Metrics for a Socially Assistive, Kinesthetic, Mixed Reality Robot Tutoring Environment",
+    "found": true
+  },
+  {
+    "key": "maidi2013evaluation",
+    "title": "An Evaluation of Camera Pose Methods for an Augmented Reality System: Application to Teaching Industrial Robots",
+    "found": true
+  },
+  {
+    "key": "makhataeva2019safety",
+    "title": "Safety Aura Visualization for Variable Impedance Actuated Robots",
+    "found": false
+  },
+  {
+    "key": "makris2016augmented",
+    "title": "Augmented Reality System for Operator Support in Human--Robot Collaborative Assembly",
+    "found": false
+  },
+  {
+    "key": "malayjerdi2017mobile",
+    "title": "Mobile Robot Navigation Based on Fuzzy Cognitive Map Optimized with Grey Wolf Optimization Algorithm Used in Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "maly2016augmented",
+    "title": "Augmented Reality Experiments with Industrial Robot in Industry 4.0 Environment",
+    "found": true
+  },
+  {
+    "key": "marin2002augmented",
+    "title": "Augmented Reality to Teleoperate a Robot through the Web",
+    "found": true
+  },
+  {
+    "key": "martin2020design",
+    "title": "Design of a Hyper-Redundant Robot and Teleoperation Using Mixed Reality for Inspection Tasks",
+    "found": false
+  },
+  {
+    "key": "materna2017using",
+    "title": "Using Persona, Scenario, and Use Case to Develop a Human-Robot Augmented Reality Collaborative Workspace",
+    "found": false
+  },
+  {
+    "key": "materna2018interactive",
+    "title": "Interactive Spatial Augmented Reality in Collaborative Robot Programming: User Experience Evaluation",
+    "found": false
+  },
+  {
+    "key": "matu2014stereoscopic",
+    "title": "Stereoscopic Augmented Reality System for Supervised Training on Minimal Invasive Surgery Robots",
+    "found": false
+  },
+  {
+    "key": "mercedes-f15",
+    "title": "The Mercedes-Benz F 015 Luxury in Motion",
+    "found": false
+  },
+  {
+    "key": "michalos2016augmented",
+    "title": "Augmented Reality (AR) Applications for Supporting Human-Robot Interactive Cooperation",
+    "found": false
+  },
+  {
+    "key": "mohareri2011autonomous",
+    "title": "Autonomous Humanoid Robot Navigation Using Augmented Reality Technique",
+    "found": false
+  },
+  {
+    "key": "mollet2009virtual",
+    "title": "Virtual and Augmented Reality Tools for Teleoperation: Improving Distant Immersion and Perception",
+    "found": false
+  },
+  {
+    "key": "montalvo2020industrial",
+    "title": "Industrial Control Robot Based on Augmented Reality and IoT Protocol",
+    "found": false
+  },
+  {
+    "key": "morita2020extension",
+    "title": "Extension of Projection Area Using Head Orientation in Projected Virtual Hand Interface for Wheelchair Users",
+    "found": true
+  },
+  {
+    "key": "mourtzis2017augmented",
+    "title": "Augmented Reality Application to Support Remote Maintenance as a Service in the Robotics Industry",
+    "found": true
+  },
+  {
+    "key": "mourtzis2020augmented",
+    "title": "An Augmented Reality Application for Robotic Cell Customization",
+    "found": false
+  },
+  {
+    "key": "mueller2012interactive",
+    "title": "Interactive Construction: Interactive Fabrication of Functional Mechanical Devices",
+    "found": true
+  },
+  {
+    "key": "mueller2019intuitive",
+    "title": "Intuitive Welding Robot Programming via Motion Capture and Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "muhammad2019creating",
+    "title": "Creating a Shared Reality with Robots",
+    "found": false
+  },
+  {
+    "key": "murphy2020prototyping",
+    "title": "Prototyping Sensors and Actuators for Robot Swarms in Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "nakagaki2016materiable",
+    "title": "Materiable: Rendering Dynamic Material Properties in Response to Direct Physical Touch with Shape Changing Interfaces",
+    "found": true
+  },
+  {
+    "key": "navab2016personalized",
+    "title": "Personalized, Relevance-Based Multimodal Robotic Imaging and Augmented Reality for Computer Assisted Interventions",
+    "found": false
+  },
+  {
+    "key": "nawab2007joystick",
+    "title": "Joystick Mapped Augmented Reality Cues for End-Effector Controlled Tele-Operated Robots",
+    "found": true
+  },
+  {
+    "key": "ng2010intuitive",
+    "title": "Intuitive Robot Tool Path Teaching Using Laser and Camera in Augmented Reality Environment",
+    "found": false
+  },
+  {
+    "key": "ni2017haptic",
+    "title": "Haptic and Visual Augmented Reality Interface for Programming Welding Robots",
+    "found": true
+  },
+  {
+    "key": "nilwong2020outdoor",
+    "title": "Outdoor Robot Navigation System Using Game-Based DQN and Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "nintendo-mklive",
+    "title": "Nintendo Mario Kart Live: Home Circuit",
+    "found": false
+  },
+  {
+    "key": "nishiwaki2008mixed",
+    "title": "Mixed Reality Environment for Autonomous Robot Development",
+    "found": true
+  },
+  {
+    "key": "nowacka2013touchbugs",
+    "title": "Touchbugs: Actuated Tangibles on Multi-Touch Tables",
+    "found": true
+  },
+  {
+    "key": "nozaki2014flying",
+    "title": "Flying Display: A Movable Display Pairing Projector and Screen in the Air",
+    "found": false
+  },
+  {
+    "key": "nunez2006human",
+    "title": "A Human-Robot Interaction System for Navigation Supervision Based on Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "nuzzi2020hands",
+    "title": "Hands-Free: A Robot Augmented Reality Teleoperation System",
+    "found": false
+  },
+  {
+    "key": "ochiai2011homunculus",
+    "title": "Homunculus: The Vehicle as Augmented Clothes",
+    "found": false
+  },
+  {
+    "key": "omidshafiei2016measurable",
+    "title": "Measurable Augmented Reality for Prototyping Cyberphysical Systems: A Robotics Platform to Aid the Hardware Prototyping and Performance Testing of Algorithms",
+    "found": true
+  },
+  {
+    "key": "ong2006methodologies",
+    "title": "Methodologies for Immersive Robot Programming in an Augmented Reality Environment",
+    "found": false
+  },
+  {
+    "key": "ong2020augmented",
+    "title": "Augmented Reality-Assisted Robot Programming System for Industrial Applications",
+    "found": false
+  },
+  {
+    "key": "ostanin2018interactive",
+    "title": "Interactive Robot Programing Using Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "ostanin2019interactive",
+    "title": "Interactive Robots Control Using Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "ostanin2020human",
+    "title": "Human-Robot Interaction for Robotic Manipulator Programming in Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "ozgur2017cellulo",
+    "title": "Cellulo: Versatile Handheld Robots for Education",
+    "found": true
+  },
+  {
+    "key": "pai2016virtual",
+    "title": "Virtual Planning, Control, and Machining for a Modular-Based Automated Factory Operation in an Augmented Reality Environment",
+    "found": true
+  },
+  {
+    "key": "pan2021augmented",
+    "title": "Augmented Reality-Based Robot Teleoperation System Using RGB-D Imaging and Attitude Teaching Device",
+    "found": false
+  },
+  {
+    "key": "papachristos2016augmented",
+    "title": "Augmented Reality-Enhanced Structural Inspection Using Aerial Robots",
+    "found": false
+  },
+  {
+    "key": "papcun2019augmented",
+    "title": "Augmented Reality for Humans-Robots Interaction in Dynamic Slotting \"Chaotic Storage\" Smart Warehouses",
+    "found": false
+  },
+  {
+    "key": "park2007teleoperation",
+    "title": "Teleoperation of a Multi-Purpose Robot over the Internet Using Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "park2014qr",
+    "title": "Qr-Code Based Online Robot Augmented Reality System for Education",
+    "found": false
+  },
+  {
+    "key": "park2018meet",
+    "title": "Meet AR-Bot: Meeting Anywhere, Anytime with Movable Spatial AR Robot",
+    "found": false
+  },
+  {
+    "key": "park2019deep",
+    "title": "Deep-ChildAR Bot: Educational Activities and Safety Care Augmented Reality System with Deep-Learning for Preschool",
+    "found": false
+  },
+  {
+    "key": "park2021hands",
+    "title": "Hands-Free Human--Robot Interaction Using Multimodal Gestures and Deep Learning in Wearable Mixed Reality",
+    "found": true
+  },
+  {
+    "key": "pedersen2011tangible",
+    "title": "Tangible Bots: Interaction with Active Tangibles in Tabletop Interfaces",
+    "found": false
+  },
+  {
+    "key": "peng2018roma",
+    "title": "RoMA: Interactive Fabrication with Augmented Reality and a Robotic 3D Printer",
+    "found": false
+  },
+  {
+    "key": "peppoloni2015augmented",
+    "title": "Augmented Reality-Aided Tele-Presence System for Robot Manipulation in Industrial Manufacturing",
+    "found": true
+  },
+  {
+    "key": "phillips2020robotic",
+    "title": "A Robotic Augmented Reality Virtual Window for Law Enforcement Operations",
+    "found": false
+  },
+  {
+    "key": "piardi2019arena",
+    "title": "ARENA—Augmented Reality to Enhanced Experimentation in Smart Warehouses",
+    "found": false
+  },
+  {
+    "key": "pinciroli2018simulating",
+    "title": "Simulating Kilobots within Argos: Models and Experimental Validation",
+    "found": true
+  },
+  {
+    "key": "piumatti2017spatial",
+    "title": "Spatial Augmented Reality Meets Robots: Human-Machine Interaction in Cloud-Based Projected Gaming Environments",
+    "found": false
+  },
+  {
+    "key": "porpiglia2019three",
+    "title": "Three-Dimensional Elastic Augmented-Reality Robot-Assisted Radical Prostatectomy Using Hyperaccuracy Three-Dimensional Reconstruction Technology: A Step Further in the Identification of Capsular Involvement",
+    "found": false
+  },
+  {
+    "key": "porpiglia2020three",
+    "title": "Three-Dimensional Augmented Reality Robot-Assisted Partial Nephrectomy in Case of Complex Tumours (PADUA≥ 10): A New Intraoperative Tool Overcoming the Ultrasound Guidance",
+    "found": false
+  },
+  {
+    "key": "prattico2019user",
+    "title": "User Perception of Robot's Role in Floor Projection-Based Mixed-Reality Robotic Games",
+    "found": true
+  },
+  {
+    "key": "prattico2020learning",
+    "title": "Is Learning by Teaching an Effective Approach in Mixed-Reality Robotic Training Systems?",
+    "found": false
+  },
+  {
+    "key": "puljiz2020hololens",
+    "title": "What the HoloLens Maps Is Your Workspace: Fast Mapping and Set-up of Robot Cells via Head Mounted Displays and Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "qian2019augmented",
+    "title": "Augmented Reality Assisted Instrument Insertion and Tool Manipulation for the First Assistant in Robotic Surgery",
+    "found": false
+  },
+  {
+    "key": "qian2020flexivision",
+    "title": "FlexiVision: Teleporting the Surgeon's Eyes via Robotic Flexible Endoscope and Head-Mounted Display",
+    "found": true
+  },
+  {
+    "key": "qiu2020human",
+    "title": "Human-Robot Interaction in a Shared Augmented Reality Workspace",
+    "found": true
+  },
+  {
+    "key": "quintero2018robot",
+    "title": "Robot Programming through Augmented Trajectories in Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "reardon2018come",
+    "title": "Come See This! Augmented Reality to Enable Human-Robot Cooperative Search",
+    "found": false
+  },
+  {
+    "key": "reardon2019augmented",
+    "title": "Augmented Reality for Human-Robot Teaming in Field Environments",
+    "found": false
+  },
+  {
+    "key": "reardon2019communicating",
+    "title": "Communicating via Augmented Reality for Human-Robot Teaming in Field Environments",
+    "found": false
+  },
+  {
+    "key": "reardon2020enabling",
+    "title": "Enabling Situational Awareness via Augmented Reality of Autonomous Robot-Based Environmental Change Detection",
+    "found": false
+  },
+  {
+    "key": "reina2015augmented",
+    "title": "Augmented Reality for Robots: Virtual Sensing Technology Applied to a Swarm of E-Pucks",
+    "found": true
+  },
+  {
+    "key": "ren2019augmented",
+    "title": "Augmented Reality Based Actuated Monitor Manipulation from Dual Point of View",
+    "found": false
+  },
+  {
+    "key": "renner2018facilitating",
+    "title": "Facilitating HRI by Mixed Reality Techniques",
+    "found": true
+  },
+  {
+    "key": "renner2018wysiwicd",
+    "title": "Wysiwicd: What You See Is What I Can Do",
+    "found": false
+  },
+  {
+    "key": "ro2019projection",
+    "title": "Projection-Based Augmented Reality Robot Prototype with Human-Awareness",
+    "found": false
+  },
+  {
+    "key": "robert2010exploring",
+    "title": "Exploring Mixed Reality Robot Gaming",
+    "found": false
+  },
+  {
+    "key": "robert2012blended",
+    "title": "Blended Reality Characters",
+    "found": false
+  },
+  {
+    "key": "rodriguez2004enhancing",
+    "title": "Enhancing a Telerobotics Java Tool with Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "rosen2020communicating",
+    "title": "Communicating Robot Arm Motion Intent through Mixed Reality Head-Mounted Displays",
+    "found": false
+  },
+  {
+    "key": "rotsidis2019improving",
+    "title": "Improving Robot Transparency: An Investigation with Mobile Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "roudaut2013morphees",
+    "title": "Morphees: Toward High\" Shape Resolution\" in Self-Actuated Flexible Mobile Devices",
+    "found": false
+  },
+  {
+    "key": "rozenberszki2021towards",
+    "title": "Towards Universal User Interfaces for Mobile Robots",
+    "found": false
+  },
+  {
+    "key": "ruffaldi2016third",
+    "title": "Third Point of View Augmented Reality for Robot Intentions Visualization",
+    "found": true
+  },
+  {
+    "key": "ruiz2015immersive",
+    "title": "Immersive Displays for Building Spatial Knowledge in Multi-UAV Operations",
+    "found": false
+  },
+  {
+    "key": "samei2020partial",
+    "title": "A Partial Augmented Reality System with Live Ultrasound and Registered Preoperative MRI for Guiding Robot-Assisted Radical Prostatectomy",
+    "found": false
+  },
+  {
+    "key": "sarai2017robot",
+    "title": "Robot Programming for Manipulators through Volume Sweeping and Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "sauer2007potential",
+    "title": "Potential and Challenges of Stereo Augmented Reality for Mobile Robot Teleoperation",
+    "found": false
+  },
+  {
+    "key": "sauer2009towards",
+    "title": "Towards a Predictive Mixed Reality User Interface for Mobile Robot Teleoperation",
+    "found": false
+  },
+  {
+    "key": "scheible2013displaydrone",
+    "title": "Displaydrone: A Flying Robot Based Interactive Display",
+    "found": true
+  },
+  {
+    "key": "schiavina2021augmented",
+    "title": "Augmented Reality to Guide Selective Clamping and Tumor Dissection during Robot-Assisted Partial Nephrectomy: A Preliminary Experience",
+    "found": false
+  },
+  {
+    "key": "schiavina2021real",
+    "title": "Real-Time Augmented Reality Three-Dimensional Guided Robotic Radical Prostatectomy: Preliminary Experience and Evaluation of the Impact on Surgical Planning",
+    "found": false
+  },
+  {
+    "key": "schmitt2021assisted",
+    "title": "Assisted Human-Robot-Interaction for Industrial Assembly: Application of Spatial Augmented Reality (SAR) for Collaborative Assembly Tasks",
+    "found": false
+  },
+  {
+    "key": "seifert2014hover",
+    "title": "Hover Pad: Interacting with Autonomous and Self-Actuated Displays in Space",
+    "found": false
+  },
+  {
+    "key": "seiger2017mixed",
+    "title": "Mixed Reality Cyber-Physical Systems Control and Workflow Composition",
+    "found": false
+  },
+  {
+    "key": "selecky2019analysis",
+    "title": "Analysis of Using Mixed Reality Simulations for Incremental Development of Multi-Uav Systems",
+    "found": false
+  },
+  {
+    "key": "sengiku2017augmented",
+    "title": "Augmented Reality Navigation System for Robot-Assisted Laparoscopic Partial Nephrectomy",
+    "found": false
+  },
+  {
+    "key": "sgouros2001generation",
+    "title": "Generation and Implementation of Mixed-Reality, Narrative Performances Involving Robotic Actors",
+    "found": false
+  },
+  {
+    "key": "shao2019development",
+    "title": "Development of Robot Design Evaluating System Using Augmented Reality for Affinity Robots",
+    "found": false
+  },
+  {
+    "key": "shen2020transrectal",
+    "title": "Transrectal Ultrasound Image-Based Real-Time Augmented Reality Guidance in Robot-Assisted Laparoscopic Rectal Surgery: A Proof-of-Concept Study",
+    "found": true
+  },
+  {
+    "key": "shimizu2008mixed",
+    "title": "Mixed Reality Robotic User Interface: Virtual Kinematics to Enhance Robot Motion",
+    "found": true
+  },
+  {
+    "key": "sibirtseva2019exploring",
+    "title": "Exploring Temporal Dependencies in Multimodal Referring Expressions with Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "siegele2021optimizing",
+    "title": "Optimizing Collaborative Robotic Workspaces in Industry by Applying Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "sievers2020concept",
+    "title": "Concept of a Mixed-Reality Learning Environment for Collaborative Robotics",
+    "found": false
+  },
+  {
+    "key": "sita2017towards",
+    "title": "Towards Multimodal Interactions: Robot Jogging in Mixed Reality",
+    "found": false
+  },
+  {
+    "key": "siu2018investigating",
+    "title": "Investigating Tangible Collaboration for Design towards Augmented Physical Telepresence",
+    "found": false
+  },
+  {
+    "key": "solanes2020teleoperation",
+    "title": "Teleoperation of Industrial Robot Manipulators Based on Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "sosa2015imperfect",
+    "title": "Imperfect Robot Control in a Mixed Reality Game to Teach Hybrid Human-Robot Team Coordination",
+    "found": false
+  },
+  {
+    "key": "st2015robot",
+    "title": "How Robot Verbal Feedback Can Improve Team Performance in Human-Robot Task Collaborations",
+    "found": true
+  },
+  {
+    "key": "stadler2016augmented",
+    "title": "Augmented Reality for Industrial Robot Programmers: Workload Analysis for Task-Based, Augmented Reality-Supported Robot Control",
+    "found": true
+  },
+  {
+    "key": "stein2019mixed",
+    "title": "Mixed Reality Robotics for Stem Education",
+    "found": false
+  },
+  {
+    "key": "stewart2021study",
+    "title": "Study on Augmented Reality for Robotic Surgery Bedside Assistants",
+    "found": false
+  },
+  {
+    "key": "strazdas2021robo",
+    "title": "Robo-HUD: Interaction Concept for Contactless Operation of Industrial Cobotic Systems",
+    "found": false
+  },
+  {
+    "key": "su2009augmented",
+    "title": "Augmented Reality during Robot-Assisted Laparoscopic Partial Nephrectomy: Toward Real-Time 3D-CT to Stereoscopic Video Registration",
+    "found": false
+  },
+  {
+    "key": "su2009design",
+    "title": "Design of an Interactive Table for Mixed-Reality Learning Environments",
+    "found": false
+  },
+  {
+    "key": "su2021mixed",
+    "title": "Mixed Reality-Enhanced Intuitive Teleoperation with Hybrid Virtual Fixtures for Intelligent Robotic Welding",
+    "found": true
+  },
+  {
+    "key": "subin2017android",
+    "title": "Android Based Augmented Reality as a Social Interface for Low Cost Social Robots",
+    "found": false
+  },
+  {
+    "key": "sugimoto2005time",
+    "title": "Time Follower's Vision: A Teleoperation Interface with past Images",
+    "found": true
+  },
+  {
+    "key": "sugimoto2011mobile",
+    "title": "A Mobile Mixed-Reality Environment for Children's Storytelling Using a Handheld Projector and a Robot",
+    "found": false
+  },
+  {
+    "key": "sugimoto2011robotable2",
+    "title": "RoboTable2: A Novel Programming Environment Using Physical Robots on a Tabletop Platform",
+    "found": false
+  },
+  {
+    "key": "suzuki2010scorpion",
+    "title": "Scorpion Shaped Endoscopic Surgical Robot for NOTES and SPS with Augmented Reality Functions",
+    "found": false
+  },
+  {
+    "key": "suzuki2012development",
+    "title": "Development of New Augmented Reality Function Using Intraperitoneal Multi-View Camera",
+    "found": false
+  },
+  {
+    "key": "suzuki2016gushed",
+    "title": "Gushed Diffusers: Fast-Moving, Floating, and Lightweight Midair Display",
+    "found": true
+  },
+  {
+    "key": "suzuki2019shapebots",
+    "title": "Shapebots: Shape-Changing Swarm Robots",
+    "found": true
+  },
+  {
+    "key": "taher2015exploring",
+    "title": "Exploring Interactions with Physically Dynamic Bar Charts",
+    "found": true
+  },
+  {
+    "key": "takashima2013transformtable",
+    "title": "TransformTable: A Self-Actuated Shape-Changing Digital Table",
+    "found": true
+  },
+  {
+    "key": "takashima2016study",
+    "title": "Study and Design of a Shape-Shifting Wall Display",
+    "found": true
+  },
+  {
+    "key": "tanzi2021real",
+    "title": "Real-Time Deep Learning Semantic Segmentation during Intra-Operative Surgery for 3D Augmented Reality Assistance",
+    "found": true
+  },
+  {
+    "key": "tavares2019collaborative",
+    "title": "Collaborative Welding System Using BIM for Robotic Reprogramming and Spatial Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "tian2021adroid",
+    "title": "Adroid: Augmenting Hands-on Making with a Collaborative Robot",
+    "found": false
+  },
+  {
+    "key": "tobita2011floating",
+    "title": "Floating Avatar: Blimp-Based Telepresence System for Communication and Entertainment",
+    "found": false
+  },
+  {
+    "key": "tominaga2014around",
+    "title": "Around Me: A System with an Escort Robot Providing a Sports Player's Self-Images",
+    "found": false
+  },
+  {
+    "key": "topliss2018establishing",
+    "title": "Establishing the Role of a Virtual Lead Vehicle as a Novel Augmented Reality Navigational Aid",
+    "found": false
+  },
+  {
+    "key": "tran2020exploring",
+    "title": "Exploring Mixed Reality Robot Communication under Different Types of Mental Workload",
+    "found": true
+  },
+  {
+    "key": "tran2021get",
+    "title": "Get This!? Mixed Reality Improves Robot Communication Regardless of Mental Workload",
+    "found": false
+  },
+  {
+    "key": "tran2021robot",
+    "title": "Robot-Generated Mixed Reality Gestures Improve Human-Robot Interaction",
+    "found": false
+  },
+  {
+    "key": "traub2004augmented",
+    "title": "Augmented Reality for Port Placement and Navigation in Robotically Assisted Minimally Invasive Cardiovascular Surgery",
+    "found": true
+  },
+  {
+    "key": "urbani2018exploring",
+    "title": "Exploring Augmented Reality Interaction for Everyday Multipurpose Wearable Robots",
+    "found": false
+  },
+  {
+    "key": "villanueva2021robotar",
+    "title": "RobotAR: An Augmented Reality Compatible Teleconsulting Robotics Toolkit for Augmented Makerspace Experiences",
+    "found": true
+  },
+  {
+    "key": "volonte2011augmented",
+    "title": "Augmented Reality and Image Overlay Navigation with OsiriX in Laparoscopic and Robotic Surgery: Not Only a Matter of Fashion",
+    "found": false
+  },
+  {
+    "key": "von2016robot",
+    "title": "Robot Gardens: An Augmented Reality Prototype for Plant-Robot Biohybrid Systems",
+    "found": true
+  },
+  {
+    "key": "vzidek2021cnn",
+    "title": "CNN Training Using 3D Virtual Models for Assisted Assembly with Mixed Reality and Collaborative Robots",
+    "found": true
+  },
+  {
+    "key": "walker2018communicating",
+    "title": "Communicating Robot Motion Intent with Augmented Reality",
+    "found": true
+  },
+  {
+    "key": "walker2019robot",
+    "title": "Robot Teleoperation with Augmented Reality Virtual Surrogates",
+    "found": false
+  },
+  {
+    "key": "wang2004augmented",
+    "title": "Augmented Reality Provision in Robotically Assisted Minimally Invasive Surgery",
+    "found": false
+  },
+  {
+    "key": "wang2020closed",
+    "title": "Closed-Loop Augmented Reality towards Accurate Human-Robot Collaboration",
+    "found": false
+  },
+  {
+    "key": "wang2020construction",
+    "title": "Construction of Human-Robot Cooperation Assembly Simulation System Based on Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "wassermann2018intuitive",
+    "title": "Intuitive Robot Programming through Environment Perception, Augmented Reality Simulation and Automated Program Verification",
+    "found": false
+  },
+  {
+    "key": "watanabe2015communicating",
+    "title": "Communicating Robotic Navigational Intentions",
+    "found": false
+  },
+  {
+    "key": "wen2012robot",
+    "title": "Robot-Assisted RF Ablation with Interactive Planning and Mixed Reality Guidance",
+    "found": false
+  },
+  {
+    "key": "wen2014hand",
+    "title": "Hand Gesture Guided Robot-Assisted Surgery Based on a Direct Augmented Reality Interface",
+    "found": false
+  },
+  {
+    "key": "wen2017augmented",
+    "title": "Augmented Reality Guidance with Multimodality Imaging Data and Depth-Perceived Interaction for Robot-Assisted Surgery",
+    "found": false
+  },
+  {
+    "key": "williams2019mixed",
+    "title": "Mixed Reality Deictic Gesture for Multi-Modal Robot Communication",
+    "found": false
+  },
+  {
+    "key": "williams2020using",
+    "title": "Using Augmented Reality to Better Study Human-Robot Interaction",
+    "found": true
+  },
+  {
+    "key": "wistort2011tofudraw",
+    "title": "TofuDraw: A Mixed-Reality Choreography Tool for Authoring Robot Character Performance",
+    "found": false
+  },
+  {
+    "key": "wu2018omnidirectional",
+    "title": "Omnidirectional Mobile Robot Control Based on Mixed Reality and Semg Signals",
+    "found": false
+  },
+  {
+    "key": "wu2020mixed",
+    "title": "Mixed Reality Enhanced User Interactive Path Planning for Omnidirectional Mobile Robot",
+    "found": false
+  },
+  {
+    "key": "xia2012augmented",
+    "title": "Augmented Reality Environment with Virtual Fixtures for Robotic Telemanipulation in Space",
+    "found": true
+  },
+  {
+    "key": "xiang2021mobile",
+    "title": "Mobile Projective Augmented Reality for Collaborative Robots in Construction",
+    "found": false
+  },
+  {
+    "key": "xiao2013mirrorfugue",
+    "title": "MirrorFugue Iii: Conjuring the Recorded Pianist.",
+    "found": true
+  },
+  {
+    "key": "xiao2016andantino",
+    "title": "Andantino: Teaching Children Piano with Projected Animated Characters",
+    "found": true
+  },
+  {
+    "key": "xue2020enabling",
+    "title": "Enabling Human-Robot-Interaction for Remote Robotic Operation via Augmented Reality",
+    "found": false
+  },
+  {
+    "key": "yamada2017isphere",
+    "title": "iSphere: Self-Luminous Spherical Drone Display",
+    "found": false
+  },
+  {
+    "key": "yamaoka2016mirageprinter",
+    "title": "MiragePrinter: Interactive Fabrication on a 3D Printer with a mid-Air Display",
+    "found": false
+  },
+  {
+    "key": "yew2017immersive",
+    "title": "Immersive Augmented Reality Environment for the Teleoperation of Maintenance Robots",
+    "found": false
+  },
+  {
+    "key": "young2006mixed",
+    "title": "A Mixed Reality Approach to Human-Robot Interaction",
+    "found": true
+  },
+  {
+    "key": "young2007robot",
+    "title": "Robot Expressionism through Cartooning",
+    "found": true
+  },
+  {
+    "key": "young2011mixed",
+    "title": "What Is Mixed Reality, Anyway? Considering the Boundaries of Mixed Reality in the Context of Robots",
+    "found": true
+  },
+  {
+    "key": "yuan2019human",
+    "title": "Human Gaze-Driven Spatial Tasking of an Autonomous MAV",
+    "found": false
+  },
+  {
+    "key": "zalud2007augmented",
+    "title": "Augmented Reality User Interface for Reconnaissance Robotic Missions",
+    "found": false
+  },
+  {
+    "key": "zalud2014color",
+    "title": "Color and Thermal Image Fusion for Augmented Reality in Rescue Robotics",
+    "found": false
+  },
+  {
+    "key": "zeng2017surgical",
+    "title": "A Surgical Robot with Augmented Reality Visualization for Stereoelectroencephalography Electrode Implantation",
+    "found": false
+  },
+  {
+    "key": "zhang2020augmented",
+    "title": "Augmented Reality in Robot Programming",
+    "found": true
+  },
+  {
+    "key": "zhang2020collaborative",
+    "title": "Collaborative Robot and Mixed Reality Assisted Microgravity Assembly for Large Space Mechanism",
+    "found": false
+  },
+  {
+    "key": "zhang2020vision",
+    "title": "Vision Tracking Algorithm for Augmented Reality System of Teleoperation Mobile Robots",
+    "found": false
+  },
+  {
+    "key": "zhao2017augmented",
+    "title": "Augmented Reality for Enhancing Tele-Robotic System with Force Feedback",
+    "found": false
+  },
+  {
+    "key": "zhou2017robot",
+    "title": "Robot-Assisted Surgery for Mandibular Angle Split Osteotomy Using Augmented Reality: Preliminary Results on Clinical Animal Experiment",
+    "found": false
+  },
+  {
+    "key": "zhu2016virtually",
+    "title": "Virtually Adapted Reality and Algorithm Visualization for Autonomous Robots",
+    "found": true
+  },
+  {
+    "key": "zollmann2014flyar",
+    "title": "Flyar: Augmented Reality Supported Micro Aerial Vehicle Navigation",
+    "found": false
+  },
+  {
+    "key": "zolotas2018head",
+    "title": "Head-Mounted Augmented Reality for Explainable Robotic Wheelchair Assistance",
+    "found": false
+  },
+  {
+    "key": "zou2018development",
+    "title": "Development of Robot Programming System through the Use of Augmented Reality for Assembly Tasks",
+    "found": false
+  }
+]
