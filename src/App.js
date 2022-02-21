@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import items from './bib.json'
+import './App.css'
+import items from './references-2.json'
+import _ from 'lodash'
 
 class App extends Component {
   constructor(props) {
@@ -29,34 +31,50 @@ class App extends Component {
             </div>
           </div>
           <div className="ui vertical masthead segment">
-            <div className="ui ">
-              <div className="ui horizontal list middle aligned grid container">
-                { this.state.items.map((item, i) => {
-                  return (
-                    <>
-                      <div className="item" key={ i }>
-                        <h3 className="header">
-                          { item.title }
-                        </h3>
-                      <img class="ui medium image" src="https://ryosuzuki.org/static/images/collective.jpg" />
-                      <div class="content">
-                        <div className="description">
-                          { item.authors.join(', ') }
+            <div id="cards" className="ui five column centered stackable grid">
+              { this.state.items.map((item, i) => {
+                let venue = item.venue
+                if (!venue) venue = item.journal
+                if (!venue) venue = item.booktitle
+                let author = item.authors[0]
+                if (author) {
+                  author = _.last(author.split(' '))
+                }
+                return (
+                  <div id="card" className="column" key={ i }>
+                    <div className="ui raised link card">
+                      <div className="content">
+                        <div className="meta">
+                          <div class="left floated">
+                            <span className="date">{ item.year }</span>
+                          </div>
+                          <div class="right floated">
+                            <span className="date">{ `${author} et al.` }</span>
+                          </div>
                         </div>
-                        <br/>
-                        { item.booktitle }
-                        { item.journal }
+                      </div>
+                      <div className="image">
+                        <img className="ui small image" src={ item.images[0]} />
+                      </div>
+                      <div className="content">
+                        <div className="description">
+                          { item.title }
+                        </div>
+                        <div className="meta">
+                          { venue }
+                        </div>
+                      </div>
+                      <div className="extra content">
+                        <div class="right floated">
+                          <a className="ui mini button" href={ `https://doi.org/${item.doi}` } target="_blank">DOI</a>
+                        </div>
                       </div>
                     </div>
-                    <div class="ui divider"></div>
-                    </>
-
-                  )
-                })}
-              </div>
+                  </div>
+                )
+              })}
             </div>
           </div>
-
         </div>
 
       </>

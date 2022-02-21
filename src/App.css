@@ -1,0 +1,14 @@
+body {
+  margin: 5%;
+}
+
+#card .image {
+  height: 150px !important;
+}
+
+#card .image img {
+  height: 100% !important;
+  object-fit: cover !important;
+  background-position: center center;
+  background-size: cover;
+}
