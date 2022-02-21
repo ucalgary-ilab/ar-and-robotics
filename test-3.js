@@ -1,6 +1,6 @@
 
 const webdriver = require('selenium-webdriver')
-const { Builder, By, util } = webdriver
+const { Builder } = webdriver
 const axios = require('axios')
 const fs = require('fs')
 const _ = require('lodash')
@@ -8,6 +8,7 @@ const _ = require('lodash')
 const capabilities = webdriver.Capabilities.chrome()
 capabilities.set('chromeOptions', {
   args: [
+    '--headless',
     '--no-sandbox',
     '--window-size=1980,1200'
   ]
@@ -26,7 +27,7 @@ async function main() {
     images.push(image)
     let fileName = _.last(image.split('/'))
     const res = await axios.get(image, {responseType: 'arraybuffer'})
-    fs.writeFileSync(`./${fileName}`, new Buffer.from(res.data), 'binary')
+    fs.writeFileSync(`./images/${fileName}`, new Buffer.from(res.data), 'binary')
   }
   console.log(images)
   await driver.quit()
