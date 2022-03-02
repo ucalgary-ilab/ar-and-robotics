@@ -25,8 +25,8 @@ class Card extends Component {
       author = _.last(author.split(' '))
     }
     return (
-      <div className="paper-card column" key={ this.props.key } onClick={ this.onClick.bind(this, item) }>
-        <div className="ui raised link card">
+      <div className="column" key={ this.props.key } onClick={ this.onClick.bind(this, item) }>
+        <div className="paper-card ui raised link card">
           <div className="content">
             <div className="meta">
               <div className="left floated">
@@ -38,7 +38,7 @@ class Card extends Component {
             </div>
           </div>
           <div className="image">
-            <img className="ui small image" src={ item.images[0]} />
+            <img className="ui small image" src={ `/ar-and-robotics/cover/${item.key}.png` } />
           </div>
           <div className="content main-content">
             <div className="description max-three-lines">

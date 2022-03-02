@@ -36,7 +36,7 @@ class Modal extends Component {
           </div>
           <div className="card image content">
             <div className="ui medium image">
-              <img src={ item.images && item.images[0] } />
+              <img src={ `/ar-and-robotics/cover/${item.key}.png` } />
             </div>
             <div className="description">
             <div className="ui header">
