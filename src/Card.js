@@ -55,6 +55,7 @@ class Card extends Component {
                 <a className="ui mini button" href={ item.pdf } target="_blank">PDF</a>
               }
               <a className="ui mini button" href={ `https://doi.org/${item.doi}` } target="_blank">DOI</a>
+              <a className="ui mini button" href={ item.paperUrl } target="_blank"><i class="fa-solid fa-paperclip"></i></a>
             </div>
           </div>
         </div>

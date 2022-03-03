@@ -30,10 +30,10 @@
     <script>
       $(window).ready(function() {
         $('.paper-card').on('click', function(event) {
-          if (event.target.className === 'author-link') return false
-          setTimeout(function() {
+          if (event.target.className === 'ui mini button') return
+          // setTimeout(function() {
             $('.modal').modal('show')
-          }, 50)
+          // }, 300)
         })
       })
     </script>

@@ -50,7 +50,7 @@ class Modal extends Component {
             <div className="meta">
               <p>
                 <a className="ui mini button" href={ `http://doi.org/${item.doi}` } target="_blank">DOI</a>
-                <a className="ui mini button" href={ item.paperUrl } target="_blank">Scholar</a>
+                <a className="ui mini button" href={ item.paperUrl } target="_blank">Semantic Scholar</a>
                 { item.pdf &&
                   <a className="ui mini button" href={ item.pdf } target="_blank">PDF</a>
                 }
@@ -59,9 +59,12 @@ class Modal extends Component {
             </div>
           </div>
           <div className="content">
+            { item.abstract &&
+              <h3>Abstract</h3>
+            }
             <p>{ item.abstract }</p>
           </div>
-          <div className="content">
+          <div className="scrolling content" style={{ maxHeight: '300px' }}>
             <div className="ui images">
               { item.images && item.images.map((image, i) => {
                 return (
