@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import items from './references/references-3.json'
 import figures from './references/figures.json'
-
+import pdfs from './references/pdf.json'
 
 import Card from './Card.js'
 import Modal from './Modal.js'

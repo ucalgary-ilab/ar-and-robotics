@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import _ from 'lodash'
+import pdfs from './references/pdf.json'
 
 class Card extends Component {
   constructor(props) {
@@ -50,7 +51,7 @@ class Card extends Component {
           </div>
           <div className="extra content">
             <div className="right floated">
-              { item.pdf &&
+              { (item.pdf && pdfs.includes(`${item.key}.pdf`) ) &&
                 <a className="ui mini button" href={ item.pdf } target="_blank">PDF</a>
               }
               <a className="ui mini button" href={ `https://doi.org/${item.doi}` } target="_blank">DOI</a>
