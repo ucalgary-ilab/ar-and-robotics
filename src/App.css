@@ -6,6 +6,22 @@ body {
   width: 100%;
 }
 
+#bibtex-container {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#bibtex {
+  text-align: left;
+  overflow-x: hidden;
+  padding: 30px auto;
+  margin: 10px;
+  font-family: Ubuntu Mono;
+
+}
+
 .glider-contain {
   width: 80% !important;
 }

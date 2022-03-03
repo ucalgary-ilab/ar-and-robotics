@@ -148,6 +148,20 @@ class App extends Component {
               </Glider>
               */}
             </div>
+
+            <div id="bibtex-container">
+              <pre id="bibtex" className="ui message">
+{`@inproceedings{suzuki2022augmented,
+  title={Augmented Reality and Robotics: A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces},
+  author={Suzuki, Ryo and Karim, Adnan and Xia, Tian and Hedayati, Hooman and Marquardt, Nicolai},
+  booktitle={Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},
+  pages={1--32},
+  year={2022},
+  url = {https://doi.org/10.1145/1122445.1122456}
+}`}
+              </pre>
+            </div>
+
           </div>
           <div className="ui vertical segment">
             <div id="cards" className="ui five column centered stackable grid">
