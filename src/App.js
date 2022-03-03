@@ -5,6 +5,8 @@ import Glider from 'react-glider'
 import 'glider-js/glider.min.css'
 
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 import items from './references/references-3.json'
@@ -60,6 +62,16 @@ class App extends Component {
       'application'
     ]
 
+    this.settings = {
+      dots: true,
+      infinite: true,
+      speed: 2000,
+      autoplay: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+
+
     this.state = {
       items: items,
       current: {}
@@ -77,7 +89,16 @@ class App extends Component {
           <div className="ui vertical masthead center aligned segment">
             <div className="ui text container">
               <h1 className="ui center aligned icon header">
-                <i className="settings icon"></i>
+                {/*<i className="settings icon"></i>*/}
+                <div style={{ textAlign: 'center', marginBottom: '10px' }}>
+                  <i className="fa-brands fa-bilibili fa-2x"></i>
+                </div>
+                {/*
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-brands fa-codepen"></i>
+                <i class="fa-solid fa-dice-d6"></i>
+                <i class="fa-solid fa-graduation-cap"></i>
+                */ }
                 Augmented Reality and Robotics
               </h1>
               <p><b>A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces</b></p>
@@ -98,6 +119,16 @@ class App extends Component {
               </a>
             </div>
             <div>
+              <Slider {...this.settings}>
+                { this.figures.map((figure, i) => {
+                  return (
+                    <a href={ `/ar-and-robotics/chi-2022/figures-pdf/${figure.split('-')[0]}.pdf` } className={`glider-slide`} target="_blank">
+                      <img key={i} src={ `/ar-and-robotics/chi-2022/figures/${figure}.jpg`} />
+                    </a>
+                  )
+                })}
+              </Slider>
+              {/*
               <Glider
                 draggable
                 hasArrows
@@ -115,6 +146,7 @@ class App extends Component {
                   )
                 })}
               </Glider>
+              */}
             </div>
           </div>
           <div className="ui vertical segment">

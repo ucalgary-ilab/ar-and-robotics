@@ -10,6 +10,12 @@ body {
   width: 80% !important;
 }
 
+.slick-slider {
+  width: 70% !important;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
 .glider-slide {
   height: 350px !important;
   position: relative;
