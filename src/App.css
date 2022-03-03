@@ -6,6 +6,32 @@ body {
   width: 100%;
 }
 
+.glider-contain {
+  width: 80% !important;
+}
+
+.glider-slide {
+  height: 350px !important;
+  position: relative;
+}
+
+.glider-slide img {
+  width: 100% !important;
+  object-fit: cover !important;
+  background-position: center center;
+  background-size: cover;
+  padding: auto;
+  margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+
 .card .image {
   height: 150px !important;
 }

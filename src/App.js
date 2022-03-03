@@ -1,8 +1,15 @@
 import React, { Component } from 'react'
 import './App.css'
 import _ from 'lodash'
+import Glider from 'react-glider'
+import 'glider-js/glider.min.css'
+
+import Slider from "react-slick";
+
+
 import items from './references/references-3.json'
 import figures from './references/figures.json'
+
 
 import Card from './Card.js'
 import Modal from './Modal.js'
@@ -36,6 +43,22 @@ class App extends Component {
     items = items.filter((item) => {
       return !excludes.includes(item.key)
     })
+
+    this.figures = [
+      'approach',
+      'robot-1',
+      'robot-2',
+      'robot-3',
+      'robot-4',
+      'purpose',
+      'information',
+      'design-1',
+      'design-2',
+      'design-3',
+      'interactivity',
+      'interaction',
+      'application'
+    ]
 
     this.state = {
       items: items,
@@ -73,6 +96,25 @@ class App extends Component {
                   )
                 })}
               </a>
+            </div>
+            <div>
+              <Glider
+                draggable
+                hasArrows
+                hasDots
+                rewind
+                scrollLock
+                slidesToShow={1}
+                slidesToScroll={1}
+              >
+                { this.figures.map((figure, i) => {
+                  return (
+                    <div className={`glider-slide`}>
+                      <img key={i} src={ `/ar-and-robotics/chi-2022/figures/${figure}.jpg`} />
+                    </div>
+                  )
+                })}
+              </Glider>
             </div>
           </div>
           <div className="ui vertical segment">
