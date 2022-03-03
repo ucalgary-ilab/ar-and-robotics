@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ar-and-robotics/static/css/main.17d73dfa.css",
-    "main.js": "/ar-and-robotics/static/js/main.b770c3bd.js",
+    "main.js": "/ar-and-robotics/static/js/main.307d05b1.js",
     "index.html": "/ar-and-robotics/index.html",
     "static/media/slick.svg": "/ar-and-robotics/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ar-and-robotics/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/ar-and-robotics/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ar-and-robotics/static/media/slick.295183786cd8a1389865.woff",
     "main.17d73dfa.css.map": "/ar-and-robotics/static/css/main.17d73dfa.css.map",
-    "main.b770c3bd.js.map": "/ar-and-robotics/static/js/main.b770c3bd.js.map"
+    "main.307d05b1.js.map": "/ar-and-robotics/static/js/main.307d05b1.js.map"
   },
   "entrypoints": [
     "static/css/main.17d73dfa.css",
-    "static/js/main.b770c3bd.js"
+    "static/js/main.307d05b1.js"
   ]
 }
