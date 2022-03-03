@@ -40,7 +40,14 @@ class App extends Component {
       'mercedes-f15',
       'fang2013orientation',
       'suzuki2012development',
-      'argyle1976gaze'
+      'argyle1976gaze',
+      'bianchi2021use',
+      'botev2021immersive',
+      'jones2021ar',
+      'schiavina2021real',
+      'luipers2021concept',
+      'schiavina2021augmented',
+      'kalia2021preclinical'
     ]
     items = items.filter((item) => {
       return !excludes.includes(item.key)
