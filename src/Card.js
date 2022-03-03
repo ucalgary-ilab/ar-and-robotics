@@ -38,7 +38,7 @@ class Card extends Component {
             </div>
           </div>
           <div className="image">
-            <img className="ui small image" src={ `/ar-and-robotics/cover/${item.key}.png` } />
+            <img className="ui small image" src={ `/ar-and-robotics/cover/${item.key}.jpg` } />
           </div>
           <div className="content main-content">
             <div className="description max-three-lines">

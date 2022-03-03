@@ -18,8 +18,24 @@ class App extends Component {
       return item
     })
     // items = _.shuffle(items)
-    items = _.sortBy(items, ['rank', 'year'])
+    items = _.sortBy(items, ['year', 'rank'])
     items = _.reverse(items)
+
+    let excludes = [
+      'genccturk2019development',
+      'tanzi2021real',
+      'hoang2021virtual',
+      'nintendo-mklive',
+      'renner2018facilitating',
+      'mourtzis2017augmented',
+      'mercedes-f15',
+      'fang2013orientation',
+      'suzuki2012development',
+      'argyle1976gaze'
+    ]
+    items = items.filter((item) => {
+      return !excludes.includes(item.key)
+    })
 
     this.state = {
       items: items,
