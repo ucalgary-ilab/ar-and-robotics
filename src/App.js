@@ -95,7 +95,7 @@ class App extends Component {
         <div>
           <div className="ui vertical masthead center aligned segment">
             <div className="ui text container">
-              <h1 className="ui center aligned icon header">
+              <h1 className="ui center aligned icon header" style={{ fontSize: '2.4em' }}>
                 {/*<i className="settings icon"></i>*/}
                 <div style={{ textAlign: 'center', marginBottom: '10px' }}>
                   <i className="fa-brands fa-bilibili fa-2x"></i>
@@ -108,19 +108,34 @@ class App extends Component {
                 */ }
                 Augmented Reality and Robotics
               </h1>
-              <p><b>A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces</b></p>
-              <p><i>by Ryo Suzuki, Adnan Karim, Tian Xia, Hooman Hedayati, Nicolai Marquardt</i></p>
-              <a href="/ar-and-robotics/chi-2022/chi-2022.pdf" target="_blank">
-                <img id="teaser" src="/ar-and-robotics/sketches/teaser.jpg" />
+              <p><h2>A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces</h2></p>
+              <p>by Ryo Suzuki, Adnan Karim, Tian Xia, Hooman Hedayati, Nicolai Marquardt</p>
+              <p><i>Keywords: Augmented and Mixed Reality, Robotics, Human-Robot Interaction, AR-HRI, VAM-HRI, Robotic User Interfaces, Actuated Tangible Interfaces, Shape-changing Interfaces</i></p>
+              <p>
+                <a href="/ar-and-robotics/chi-2022.pdf" target="_blank" className="ui button">
+                  PDF
+                </a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://doi.org/10.1145/3491102.3517719" target="_blank" className="ui  button">
+                  DOI
+                </a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://ryosuzuki.org/" target="_blank" className="ui  button">
+                  Contact
+                </a>
+              </p>
+
+              <a href="/ar-and-robotics/chi-2022.pdf" target="_blank">
+                <img id="teaser" src="/ar-and-robotics/chi-2022/figures/teaser.jpg" />
               </a>
             </div>
             <div>
-              <a className="ui tiny images" href="/ar-and-robotics/chi-2022/chi-2022.pdf" target="_blank">
+              <a className="ui tiny images" href="/ar-and-robotics/chi-2022.pdf" target="_blank">
                 { [...Array(10).keys()].map(i => {
                   let s = String(i + 1)
                   while (s.length < 2) {s = "0" + s;}
                   return (
-                    <img key={i} src={ `/ar-and-robotics/chi-2022/original/paper-${s}.jpg`} />
+                    <img key={i} src={ `/ar-and-robotics/chi-2022/thumbnail/paper-${s}.jpg`} />
                   )
                 })}
               </a>
